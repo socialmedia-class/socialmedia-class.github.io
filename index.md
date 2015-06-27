@@ -19,7 +19,8 @@ Time
 
 
 Place
-: &nbsp;&nbsp;&nbsp;&nbsp; IRCS Fishbowl \([directions](https://www.ircs.upenn.edu/about/directions-ircs)\)
+: &nbsp;&nbsp;&nbsp;&nbsp; University of Pennsylvania <br>
+&nbsp;&nbsp;&nbsp;&nbsp; IRCS Fishbowl \([directions](https://www.ircs.upenn.edu/about/directions-ircs)\)
 
 
 Prerequisites
