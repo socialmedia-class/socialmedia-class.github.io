@@ -6,18 +6,18 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses.
+Subject to change as the term progresses. (slides will become available online after the class)
 
 <table class="table table-striped"> 
   <tbody>
     <tr>
-      <th>Date</th>
+      <th>Lecture</th>
       <th>Topic</th>
       <th>Readings</th>
     </tr>
     {% for lecture in site.data.syllabus %}
     <tr>
-      <td>{{ lecture.date | date: "%b %d" }}</td>
+      <td>{{ lecture.date }}</td>
       <td>
 	{% if lecture.profile %}
 	Company Profile:  
