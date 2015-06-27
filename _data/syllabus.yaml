@@ -1,11 +1,15 @@
 -
   date: 1
   slides: 
-  title: Social Media 101
+  title: Big Data Social Science
   highlights:
     - Relationship between social media, big data, data science, natural language processing
     - Examples of social science research on finance, politics, health, human behavivor, etc. 
   reading:
+    -
+      author: Golder and Macy (Science 2011) 
+      title: Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
+      url: http://www3.ntu.edu.sg/home/linqiu/teaching/psychoinformatics/Diurnal%20and%20Seasonal%20Mood%20Vary%20Across%20Diverse%20Cultures.pdf
     -
       author: Hanna Wallach (2014) 
       title: Big Data, Machine Learning, and the Social Sciences
@@ -20,7 +24,7 @@
       url: http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2847/3275.pdf
 -
   date: 2
-  title: Twitter API Tutorial
+  title: Twitter and Twitter API Tutorial
   highlights:
     - Brief history and useful statistics of Twitter
     - Key features of Twitter
@@ -35,7 +39,7 @@
       url: http://crowdsourcing-class.org/resources.html
 -
   date: 3
-  title: Natural Language Processing (NLP) 101
+  title: Natural Language Processing for Social Media - part 1
   highlights:
     - Main research areas and publication venues of NLP
     - Challenges in processing social media text
