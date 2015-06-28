@@ -1,7 +1,7 @@
 ---
 layout: default
 img: vintage_socialmedia
-img_link: http://wronghands1.com
+img_link: https://wronghands1.files.wordpress.com/2013/03/vintage-social-networking1.jpg
 caption: Vintage Social Media
 active_tab: syllabus
 ---
