@@ -39,10 +39,11 @@
       url: http://crowdsourcing-class.org/resources.html
 -
   date: 3
-  title: Natural Language Processing for Social Media - part 1
+  title: Natural Language Processing for Social Media (I)
   highlights:
     - Main research areas and publication venues of NLP
     - Challenges in processing social media text
+    - Language identification and normalization
 
   reading:
     -
@@ -53,3 +54,75 @@
       author: Jacob Eisenstein (NAACL 2013)
       title: What to do about bad language on the Internet? 
       url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Han, Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages - Makn Sens a #twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+      
+      
+-
+  date: 4
+  title: Natural Language Processing for Social Media (II)
+  highlights:
+    - NLP Pipeline for Twitter 
+    - Tokenization, part-of-speech, named entity tagging 
+    - Event extraction
+
+  reading:
+    -
+      author: Gimpel et al.  (ACL 2011)
+      title: Part-of-Speech Tagging for Twitter - Annotation, Features, and Experiments
+      url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      title: Named Entity Recognition in Tweets - An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf
+    -
+      author: Kong et al. (EMNLP 2014)
+      title: A Dependency Parser for Tweets
+      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf    
+    -
+      author: Rotter, Mausam, Etzioni (KDD 2012)
+      title: Open Domain Event Extraction from Twitter
+      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
+-
+  date: 5
+  title: Natural Language Processing for Social Media (III)
+  highlights:
+    - obtaining large-scale paraphrases from Twitter
+    - sarcasm and sentiment analysis 
+
+  reading:
+    -
+      author: Xu, Ritter, Callison-Burch, Dolan, Ji (TACL 2014)
+      title:  Extracting Lexically Divergent Paraphrases from Twitter
+      url: http://www.cis.upenn.edu/~xwe/publications/tacl2014-extracting-paraphrases-from-twitter.pdf
+    -
+      author: Brody, Diakopoulos (EMNLP 2011)
+      title:  Cooooooooooooooollllllllllllll!!!!!!!!!!!!!! Using Word Lengthening to Detect Sentiment in Microblogs
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: Davidov, Tsur, Rappoport (CoNLL 2010)
+      title:  Semi-Supervised Recognition of Sarcastic Sentences in Twitter and Amazon
+      url: http://www.aclweb.org/anthology/W10-2914.pdf
+
+-
+  date: 6
+  title: A Case Study - multi-tweet summarization and the PageRank algorithm 
+  highlights:
+    - PageRank algorithm
+    - Graph visualization
+    - Hands-on instructions on building an automatic summarizer
+
+  reading:
+    -
+      title:  PageRank Wikipedia Page
+      url: https://en.wikipedia.org/wiki/PageRank
+    -
+      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
+      title:  A Preliminary Study of Tweet Summarization using Information Extraction
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: A library for working with graphs in Python
+      title:  Python-Graph
+      url: https://github.com/pmatiello/python-graph
