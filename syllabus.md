@@ -6,7 +6,7 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses. (slides will become available online after the class)
+Subject to change as the term progresses. (slides will become available online mid July 2015)
 
 <table class="table table-striped"> 
   <tbody>

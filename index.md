@@ -29,6 +29,4 @@ Prerequisites
 Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
-Acknowledgment
-: &nbsp;&nbsp;&nbsp;&nbsp; This course is partially based on the [guest lectures](http://people.eng.unimelb.edu.au/tbaldwin/subjects/socialmedia-uds2014/) by Tim Baldwin at the University of Saarland in the summer of 2014; the [tutorial](http://eacl2014.org/tutorial-social-media) by Kalina Bontcheva, Leon Derczynski at the EACL conference in 2014. 
 
