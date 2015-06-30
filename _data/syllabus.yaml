@@ -32,11 +32,15 @@
 
   reading:
     -
+      title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
+      url: https://developers.google.com/edu/python/
+    - 
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/
+    -
       title:  Twitter API and Libraries
       url: https://dev.twitter.com/overview/api/twitter-libraries
-    -
-      title:  Resources to start Learning Python 
-      url: http://crowdsourcing-class.org/resources.html
+
 -
   date: 3
   title: Natural Language Processing for Social Media (I)
@@ -52,7 +56,7 @@
       url: http://www.aclweb.org/anthology/I13-1041.pdf
     -
       author: Jacob Eisenstein (NAACL 2013)
-      title: What to do about bad language on the Internet? 
+      title: What to Do about Bad Language on the Internet? 
       url: http://www.aclweb.org/anthology/N13-1037.pdf
     -
       author: Han, Baldwin (ACL 2011)

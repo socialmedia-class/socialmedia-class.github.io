@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter API Tutorial</title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="assets/css/syntax.css" rel="stylesheet" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="tutorial"><a href="twittertutorial.html">Twitter API Tutorial</a></li>
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework Assignments <span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment1.html">Become a Twitter User</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+          <a href="http://business.time.com/2013/11/06/how-twitter-slayed-the-fail-whale/"> 
+          <img src="assets/img/failwhale.jpg" class="img-responsive img-rounded" alt=""/>
+          </a> 
+          <span class="text-muted"><i>Twitter's 404 error page -- the Fail Whale</i></span>
+        </div>
+        <div class="col-sm-10">
+          <h1 id="twitter-api-tutorial">Twitter API tutorial</h1>
+
+<p><strong>by <a href="http://www.cis.upenn.edu/~xwe/">Wei Xu</a> (July 2015)</strong>      <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+
+<h3 id="getting-twitter-api-keys">1. Getting Twitter API keys</h3>
+
+<p>To start with, you will need to have a Twitter account and obtain credentials (i.e. API key, API secret, Access token and Access token secret) on the Twitter developer site to access the Twitter API, following the following steps:</p>
+
+<ul>
+  <li>Create a twitter account if you do not already have one.</li>
+  <li>Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a> and log in with your twitter user account.</li>
+  <li>Click “Create New App”</li>
+  <li>Fill out the form, agree to the terms, and click “Create your Twitter application”</li>
+  <li>In the next page, click on “Keys and Access Tokens” tab, and copy your “API key” and “API secret”. Scroll down and click “Create my access token”, and copy your “Access token” and “Access token secret”.</li>
+</ul>
+
+<h3 id="installing-a-twitter-library">2. Installing a Twitter library</h3>
+
+<p>We will be using a Python library called <a href="https://pypi.python.org/pypi/twitter">Python Twitter Tools</a> to connect to Twitter API and downloading the data from Twitter. There are many other <a href="https://dev.twitter.com/overview/api/twitter-libraries&gt;">libraries</a> in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple yet fully supports the Twitter API. </p>
+
+<p>Download the Python Twitter tools at <a href="https://pypi.python.org/pypi/twitter">https://pypi.python.org/pypi/twitter</a>.</p>
+
+<p>Install the Python Twitter Tools package by typing in commands:</p>
+
+<div class="highlight"><pre><code class="language-csh" data-lang="csh"><span class="nv">$ </span>python setup.py --help
+<span class="nv">$ </span>python setup.py build     
+<span class="nv">$ </span>python setup.py install</code></pre></div>
+
+<h3 id="connecting-to-twitter-streaming-apis">3. Connecting to Twitter Streaming APIs</h3>
+<p>The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets are posted on Twitter and you (normal users) will get a small proportion of it (&lt;=1%). The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searchers, such as searching historic tweets, reading user profile information, or posting Tweets.</p>
+
+<p>Create a file called twitter_streaming.py, and copy the code below into it. Make sure to enter your credentials obtained in the Step 1 above into ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, and CONSUMER_SECRET.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Import the necessary methods from &quot;twitter&quot; library</span>
+<span class="kn">from</span> <span class="nn">twitter</span> <span class="kn">import</span> <span class="n">Twitter</span><span class="p">,</span> <span class="n">OAuth</span><span class="p">,</span> <span class="n">TwitterHTTPError</span><span class="p">,</span> <span class="n">TwitterStream</span>
+
+<span class="c"># Variables that contains the user credentials to access Twitter API </span>
+
+<span class="n">ACCESS_TOKEN</span> <span class="o">=</span> <span class="s">&#39;YOUR ACCESS TOKEN&quot;&#39;</span>
+<span class="n">ACCESS_SECRET</span> <span class="o">=</span> <span class="s">&#39;YOUR ACCESS TOKEN SECRET&#39;</span>
+<span class="n">CONSUMER_KEY</span> <span class="o">=</span> <span class="s">&#39;YOUR API KEY&#39;</span>
+<span class="n">CONSUMER_SECRET</span> <span class="o">=</span> <span class="s">&#39;ENTER YOUR API SECRET&#39;</span>
+
+<span class="c"># Initiate the connection to Twitter Streaming API</span>
+<span class="n">twitter_stream</span> <span class="o">=</span> <span class="n">TwitterStream</span><span class="p">(</span><span class="n">auth</span><span class="o">=</span><span class="n">OAuth</span><span class="p">(</span><span class="n">ACCESS_TOKEN</span><span class="p">,</span> <span class="n">ACCESS_SECRET</span><span class="p">,</span>
+            <span class="n">CONSUMER_KEY</span><span class="p">,</span> <span class="n">CONSUMER_SECRET</span><span class="p">))</span>
+
+<span class="c"># Get a sample of the public data following through Twitter</span>
+<span class="n">iterator</span> <span class="o">=</span> <span class="n">twitter_stream</span><span class="o">.</span><span class="n">statuses</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>
+
+<span class="c"># Print each tweet in the stream to the screen </span>
+<span class="c"># Here we set it to stop after getting 1000 tweets. </span>
+<span class="c"># You don&#39;t have to set it to stop, but can continue running the Twitter API for days or even longer. </span>
+<span class="n">tweet_count</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="k">for</span> <span class="n">tweet</span> <span class="ow">in</span> <span class="n">iterator</span><span class="p">:</span>
+    <span class="n">tweet_count</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">print</span> <span class="n">tweet</span>     
+    <span class="k">if</span> <span class="n">tweet_count</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">break</span></code></pre></div>
+
+<p>If you run the program by typing in the command:</p>
+
+<div class="highlight"><pre><code class="language-csh" data-lang="csh"><span class="nv">$ </span>python twitter_streaming.py</code></pre></div>
+
+<p>You will see tweets keep flowing in your screen like below. They are a sample of public tweets flowing though Twitter at the moment. You can stop this program by pressing Ctrl-C after a little while.</p>
+
+<p>The tweets you got are in <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> format (we will explain how to read and process this data format in the next step). Here shows one normal tweet and two deleted tweets: </p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span><span class="nx">u</span><span class="s1">&#39;favorited&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;contributors&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;truncated&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;text&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Hurry up Friday \U0001f64c http://t.co/agty1tdHlg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;possibly_sensitive&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;in_reply_to_status_id&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;user&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;follow_request_sent&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_use_background_image&#39;</span><span class="o">:</span> <span class="nx">True</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;default_profile_image&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">170432073</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;verified&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_image_url_https&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;https://pbs.twimg.com/profile_images/612554207615414272/CBGW8Nc9_normal.jpg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_sidebar_fill_color&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;F6F6F6&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_text_color&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;333333&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;followers_count&#39;</span><span class="o">:</span> <span class="mi">357</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_sidebar_border_color&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;EEEEEE&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;170432073&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_background_color&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;ACDED6&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;listed_count&#39;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_background_image_url_https&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;https://abs.twimg.com/images/themes/theme18/bg.gif&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;utc_offset&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;statuses_count&#39;</span><span class="o">:</span> <span class="mi">3485</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;description&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Life is like a cup of tea.. Its all in how you make it. \u2615\ufe0f&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;friends_count&#39;</span><span class="o">:</span> <span class="mi">537</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;location&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;England&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_link_color&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;038543&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_image_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://pbs.twimg.com/profile_images/612554207615414272/CBGW8Nc9_normal.jpg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;following&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;geo_enabled&#39;</span><span class="o">:</span> <span class="nx">True</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_banner_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;https://pbs.twimg.com/profile_banners/170432073/1428346836&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_background_image_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://abs.twimg.com/images/themes/theme18/bg.gif&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;name&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Ella MacDonald&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;lang&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;en&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;profile_background_tile&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;favourites_count&#39;</span><span class="o">:</span> <span class="mi">1549</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;screen_name&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Ella_MacDonald&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;notifications&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;url&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;created_at&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Sat Jul 24 20:34:22 +0000 2010&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;contributors_enabled&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;time_zone&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;protected&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;default_profile&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;is_translator&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;filter_level&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;low&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;geo&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">616000231851823104</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;favorite_count&#39;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;lang&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;en&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;entities&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;symbols&#39;</span><span class="o">:</span> <span class="p">[],</span> <span class="nx">u</span><span class="s1">&#39;media&#39;</span><span class="o">:</span> <span class="p">[{</span><span class="nx">u</span><span class="s1">&#39;expanded_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://twitter.com/Ella_MacDonald/status/616000231851823104/photo/1&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;display_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;pic.twitter.com/agty1tdHlg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://t.co/agty1tdHlg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;media_url_https&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;https://pbs.twimg.com/media/CIx47n-W8AAQ-Em.jpg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;616000214781063168&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;sizes&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;large&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">643</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">640</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;small&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">341</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">340</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;medium&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">602</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">600</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;thumb&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">150</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;crop&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">150</span><span class="p">}},</span> <span class="nx">u</span><span class="s1">&#39;indices&#39;</span><span class="o">:</span> <span class="p">[</span><span class="mi">18</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="nx">u</span><span class="s1">&#39;type&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;photo&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">616000214781063168</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;media_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://pbs.twimg.com/media/CIx47n-W8AAQ-Em.jpg&#39;</span><span class="p">}],</span> <span class="nx">u</span><span class="s1">&#39;hashtags&#39;</span><span class="o">:</span> <span class="p">[],</span> <span class="nx">u</span><span class="s1">&#39;user_mentions&#39;</span><span class="o">:</span> <span class="p">[],</span> <span class="nx">u</span><span class="s1">&#39;trends&#39;</span><span class="o">:</span> <span class="p">[],</span> <span class="nx">u</span><span class="s1">&#39;urls&#39;</span><span class="o">:</span> <span class="p">[]},</span> <span class="nx">u</span><span class="s1">&#39;in_reply_to_user_id_str&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;retweeted&#39;</span><span class="o">:</span> <span class="nx">False</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;coordinates&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;timestamp_ms&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;1435700874661&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;source&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;&lt;a href=&quot;http://twitter.com/download/iphone&quot; rel=&quot;nofollow&quot;&gt;Twitter for iPhone&lt;/a&gt;&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;in_reply_to_status_id_str&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;in_reply_to_screen_name&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;616000231851823104&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;extended_entities&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;media&#39;</span><span class="o">:</span> <span class="p">[{</span><span class="nx">u</span><span class="s1">&#39;expanded_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://twitter.com/Ella_MacDonald/status/616000231851823104/photo/1&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;display_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;pic.twitter.com/agty1tdHlg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://t.co/agty1tdHlg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;media_url_https&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;https://pbs.twimg.com/media/CIx47n-W8AAQ-Em.jpg&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;616000214781063168&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;sizes&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;large&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">643</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">640</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;small&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">341</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">340</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;medium&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">602</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;fit&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">600</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;thumb&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;h&#39;</span><span class="o">:</span> <span class="mi">150</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;resize&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;crop&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;w&#39;</span><span class="o">:</span> <span class="mi">150</span><span class="p">}},</span> <span class="nx">u</span><span class="s1">&#39;indices&#39;</span><span class="o">:</span> <span class="p">[</span><span class="mi">18</span><span class="p">,</span> <span class="mi">40</span><span class="p">],</span> <span class="nx">u</span><span class="s1">&#39;type&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;photo&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">616000214781063168</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;media_url&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;http://pbs.twimg.com/media/CIx47n-W8AAQ-Em.jpg&#39;</span><span class="p">}]},</span> <span class="nx">u</span><span class="s1">&#39;place&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;retweet_count&#39;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;created_at&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;Tue Jun 30 21:47:54 +0000 2015&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;in_reply_to_user_id&#39;</span><span class="o">:</span> <span class="nx">None</span><span class="p">}</span>
+<span class="p">{</span><span class="nx">u</span><span class="s1">&#39;delete&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;status&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;user_id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;1229226626&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;user_id&#39;</span><span class="o">:</span> <span class="mi">1229226626</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">604938438706499584</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;604938438706499584&#39;</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;timestamp_ms&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;1435700874976&#39;</span><span class="p">}}</span>
+<span class="p">{</span><span class="nx">u</span><span class="s1">&#39;delete&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;status&#39;</span><span class="o">:</span> <span class="p">{</span><span class="nx">u</span><span class="s1">&#39;user_id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;724203342&#39;</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;user_id&#39;</span><span class="o">:</span> <span class="mi">724203342</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id&#39;</span><span class="o">:</span> <span class="mi">263466740904767488</span><span class="p">,</span> <span class="nx">u</span><span class="s1">&#39;id_str&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;263466740904767488&#39;</span><span class="p">},</span> <span class="nx">u</span><span class="s1">&#39;timestamp_ms&#39;</span><span class="o">:</span> <span class="nx">u</span><span class="s1">&#39;1435700874993&#39;</span><span class="p">}}</span></code></pre></div>
+
+<p>You can run the program and save the data into a file for analysis later using the following commend:</p>
+
+<div class="highlight"><pre><code class="language-csh" data-lang="csh"><span class="nv">$ </span>python twitter_streaming.py &gt; twitter_stream_100tweets.txt</code></pre></div>
+
+<p>The streaming API provides more advanced functions – you can find more information <a href="https://dev.twitter.com/streaming/overview/request-parameters">here</a>. For example, you can track certain tweets by specifying keywords or location or language etc. The following code will get the tweets in English that include the term “Google”. </p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">iterator</span> <span class="o">=</span> <span class="nx">twitter_stream</span><span class="p">.</span><span class="nx">statuses</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">track</span><span class="o">=</span><span class="s2">&quot;Google&quot;</span><span class="p">,</span> <span class="nx">language</span><span class="o">=</span><span class="s2">&quot;en&quot;</span><span class="p">)</span></code></pre></div>
+
+<h3 id="reading-and-processing-tweets-in-json-format">4. Reading and Processing Tweets in JSON format</h3>
+
+<p>To Do – last edit on June 30, 2015</p>
+
+<h3 id="twitter-search-api">5. Twitter Search API</h3>
+
+<p><a href="https://dev.twitter.com/rest/public/search">https://dev.twitter.com/rest/public/search</a></p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Initiate the connection to Twitter API</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">Twitter</span><span class="p">(</span><span class="n">auth</span><span class="o">=</span><span class="n">OAuth</span><span class="p">(</span><span class="n">ACCESS_TOKEN</span><span class="p">,</span> <span class="n">ACCESS_SECRET</span><span class="p">,</span>
+            <span class="n">CONSUMER_KEY</span><span class="p">,</span> <span class="n">CONSUMER_SECRET</span><span class="p">))</span>
+            
+<span class="c"># Search for ten latest tweets about &quot;#nlproc&quot;</span>
+<span class="n">t</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
+
+<p>Alternatively, you can search with more parameters
+# For example, search for one latest tweets about “#nlproc” in English</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">t</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">result_type</span><span class="o">=</span><span class="s">&#39;recent&#39;</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s">&#39;en&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
+
+<h3 id="checking-out-more-examples">6. Checking out More Examples</h3>
+
+<p>Check more example Python scripts that demonstrate interactions with the Twitter API
+via the Python Twitter Tools module: </p>
+
+<p><a href="https://github.com/ideoforms/python-twitter-examples">https://github.com/ideoforms/python-twitter-examples</a></p>
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated June 30, 2015. <br/>
+        Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
+	This web site interface was originally created by Adam Lopez, Matt Post, and Chris Callison-Burch for their <a href="http://mt-class.org/penn/">Machine Translation class</a>.
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#tutorial").addClass("active");
+      });
+    </script>
+  </body>
+</html>

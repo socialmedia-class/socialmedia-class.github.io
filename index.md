@@ -12,7 +12,12 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/)
+: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/) &nbsp;&nbsp;&nbsp;&nbsp;
+<a class=
+			"twitter-follow-button" data-show-count="false" href=
+			"https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
 
 Time 
 : &nbsp;&nbsp;&nbsp;&nbsp; 2-4pm | July 13,14,15,16 \| 2015 
