@@ -279,7 +279,7 @@ twitter.statuses.user_timeline(screen_name="billybob")
 
 #### Rate Limit 
 
-Unlike Streaming API, REST APIs have a more strict rate limit on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter's dev website give a list of the rate limits [here](https://dev.twitter.com/rest/public/rate-limits).
+Unlike Streaming API, **REST APIs have a strict rate limit** on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter's dev website give a list of the rate limits [here](https://dev.twitter.com/rest/public/rate-limits).
 
 You can also query the API to check your remaining quota, though you may rarely use this command:
 {% highlight python %}
