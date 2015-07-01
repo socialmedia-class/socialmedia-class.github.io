@@ -38,8 +38,9 @@
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/
     -
-      title:  Twitter API and Libraries
-      url: https://dev.twitter.com/overview/api/twitter-libraries
+      author:  the instructor Wei Xu
+      title:  Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
 
 -
   date: 3
