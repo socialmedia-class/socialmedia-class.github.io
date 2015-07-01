@@ -67,25 +67,25 @@
           <span class="text-muted"><i>Twitter's 404 error page -- the Fail Whale</i></span>
         </div>
         <div class="col-sm-10">
-          <h1>Twitter API tutorial </h1>
+          <h1 id="twitter-api-tutorial">Twitter API tutorial</h1>
 
-<p><strong>by <a href="http://www.cis.upenn.edu/%7Exwe/">Wei Xu</a> &nbsp;&nbsp; (July 1, 2015)</strong> &nbsp;&nbsp;&nbsp;&nbsp; <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?&#39;http&#39;:&#39;https&#39;;if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&#39;://platform.twitter.com/widgets.js&#39;;fjs.parentNode.insertBefore(js,fjs);}}(document, &#39;script&#39;, &#39;twitter-wjs&#39;);</script></p>
+<p><strong>by <a href="http://www.cis.upenn.edu/~xwe/">Wei Xu</a>    (July 1, 2015)</strong>      <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
-<h3>1. Getting Twitter API keys</h3>
+<h3 id="getting-twitter-api-keys">1. Getting Twitter API keys</h3>
 
 <p>To start with, you will need to have a Twitter account and obtain credentials (i.e. API key, API secret, Access token and Access token secret) on the Twitter developer site to access the Twitter API, following these steps:</p>
 
 <ul>
-<li>Create a Twitter user account if you do not already have one.</li>
-<li>Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a> and log in with your Twitter user account. This step gives you a Twitter dev account under the same name as your user account.</li>
-<li>Click &quot;Create New App&quot;</li>
-<li>Fill out the form, agree to the terms, and click &quot;Create your Twitter application&quot;</li>
-<li>In the next page, click on &quot;Keys and Access Tokens&quot; tab, and copy your &quot;API key&quot; and &quot;API secret&quot;. Scroll down and click &quot;Create my access token&quot;, and copy your &quot;Access token&quot; and &quot;Access token secret&quot;.</li>
+  <li>Create a Twitter user account if you do not already have one.</li>
+  <li>Go to <a href="https://apps.twitter.com/">https://apps.twitter.com/</a> and log in with your Twitter user account. This step gives you a Twitter dev account under the same name as your user account.</li>
+  <li>Click “Create New App”</li>
+  <li>Fill out the form, agree to the terms, and click “Create your Twitter application”</li>
+  <li>In the next page, click on “Keys and Access Tokens” tab, and copy your “API key” and “API secret”. Scroll down and click “Create my access token”, and copy your “Access token” and “Access token secret”.</li>
 </ul>
 
-<h3>2. Installing a Twitter library</h3>
+<h3 id="installing-a-twitter-library">2. Installing a Twitter library</h3>
 
-<p>We will be using a Python library called <a href="https://pypi.python.org/pypi/twitter">Python Twitter Tools</a> to connect to Twitter API and downloading the data from Twitter. There are many other <a href="https://dev.twitter.com/overview/api/twitter-libraries">libraries</a> in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. </p>
+<p>We will be using a Python library called <a href="https://pypi.python.org/pypi/twitter">Python Twitter Tools</a> to connect to Twitter API and downloading the data from Twitter. There are many other <a href="https://dev.twitter.com/overview/api/twitter-libraries&gt;">libraries</a> in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. </p>
 
 <p>Download the Python Twitter tools at <a href="https://pypi.python.org/pypi/twitter">https://pypi.python.org/pypi/twitter</a>.</p>
 
@@ -95,13 +95,13 @@
 <span class="nv">$ </span>python setup.py build     
 <span class="nv">$ </span>python setup.py install</code></pre></div>
 
-<h3>3. Connecting to Twitter Streaming APIs</h3>
+<h3 id="connecting-to-twitter-streaming-apis">3. Connecting to Twitter Streaming APIs</h3>
 
-<p>The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets are posted on Twitter and you (normal users) will get a small proportion of it (&lt;=1%). The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searches, such as searching historic tweets, reading user profile information, or posting Tweets. The Streaming API <strong>only</strong> sends out real-time tweets, while the Search API (one of the popular REST APIs) gives historical tweets up to about a week with a max of a couple of hundreds. You may request elevated access (e.g. Firehose, Retweet, Link, Birddog or Shadow) for more data by contacting Twitter&#39;s API support. </p>
+<p>The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets are posted on Twitter and you (normal users) will get a small proportion of it (&lt;=1%). The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searches, such as searching historic tweets, reading user profile information, or posting Tweets. The Streaming API <strong>only</strong> sends out real-time tweets, while the Search API (one of the popular REST APIs) gives historical tweets up to about a week with a max of a couple of hundreds. You may request elevated access (e.g. Firehose, Retweet, Link, Birddog or Shadow) for more data by contacting Twitter’s API support. </p>
 
-<h4>Basic Uses of Streaming APIs</h4>
+<h4 id="basic-uses-of-streaming-apis">Basic Uses of Streaming APIs</h4>
 
-<p>Create a file called twitter<em>streaming.py, and copy the code below into it. Make sure to enter your credentials obtained in the Step 1 above into ACCESS</em>TOKEN, ACCESS<em>SECRET, CONSUMER</em>KEY, and CONSUMER_SECRET.</p>
+<p>Create a file called twitter_streaming.py, and copy the code below into it. Make sure to enter your credentials obtained in the Step 1 above into ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, and CONSUMER_SECRET.</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Import the necessary package to process data in JSON format</span>
 <span class="k">try</span><span class="p">:</span>
@@ -156,21 +156,21 @@
 
 <div class="highlight"><pre><code class="language-csh" data-lang="csh"><span class="nv">$ </span>python twitter_streaming.py &gt; twitter_stream_1000tweets.txt</code></pre></div>
 
-<h4>Advanced Uses of Streaming APIs</h4>
+<h4 id="advanced-uses-of-streaming-apis">Advanced Uses of Streaming APIs</h4>
 
 <p>The streaming API provides more advanced functions. </p>
 
-<p>First, you can set different parameters (see <a href="https://dev.twitter.com/streaming/overview/request-parameters">here</a> for a complete list) to define what data to request. For example, you can track certain tweets by specifying keywords or location or language etc. The following code will get the tweets in English that include the term &quot;Google&quot;:</p>
+<p>First, you can set different parameters (see <a href="https://dev.twitter.com/streaming/overview/request-parameters">here</a> for a complete list) to define what data to request. For example, you can track certain tweets by specifying keywords or location or language etc. The following code will get the tweets in English that include the term “Google”:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">iterator</span> <span class="o">=</span> <span class="n">twitter_stream</span><span class="o">.</span><span class="n">statuses</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">track</span><span class="o">=</span><span class="s">&quot;Google&quot;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">)</span></code></pre></div>
 
-<p><strong>Location is a bit tricky</strong>. Read <a href="https://dev.twitter.com/streaming/overview/request-parameters#locations">here</a> for a simple guide, and <a href="http://thoughtfaucet.com/search-twitter-by-location/">here</a> for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user&#39;s location field is also used). </p>
+<p><strong>Location is a bit tricky</strong>. Read <a href="https://dev.twitter.com/streaming/overview/request-parameters#locations">here</a> for a simple guide, and <a href="http://thoughtfaucet.com/search-twitter-by-location/">here</a> for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user’s location field is also used). </p>
 
-<p>Second, by default, streaming API is connecting to the &quot;public streams&quot; -- all public data on Twitter as we showed in the above example. Also, there are &quot;user streams&quot; and &quot;site streams&quot; that contains the data specific to the authenticated user or users (see <a href="https://dev.twitter.com/streaming/overview">here</a> for more details). For conducting research on Twitter data, you usually only need to use &quot;public streams&quot; to collect data. In case you do need to use other streams, here is how to specify it:</p>
+<p>Second, by default, streaming API is connecting to the “public streams” – all public data on Twitter as we showed in the above example. Also, there are “user streams” and “site streams” that contains the data specific to the authenticated user or users (see <a href="https://dev.twitter.com/streaming/overview">here</a> for more details). For conducting research on Twitter data, you usually only need to use “public streams” to collect data. In case you do need to use other streams, here is how to specify it:</p>
 
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">twitter_userstream</span> <span class="o">=</span> <span class="nx">TwitterStream</span><span class="p">(</span><span class="nx">auth</span><span class="o">=</span><span class="nx">auth</span><span class="p">,</span> <span class="nx">domain</span><span class="o">=</span><span class="s1">&#39;userstream.twitter.com&#39;</span><span class="p">)</span></code></pre></div>
 
-<h3>4. Reading and Processing Tweets in JSON format</h3>
+<h3 id="reading-and-processing-tweets-in-json-format">4. Reading and Processing Tweets in JSON format</h3>
 
 <p>The streaming API returns <a href="https://dev.twitter.com/overview/api/tweets">tweets</a>, as well as several <a href="https://dev.twitter.com/streaming/overview/messages-types">other types of messages</a> (e.g. a tweet deletion notice, user update profile notice, etc). All in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. </p>
 
@@ -178,7 +178,7 @@
 
 <p><img src="/assets/img/raffi-krikorian-map-of-a-tweet.png" width="600" /></p>
 
-<p>Although this map is from 2010 and a bit out-of-date, it is a good visualization of tweet&#39;s JSON format. You can find the up-to-date information of tweet&#39;s format <a href="https://dev.twitter.com/overview/api/tweets">here</a>.</p>
+<p>Although this map is from 2010 and a bit out-of-date, it is a good visualization of tweet’s JSON format. You can find the up-to-date information of tweet’s format <a href="https://dev.twitter.com/overview/api/tweets">here</a>.</p>
 
 <p>Use Python library <em>json</em> or <em>simplejson</em> to read in the data in JSON format and process them:</p>
 
@@ -207,14 +207,14 @@
 
             <span class="n">hashtags</span> <span class="o">=</span> <span class="p">[]</span>
             <span class="k">for</span> <span class="n">hashtag</span> <span class="ow">in</span> <span class="n">tweet</span><span class="p">[</span><span class="s">&#39;entities&#39;</span><span class="p">][</span><span class="s">&#39;hastags&#39;</span><span class="p">]:</span>
-                <span class="n">hashtags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hashtag</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">])</span>
+            	<span class="n">hashtags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hashtag</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">])</span>
             <span class="k">print</span> <span class="n">hashtags</span>
 
     <span class="k">except</span><span class="p">:</span>
         <span class="c"># read in a line is not in JSON format (sometimes error occured)</span>
         <span class="k">continue</span></code></pre></div>
 
-<p>If, instead of the file <em>twitter<em>stream</em>1000tweets.txt</em>, use the example tweet in JSON format in the Streaming API section, this piece of code will output the following results:</p>
+<p>If, instead of the file <em>twitter_stream_1000tweets.txt</em>, use the example tweet in JSON format in the Streaming API section, this piece of code will output the following results:</p>
 
 <div class="highlight"><pre><code class="language-text" data-lang="text">616333141884674048
 Wed Jul 01 19:50:46 +0000 2015
@@ -225,11 +225,11 @@ cocoweixu</code></pre></div>
 
 <p>Note that the same url will have a few different versions in the Twitter stream: <em>http://t.co/rcygyEowqH</em> in the text, <em>http://noisy-text.github.io</em> as the expanded full version, <em>noisy-text.github.io</em> as the display version. </p>
 
-<h3>5. Using Twitter Search API and Trends API</h3>
+<h3 id="using-twitter-search-api-and-trends-api">5. Using Twitter Search API and Trends API</h3>
 
-<p>Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: <em>GET</em> data from Twitter and <em>POST</em> data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user&#39;s tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the <a href="syllabus.html">lecture slides</a> on this course website.</p>
+<p>Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: <em>GET</em> data from Twitter and <em>POST</em> data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user’s tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the <a href="syllabus.html">lecture slides</a> on this course website.</p>
 
-<h4>Search API</h4>
+<h4 id="search-api">Search API</h4>
 
 <p>Similar to the Streaming API, you first import necessary Python packages and OAuth credentials as in Step 2. Then you can use search API like follows:</p>
 
@@ -239,11 +239,11 @@ cocoweixu</code></pre></div>
 <span class="c"># Search for latest tweets about &quot;#nlproc&quot;</span>
 <span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">)</span></code></pre></div>
 
-<p>Alternatively, you can search with more parameters (see a full list <a href="https://dev.twitter.com/rest/public/search">here</a>. For example, search for 10 latest tweets about &quot;#nlproc&quot; in English:</p>
+<p>Alternatively, you can search with more parameters (see a full list <a href="https://dev.twitter.com/rest/public/search">here</a>. For example, search for 10 latest tweets about “#nlproc” in English:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">result_type</span><span class="o">=</span><span class="s">&#39;recent&#39;</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s">&#39;en&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
 
-<h4>Trends API</h4>
+<h4 id="trends-api">Trends API</h4>
 
 <p>Twitter provide global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:</p>
 
@@ -289,9 +289,9 @@ cocoweixu</code></pre></div>
 
 <p><strong>How often do the Twitter trending topics change?</strong> It is not disclosed by Twitter, but based on my experience, you will get most of them by querying every 5 minutes. </p>
 
-<h4>User API</h4>
+<h4 id="user-api">User API</h4>
 
-<p>Another popular use of API is to obtain the social graph users&#39; followers and friends, as well as a particular user&#39;s tweets. Below we show two common usage exmaples of the User APIs:</p>
+<p>Another popular use of API is to obtain the social graph users’ followers and friends, as well as a particular user’s tweets. Below we show two common usage exmaples of the User APIs:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get a list of followers of a particular user</span>
 <span class="n">twitter</span><span class="o">.</span><span class="n">followers</span><span class="o">.</span><span class="n">ids</span><span class="p">(</span><span class="n">screen_name</span><span class="o">=</span><span class="s">&quot;cocoweixu&quot;</span><span class="p">)</span></code></pre></div>
@@ -299,23 +299,27 @@ cocoweixu</code></pre></div>
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get a particular user&#39;s timeline (up to 3,200 of his/her most recent tweets)</span>
 <span class="n">twitter</span><span class="o">.</span><span class="n">statuses</span><span class="o">.</span><span class="n">user_timeline</span><span class="p">(</span><span class="n">screen_name</span><span class="o">=</span><span class="s">&quot;billybob&quot;</span><span class="p">)</span></code></pre></div>
 
-<h4>Rate Limit</h4>
+<h4 id="rate-limit">Rate Limit</h4>
 
-<p>Unlike Streaming API, <strong>REST APIs have a strict rate limit</strong> on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter&#39;s dev website give a list of the rate limits <a href="https://dev.twitter.com/rest/public/rate-limits">here</a>.</p>
+<p>Unlike Streaming API, <strong>REST APIs have a strict rate limit</strong> on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter’s dev website give a list of the rate limits <a href="https://dev.twitter.com/rest/public/rate-limits">here</a>.</p>
 
 <p>You can also query the API to check your remaining quota, though you may rarely use this command:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">twitter</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">rate_limit_status</span><span class="p">()</span></code></pre></div>
 
-<h3>6. Learning More about Twitter APIs</h3>
+<h3 id="learning-more-about-twitter-apis">6. Learning More about Twitter APIs</h3>
 
 <p>This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient for research purposes:</p>
 
 <ul>
-<li><p>Look up the <a href="https://dev.twitter.com/rest/public">documentation</a> of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/_ of the Twitter Python Tools to see how to call it in your program.</p></li>
-<li><p>Check more example Python scripts that demonstrate interactions with the Twitter API
+  <li>
+    <p>Look up the <a href="https://dev.twitter.com/rest/public">documentation</a> of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/_ of the Twitter Python Tools to see how to call it in your program.</p>
+  </li>
+  <li>
+    <p>Check more example Python scripts that demonstrate interactions with the Twitter API
 via the Python Twitter Tools: 
-<a href="https://github.com/ideoforms/python-twitter-examples">https://github.com/ideoforms/python-twitter-examples</a></p></li>
+  <a href="https://github.com/ideoforms/python-twitter-examples">https://github.com/ideoforms/python-twitter-examples</a></p>
+  </li>
 </ul>
 
         </div>

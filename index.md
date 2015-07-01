@@ -12,7 +12,13 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/) &nbsp;&nbsp;&nbsp;&nbsp;
+: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/) is a post-doctoral researcher in the Computer and Information
+Science Department at the University of Pennsylvania. Her research
+interests are in social media and natural language processing. She has received her
+PhD in 2014 from New York University, and is a recipient of the
+MacCracken Fellowship. During her PhD, she visited University of
+Washington for two years. She is organizing the ACL Workshop on Noisy
+User-generated Text.
 
 
 Time 
