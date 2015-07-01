@@ -146,9 +146,9 @@
 
 <p>You will see tweets keep flowing in your screen. They are a sample of public data (including tweets and also events) flowing though Twitter at the moment. The data returned is in <a href="https://en.wikipedia.org/wiki/JSON">JSON</a> format. It may looks too much for now; it will become clearer in the next step how to read and process this data. Below is one example tweet: </p>
 
-<div style="text-align:center"><img src="/assets/img/my_tweet.png" style="border:1px solid grey" height=200/></div>
+<p align="center"><img src="/assets/img/my_tweet.png" align="center" style="border:1px solid grey" height="200" /></p>
 
-<p>and its JSON format:</p>
+<p>and its JSON format (often output without line breaks to save space and difficult to read and make sense of) :</p>
 
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span><span class="s2">&quot;favorited&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;contributors&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;truncated&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;text&quot;</span><span class="o">:</span> <span class="s2">&quot;#CFP Workshop on Noisy User-generated Text at ACL - Beijing 31 July 2015. Papers due: 11 May 2015. http://t.co/rcygyEowqH   #NLProc #WNUT15&quot;</span><span class="p">,</span> <span class="s2">&quot;possibly_sensitive&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;in_reply_to_status_id&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;user&quot;</span><span class="o">:</span> <span class="p">{</span><span class="s2">&quot;follow_request_sent&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;profile_use_background_image&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="s2">&quot;default_profile_image&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="mi">237918251</span><span class="p">,</span> <span class="s2">&quot;verified&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;profile_image_url_https&quot;</span><span class="o">:</span> <span class="s2">&quot;https://pbs.twimg.com/profile_images/527088456967544832/DnclpoZO_normal.jpeg&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_sidebar_fill_color&quot;</span><span class="o">:</span> <span class="s2">&quot;DDEEF6&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_text_color&quot;</span><span class="o">:</span> <span class="s2">&quot;333333&quot;</span><span class="p">,</span> <span class="s2">&quot;followers_count&quot;</span><span class="o">:</span> <span class="mi">226</span><span class="p">,</span> <span class="s2">&quot;profile_sidebar_border_color&quot;</span><span class="o">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> <span class="s2">&quot;id_str&quot;</span><span class="o">:</span> <span class="s2">&quot;237918251&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_background_color&quot;</span><span class="o">:</span> <span class="s2">&quot;C0DEED&quot;</span><span class="p">,</span> <span class="s2">&quot;listed_count&quot;</span><span class="o">:</span> <span class="mi">13</span><span class="p">,</span> <span class="s2">&quot;profile_background_image_url_https&quot;</span><span class="o">:</span> <span class="s2">&quot;https://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> <span class="s2">&quot;utc_offset&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;statuses_count&quot;</span><span class="o">:</span> <span class="mi">120</span><span class="p">,</span> <span class="s2">&quot;description&quot;</span><span class="o">:</span> <span class="s2">&quot;I am a postdoctoral researcher @PennCIS, studying Natural Language Processing and Social Media.&quot;</span><span class="p">,</span> <span class="s2">&quot;friends_count&quot;</span><span class="o">:</span> <span class="mi">166</span><span class="p">,</span> <span class="s2">&quot;location&quot;</span><span class="o">:</span> <span class="s2">&quot;Philadelphia PA&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_link_color&quot;</span><span class="o">:</span> <span class="s2">&quot;0084B4&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_image_url&quot;</span><span class="o">:</span> <span class="s2">&quot;http://pbs.twimg.com/profile_images/527088456967544832/DnclpoZO_normal.jpeg&quot;</span><span class="p">,</span> <span class="s2">&quot;following&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;geo_enabled&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="s2">&quot;profile_background_image_url&quot;</span><span class="o">:</span> <span class="s2">&quot;http://abs.twimg.com/images/themes/theme1/bg.png&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Wei Xu&quot;</span><span class="p">,</span> <span class="s2">&quot;lang&quot;</span><span class="o">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;profile_background_tile&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;favourites_count&quot;</span><span class="o">:</span> <span class="mi">88</span><span class="p">,</span> <span class="s2">&quot;screen_name&quot;</span><span class="o">:</span> <span class="s2">&quot;cocoweixu&quot;</span><span class="p">,</span> <span class="s2">&quot;notifications&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;url&quot;</span><span class="o">:</span> <span class="s2">&quot;http://www.cis.upenn.edu/~xwe/&quot;</span><span class="p">,</span> <span class="s2">&quot;created_at&quot;</span><span class="o">:</span> <span class="s2">&quot;Thu Jan 13 23:15:12 +0000 2011&quot;</span><span class="p">,</span> <span class="s2">&quot;contributors_enabled&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;time_zone&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;protected&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;default_profile&quot;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span> <span class="s2">&quot;is_translator&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">},</span> <span class="s2">&quot;filter_level&quot;</span><span class="o">:</span> <span class="s2">&quot;low&quot;</span><span class="p">,</span> <span class="s2">&quot;geo&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;id&quot;</span><span class="o">:</span> <span class="mi">616333141884674048</span><span class="p">,</span> <span class="s2">&quot;favorite_count&quot;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;lang&quot;</span><span class="o">:</span> <span class="s2">&quot;en&quot;</span><span class="p">,</span> <span class="s2">&quot;entities&quot;</span><span class="o">:</span> <span class="p">{</span><span class="s2">&quot;user_mentions&quot;</span><span class="o">:</span> <span class="p">[],</span> <span class="s2">&quot;symbols&quot;</span><span class="o">:</span> <span class="p">[],</span> <span class="s2">&quot;trends&quot;</span><span class="o">:</span> <span class="p">[],</span> <span class="s2">&quot;hashtags&quot;</span><span class="o">:</span> <span class="p">[{</span><span class="s2">&quot;indices&quot;</span><span class="o">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="s2">&quot;text&quot;</span><span class="o">:</span> <span class="s2">&quot;CFP&quot;</span><span class="p">},</span> <span class="p">{</span><span class="s2">&quot;indices&quot;</span><span class="o">:</span> <span class="p">[</span><span class="mi">124</span><span class="p">,</span> <span class="mi">131</span><span class="p">],</span> <span class="s2">&quot;text&quot;</span><span class="o">:</span> <span class="s2">&quot;NLProc&quot;</span><span class="p">},</span> <span class="p">{</span><span class="s2">&quot;indices&quot;</span><span class="o">:</span> <span class="p">[</span><span class="mi">132</span><span class="p">,</span> <span class="mi">139</span><span class="p">],</span> <span class="s2">&quot;text&quot;</span><span class="o">:</span> <span class="s2">&quot;WNUT15&quot;</span><span class="p">}],</span> <span class="s2">&quot;urls&quot;</span><span class="o">:</span> <span class="p">[{</span><span class="s2">&quot;url&quot;</span><span class="o">:</span> <span class="s2">&quot;http://t.co/rcygyEowqH&quot;</span><span class="p">,</span> <span class="s2">&quot;indices&quot;</span><span class="o">:</span> <span class="p">[</span><span class="mi">99</span><span class="p">,</span> <span class="mi">121</span><span class="p">],</span> <span class="s2">&quot;expanded_url&quot;</span><span class="o">:</span> <span class="s2">&quot;http://noisy-text.github.io&quot;</span><span class="p">,</span> <span class="s2">&quot;display_url&quot;</span><span class="o">:</span> <span class="s2">&quot;noisy-text.github.io&quot;</span><span class="p">}]},</span> <span class="s2">&quot;in_reply_to_user_id_str&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;retweeted&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span> <span class="s2">&quot;coordinates&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;timestamp_ms&quot;</span><span class="o">:</span> <span class="s2">&quot;1435780246598&quot;</span><span class="p">,</span> <span class="s2">&quot;source&quot;</span><span class="o">:</span> <span class="s2">&quot;&lt;a href=\&quot;http://twitter.com\&quot; rel=\&quot;nofollow\&quot;&gt;Twitter Web Client&lt;/a&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;in_reply_to_status_id_str&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;in_reply_to_screen_name&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;id_str&quot;</span><span class="o">:</span> <span class="s2">&quot;616333141884674048&quot;</span><span class="p">,</span> <span class="s2">&quot;place&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">,</span> <span class="s2">&quot;retweet_count&quot;</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;created_at&quot;</span><span class="o">:</span> <span class="s2">&quot;Wed Jul 01 19:50:46 +0000 2015&quot;</span><span class="p">,</span> <span class="s2">&quot;in_reply_to_user_id&quot;</span><span class="o">:</span> <span class="kc">null</span><span class="p">}</span></code></pre></div>
 
@@ -164,7 +164,7 @@
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">iterator</span> <span class="o">=</span> <span class="n">twitter_stream</span><span class="o">.</span><span class="n">statuses</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">track</span><span class="o">=</span><span class="s">&quot;Google&quot;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">)</span></code></pre></div>
 
-<p>Location is a bit tricky. Read <a href="https://dev.twitter.com/streaming/overview/request-parameters#locations">here</a> for a simple guide, and <a href="http://thoughtfaucet.com/search-twitter-by-location/">here</a> for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user&#39;s location field is also used). </p>
+<p><strong>Location is a bit tricky</strong>. Read <a href="https://dev.twitter.com/streaming/overview/request-parameters#locations">here</a> for a simple guide, and <a href="http://thoughtfaucet.com/search-twitter-by-location/">here</a> for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user&#39;s location field is also used). </p>
 
 <p>Second, by default, streaming API is connecting to the &quot;public streams&quot; -- all public data on Twitter as we showed in the above example. Also, there are &quot;user streams&quot; and &quot;site streams&quot; that contains the data specific to the authenticated user or users (see <a href="https://dev.twitter.com/streaming/overview">here</a> for more details). For conducting research on Twitter data, you usually only need to use &quot;public streams&quot; to collect data. In case you do need to use other streams, here is how to specify it:</p>
 
@@ -174,7 +174,7 @@
 
 <p>The streaming API returns <a href="https://dev.twitter.com/overview/api/tweets">tweets</a>, as well as several <a href="https://dev.twitter.com/streaming/overview/messages-types">other types of messages</a> (e.g. a tweet deletion notice, user update profile notice, etc). All in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. </p>
 
-<p>Tweets, also known more generically as “status updates”. A tweet in JSON format is explained in the map made by Raffi Krikorian:</p>
+<p>Tweets, also known more generically as “status updates”. This map made by Raffi Krikorian  explains a tweet in JSON format:</p>
 
 <p><img src="/assets/img/raffi-krikorian-map-of-a-tweet.png" width="600" /></p>
 
@@ -227,38 +227,96 @@ cocoweixu</code></pre></div>
 
 <h3>5. Using Twitter Search API and Trends API</h3>
 
-<p>Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: <em>GET</em> data from Twitter and <em>POST</em> data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and Relation (followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the <a href="syllabus.html">lecture slides</a> on this course website.</p>
+<p>Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: <em>GET</em> data from Twitter and <em>POST</em> data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user&#39;s tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the <a href="syllabus.html">lecture slides</a> on this course website.</p>
 
 <h4>Search API</h4>
 
 <p>Similar to the Streaming API, you first import necessary Python packages and OAuth credentials as in Step 2. Then you can use search API like follows:</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Initiate the connection to Twitter API</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">Twitter</span><span class="p">(</span><span class="n">auth</span><span class="o">=</span><span class="n">oauth</span><span class="p">)</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Initiate the connection to Twitter REST API</span>
+<span class="n">twitter</span> <span class="o">=</span> <span class="n">Twitter</span><span class="p">(</span><span class="n">auth</span><span class="o">=</span><span class="n">oauth</span><span class="p">)</span>
             
 <span class="c"># Search for latest tweets about &quot;#nlproc&quot;</span>
-<span class="n">t</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">)</span></code></pre></div>
+<span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">)</span></code></pre></div>
 
 <p>Alternatively, you can search with more parameters (see a full list <a href="https://dev.twitter.com/rest/public/search">here</a>. For example, search for 10 latest tweets about &quot;#nlproc&quot; in English:</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">t</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">result_type</span><span class="o">=</span><span class="s">&#39;recent&#39;</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s">&#39;en&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">result_type</span><span class="o">=</span><span class="s">&#39;recent&#39;</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s">&#39;en&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
 
 <h4>Trends API</h4>
 
-<h4>Relation API</h4>
+<p>Twitter provide global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get all the locations where Twitter provides trends service</span>
+<span class="n">world_trends</span> <span class="o">=</span> <span class="n">twitter</span><span class="o">.</span><span class="n">trends</span><span class="o">.</span><span class="n">available</span><span class="p">(</span><span class="n">_woeid</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
+
+<p>It returns all the trends that are offered by Twitter at the time. Here are part of the returned results:</p>
+
+<div class="highlight"><pre><code class="language-text" data-lang="text">{&quot;name&quot;: &quot;United States&quot;, &quot;countryCode&quot;: &quot;US&quot;, &quot;url&quot;: &quot;http://where.yahooapis.com/v1/place/23424977&quot;, &quot;country&quot;: &quot;United States&quot;, &quot;parentid&quot;: 1, &quot;placeType&quot;: {&quot;code&quot;: 12, &quot;name&quot;: &quot;Country&quot;}, &quot;woeid&quot;: 23424977}
+{u&#39;name&#39;: u&#39;San Francisco&#39;, u&#39;countryCode&#39;: u&#39;US&#39;, u&#39;url&#39;: u&#39;http://where.yahooapis.com/v1/place/2487956&#39;, u&#39;country&#39;: u&#39;United States&#39;, u&#39;parentid&#39;: 23424977, u&#39;placeType&#39;: {u&#39;code&#39;: 7, u&#39;name&#39;: u&#39;Town&#39;}, u&#39;woeid&#39;: 2487956}
+{&quot;name&quot;: &quot;Bangkok&quot;, &quot;countryCode&quot;: &quot;TH&quot;, &quot;url&quot;: &quot;http://where.yahooapis.com/v1/place/1225448&quot;, &quot;country&quot;: &quot;Thailand&quot;, &quot;parentid&quot;: 23424960, &quot;placeType&quot;: {&quot;code&quot;: 7, &quot;name&quot;: &quot;Town&quot;}, &quot;woeid&quot;: 1225448}</code></pre></div>
+
+<p>The places ids are WOEIDs (the Where On Earth ID), which are 32-bit identifiers provided by <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo! GeoPlanet</a> project. And yes! Twitter is very international. </p>
+
+<p>After you know the ids for the places you are interested in, you can get the local trends like this:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get all (it&#39;s always 10) trending topics in San Francisco (its WOEID is 2487956)</span>
+<span class="n">sfo_trends</span> <span class="o">=</span> <span class="n">twitter</span><span class="o">.</span><span class="n">trends</span><span class="o">.</span><span class="n">place</span><span class="p">(</span><span class="n">_id</span> <span class="o">=</span> <span class="mi">2487956</span><span class="p">)</span></code></pre></div>
+
+<p>The trends will be returned in JSON, again. This time we reformat JSON data in a prettier way to make it easier to read by human beings:</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+   <span class="s2">&quot;created_at&quot;</span><span class="o">:</span><span class="s2">&quot;2015-07-01T22:09:55Z&quot;</span><span class="p">,</span>
+   <span class="s2">&quot;trends&quot;</span><span class="o">:</span><span class="p">[</span>
+      <span class="p">{</span>
+         <span class="s2">&quot;url&quot;</span><span class="o">:</span><span class="s2">&quot;http://twitter.com/search?q=%23LiesIveToldMyParents&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;query&quot;</span><span class="o">:</span><span class="s2">&quot;%23LiesIveToldMyParents&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="s2">&quot;#LiesIveToldMyParents&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;promoted_content&quot;</span><span class="o">:</span><span class="kc">null</span>
+      <span class="p">},</span>
+      <span class="p">{</span>
+         <span class="s2">&quot;url&quot;</span><span class="o">:</span><span class="s2">&quot;http://twitter.com/search?q=%22Kevin+Love%22&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;query&quot;</span><span class="o">:</span><span class="s2">&quot;%22Kevin+Love%22&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="s2">&quot;Kevin Love&quot;</span><span class="p">,</span>
+         <span class="s2">&quot;promoted_content&quot;</span><span class="o">:</span><span class="kc">null</span>
+      <span class="p">},</span>
+      
+      <span class="p">...</span> <span class="p">[</span><span class="nx">and</span> <span class="nx">another</span> <span class="mi">8</span> <span class="nx">trends</span> <span class="nx">omitted</span> <span class="nx">here</span> <span class="nx">to</span> <span class="nx">save</span> <span class="nx">space</span><span class="p">]</span>
+
+<span class="p">}</span></code></pre></div>
+
+<p>If you want to get the real tweets in each trend, use the Search API to get them.</p>
+
+<p><strong>How often do the Twitter trending topics change?</strong> It is not disclosed by Twitter, but based on my experience, you will get most of them by querying every 5 minutes. </p>
+
+<h4>User API</h4>
+
+<p>Another popular use of API is to obtain the social graph users&#39; followers and friends, as well as a particular user&#39;s tweets. Below we show two common usage exmaples of the User APIs:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get a list of followers of a particular user</span>
+<span class="n">twitter</span><span class="o">.</span><span class="n">followers</span><span class="o">.</span><span class="n">ids</span><span class="p">(</span><span class="n">screen_name</span><span class="o">=</span><span class="s">&quot;cocoweixu&quot;</span><span class="p">)</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get a particular user&#39;s timeline (up to 3,200 of his/her most recent tweets)</span>
+<span class="n">twitter</span><span class="o">.</span><span class="n">statuses</span><span class="o">.</span><span class="n">user_timeline</span><span class="p">(</span><span class="n">screen_name</span><span class="o">=</span><span class="s">&quot;billybob&quot;</span><span class="p">)</span></code></pre></div>
 
 <h4>Rate Limit</h4>
 
-<p>Unlike Streaming API, REST APIs have a more strict rate limit on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). </p>
+<p>Unlike Streaming API, REST APIs have a more strict rate limit on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter&#39;s dev website give a list of the rate limits <a href="https://dev.twitter.com/rest/public/rate-limits">here</a>.</p>
 
-<p>Under Construction -- last edit on June 30, 2015</p>
+<p>You can also query the API to check your remaining quota, though you may rarely use this command:</p>
 
-<h3>6. Checking out More Examples</h3>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">twitter</span><span class="o">.</span><span class="n">application</span><span class="o">.</span><span class="n">rate_limit_status</span><span class="p">()</span></code></pre></div>
 
-<p>Check more example Python scripts that demonstrate interactions with the Twitter API
-via the Python Twitter Tools: </p>
+<h3>6. Learning More about Twitter APIs</h3>
 
-<p><a href="https://github.com/ideoforms/python-twitter-examples">https://github.com/ideoforms/python-twitter-examples</a></p>
+<p>This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient for research purposes:</p>
+
+<ul>
+<li><p>Look up the <a href="https://dev.twitter.com/rest/public">documentation</a> of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/_ of the Twitter Python Tools to see how to call it in your program.</p></li>
+<li><p>Check more example Python scripts that demonstrate interactions with the Twitter API
+via the Python Twitter Tools: 
+<a href="https://github.com/ideoforms/python-twitter-examples">https://github.com/ideoforms/python-twitter-examples</a></p></li>
+</ul>
 
         </div>
       </div>
@@ -267,7 +325,6 @@ via the Python Twitter Tools: </p>
         <hr/>
         Last updated July 01, 2015. <br/>
         Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
-	This web site interface was originally created by Adam Lopez, Matt Post, and Chris Callison-Burch for their <a href="http://mt-class.org/penn/">Machine Translation class</a>.
         <br/>
       </footer>
     </div>

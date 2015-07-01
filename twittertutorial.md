@@ -92,9 +92,9 @@ $ python twitter_streaming.py
 
 You will see tweets keep flowing in your screen. They are a sample of public data (including tweets and also events) flowing though Twitter at the moment. The data returned is in [JSON](https://en.wikipedia.org/wiki/JSON) format. It may looks too much for now; it will become clearer in the next step how to read and process this data. Below is one example tweet: 
 
-<div style="text-align:center"><img src="/assets/img/my_tweet.png" style="border:1px solid grey" height=200/></div>
+<p align="center"><img src="/assets/img/my_tweet.png" align="center" style="border:1px solid grey" height="200" /></p>
 
-and its JSON format:
+and its JSON format (often output without line breaks to save space and difficult to read and make sense of) :
 
 {% highlight javascript %}
 {"favorited": false, "contributors": null, "truncated": false, "text": "#CFP Workshop on Noisy User-generated Text at ACL - Beijing 31 July 2015. Papers due: 11 May 2015. http://t.co/rcygyEowqH   #NLProc #WNUT15", "possibly_sensitive": false, "in_reply_to_status_id": null, "user": {"follow_request_sent": null, "profile_use_background_image": true, "default_profile_image": false, "id": 237918251, "verified": false, "profile_image_url_https": "https://pbs.twimg.com/profile_images/527088456967544832/DnclpoZO_normal.jpeg", "profile_sidebar_fill_color": "DDEEF6", "profile_text_color": "333333", "followers_count": 226, "profile_sidebar_border_color": "C0DEED", "id_str": "237918251", "profile_background_color": "C0DEED", "listed_count": 13, "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", "utc_offset": null, "statuses_count": 120, "description": "I am a postdoctoral researcher @PennCIS, studying Natural Language Processing and Social Media.", "friends_count": 166, "location": "Philadelphia PA", "profile_link_color": "0084B4", "profile_image_url": "http://pbs.twimg.com/profile_images/527088456967544832/DnclpoZO_normal.jpeg", "following": null, "geo_enabled": true, "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", "name": "Wei Xu", "lang": "en", "profile_background_tile": false, "favourites_count": 88, "screen_name": "cocoweixu", "notifications": null, "url": "http://www.cis.upenn.edu/~xwe/", "created_at": "Thu Jan 13 23:15:12 +0000 2011", "contributors_enabled": false, "time_zone": null, "protected": false, "default_profile": true, "is_translator": false}, "filter_level": "low", "geo": null, "id": 616333141884674048, "favorite_count": 0, "lang": "en", "entities": {"user_mentions": [], "symbols": [], "trends": [], "hashtags": [{"indices": [0, 4], "text": "CFP"}, {"indices": [124, 131], "text": "NLProc"}, {"indices": [132, 139], "text": "WNUT15"}], "urls": [{"url": "http://t.co/rcygyEowqH", "indices": [99, 121], "expanded_url": "http://noisy-text.github.io", "display_url": "noisy-text.github.io"}]}, "in_reply_to_user_id_str": null, "retweeted": false, "coordinates": null, "timestamp_ms": "1435780246598", "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", "in_reply_to_status_id_str": null, "in_reply_to_screen_name": null, "id_str": "616333141884674048", "place": null, "retweet_count": 0, "created_at": "Wed Jul 01 19:50:46 +0000 2015", "in_reply_to_user_id": null}
@@ -115,7 +115,7 @@ First, you can set different parameters (see [here](https://dev.twitter.com/stre
 iterator = twitter_stream.statuses.filter(track="Google", language="en")
 {% endhighlight %}
 
-Location is a bit tricky. Read [here](https://dev.twitter.com/streaming/overview/request-parameters#locations) for a simple guide, and [here](http://thoughtfaucet.com/search-twitter-by-location/) for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user's location field is also used). 
+**Location is a bit tricky**. Read [here](https://dev.twitter.com/streaming/overview/request-parameters#locations) for a simple guide, and [here](http://thoughtfaucet.com/search-twitter-by-location/) for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user's location field is also used). 
 
 Second, by default, streaming API is connecting to the "public streams" -- all public data on Twitter as we showed in the above example. Also, there are "user streams" and "site streams" that contains the data specific to the authenticated user or users (see [here](https://dev.twitter.com/streaming/overview) for more details). For conducting research on Twitter data, you usually only need to use "public streams" to collect data. In case you do need to use other streams, here is how to specify it:
 
@@ -127,7 +127,7 @@ twitter_userstream = TwitterStream(auth=auth, domain='userstream.twitter.com')
 
 The streaming API returns [tweets](https://dev.twitter.com/overview/api/tweets), as well as several [other types of messages](https://dev.twitter.com/streaming/overview/messages-types) (e.g. a tweet deletion notice, user update profile notice, etc). All in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. 
 
-Tweets, also known more generically as “status updates”. A tweet in JSON format is explained in the map made by Raffi Krikorian:
+Tweets, also known more generically as “status updates”. This map made by Raffi Krikorian  explains a tweet in JSON format:
 
 
 <img src="/assets/img/raffi-krikorian-map-of-a-tweet.png" width="600" />
@@ -185,49 +185,114 @@ Note that the same url will have a few different versions in the Twitter stream:
 
 ###5. Using Twitter Search API and Trends API
 
-Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: *GET* data from Twitter and *POST* data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and Relation (followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the [lecture slides](syllabus.html) on this course website.
+Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: *GET* data from Twitter and *POST* data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user's tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the [lecture slides](syllabus.html) on this course website.
 
 #### Search API
 
 Similar to the Streaming API, you first import necessary Python packages and OAuth credentials as in Step 2. Then you can use search API like follows:
 
 {% highlight python %}
-# Initiate the connection to Twitter API
-t = Twitter(auth=oauth)
+# Initiate the connection to Twitter REST API
+twitter = Twitter(auth=oauth)
             
 # Search for latest tweets about "#nlproc"
-t.search.tweets(q='#nlproc')
+twitter.search.tweets(q='#nlproc')
 {% endhighlight %}
 
 
 Alternatively, you can search with more parameters (see a full list [here](https://dev.twitter.com/rest/public/search). For example, search for 10 latest tweets about "#nlproc" in English:
 
 {% highlight python %}
-t.search.tweets(q='#nlproc', result_type='recent', lang='en', count=10)
+twitter.search.tweets(q='#nlproc', result_type='recent', lang='en', count=10)
 {% endhighlight %}
 
 
 #### Trends API
 
+Twitter provide global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:
+
+{% highlight python %}
+# Get all the locations where Twitter provides trends service
+world_trends = twitter.trends.available(_woeid=1)
+{% endhighlight %}
+
+It returns all the trends that are offered by Twitter at the time. Here are part of the returned results:
+
+{% highlight text %}
+{"name": "United States", "countryCode": "US", "url": "http://where.yahooapis.com/v1/place/23424977", "country": "United States", "parentid": 1, "placeType": {"code": 12, "name": "Country"}, "woeid": 23424977}
+{u'name': u'San Francisco', u'countryCode': u'US', u'url': u'http://where.yahooapis.com/v1/place/2487956', u'country': u'United States', u'parentid': 23424977, u'placeType': {u'code': 7, u'name': u'Town'}, u'woeid': 2487956}
+{"name": "Bangkok", "countryCode": "TH", "url": "http://where.yahooapis.com/v1/place/1225448", "country": "Thailand", "parentid": 23424960, "placeType": {"code": 7, "name": "Town"}, "woeid": 1225448}
+{% endhighlight %}
 
 
-#### Relation API
+The places ids are WOEIDs (the Where On Earth ID), which are 32-bit identifiers provided by [Yahoo! GeoPlanet](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html) project. And yes! Twitter is very international. 
+
+After you know the ids for the places you are interested in, you can get the local trends like this:
+{% highlight python %}
+# Get all (it's always 10) trending topics in San Francisco (its WOEID is 2487956)
+sfo_trends = twitter.trends.place(_id = 2487956)
+{% endhighlight %}
+
+The trends will be returned in JSON, again. This time we reformat JSON data in a prettier way to make it easier to read by human beings:
+
+{% highlight javascript %}
+{
+   "created_at":"2015-07-01T22:09:55Z",
+   "trends":[
+      {
+         "url":"http://twitter.com/search?q=%23LiesIveToldMyParents",
+         "query":"%23LiesIveToldMyParents",
+         "name":"#LiesIveToldMyParents",
+         "promoted_content":null
+      },
+      {
+         "url":"http://twitter.com/search?q=%22Kevin+Love%22",
+         "query":"%22Kevin+Love%22",
+         "name":"Kevin Love",
+         "promoted_content":null
+      },
+      
+      ... [and another 8 trends omitted here to save space]
+
+}
+{% endhighlight %}
+
+If you want to get the real tweets in each trend, use the Search API to get them.
+
+**How often do the Twitter trending topics change?** It is not disclosed by Twitter, but based on my experience, you will get most of them by querying every 5 minutes. 
+
+#### User API
+
+Another popular use of API is to obtain the social graph users' followers and friends, as well as a particular user's tweets. Below we show two common usage exmaples of the User APIs:
+
+{% highlight python %}
+# Get a list of followers of a particular user
+twitter.followers.ids(screen_name="cocoweixu")
+{% endhighlight %}
+
+{% highlight python %}
+# Get a particular user's timeline (up to 3,200 of his/her most recent tweets)
+twitter.statuses.user_timeline(screen_name="billybob")
+{% endhighlight %}
+
 
 
 #### Rate Limit 
 
-Unlike Streaming API, REST APIs have a more strict rate limit on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). 
+Unlike Streaming API, REST APIs have a more strict rate limit on how many requests you can send given a time limit and how many tweets you can get access to for each request (and it got stricter and stricter in the past). The limits vary from one API function to another. Twitter's dev website give a list of the rate limits [here](https://dev.twitter.com/rest/public/rate-limits).
+
+You can also query the API to check your remaining quota, though you may rarely use this command:
+{% highlight python %}
+twitter.application.rate_limit_status()
+{% endhighlight %}
 
 
+###6. Learning More about Twitter APIs
 
+This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient for research purposes:
 
+- Look up the [documentation](https://dev.twitter.com/rest/public) of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/_ of the Twitter Python Tools to see how to call it in your program.
 
-Under Construction -- last edit on June 30, 2015
-
-
-###6. Checking out More Examples 
-
-Check more example Python scripts that demonstrate interactions with the Twitter API
+- Check more example Python scripts that demonstrate interactions with the Twitter API
 via the Python Twitter Tools: 
-   
-   [https://github.com/ideoforms/python-twitter-examples](https://github.com/ideoforms/python-twitter-examples)
+    [https://github.com/ideoforms/python-twitter-examples](https://github.com/ideoforms/python-twitter-examples)
