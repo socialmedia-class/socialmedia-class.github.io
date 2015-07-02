@@ -124,7 +124,7 @@ iterator = twitter_stream.statuses.filter(track="Google", language="en")
 Second, by default, streaming API is connecting to the "public streams" -- all public data on Twitter as we showed in the above example. Also, there are "user streams" and "site streams" that contains the data specific to the authenticated user or users (see [here](https://dev.twitter.com/streaming/overview) for more details). For conducting research on Twitter data, you usually only need to use "public streams" to collect data. In case you do need to use other streams, here is how to specify it:
 
 {% highlight javascript %}
-twitter_userstream = TwitterStream(auth=auth, domain='userstream.twitter.com')
+twitter_userstream = TwitterStream(auth=oauth, domain='userstream.twitter.com')
 {% endhighlight %}
 
 ###4. Reading and Processing Tweets in JSON format
