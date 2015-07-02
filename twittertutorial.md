@@ -164,7 +164,7 @@ for line in tweets_file:
             print tweet['user']['screen_name'] # name of the user account, e.g. "cocoweixu"
 
             hashtags = []
-            for hashtag in tweet['entities']['hastags']:
+            for hashtag in tweet['entities']['hashtags']:
             	hashtags.append(hashtag['text'])
             print hashtags
 
@@ -182,6 +182,7 @@ Wed Jul 01 19:50:46 +0000 2015
 237918251
 Wei Xu
 cocoweixu
+[u'CFP', u'NLProc', u'WNUT15']
 {% endhighlight %}
 
 Note that the same url will have a few different versions in the Twitter stream: *http://t.co/rcygyEowqH* in the text, *http://noisy-text.github.io* as the expanded full version, *noisy-text.github.io* as the display version. 

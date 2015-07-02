@@ -210,7 +210,7 @@
             <span class="k">print</span> <span class="n">tweet</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">][</span><span class="s">&#39;screen_name&#39;</span><span class="p">]</span> <span class="c"># name of the user account, e.g. &quot;cocoweixu&quot;</span>
 
             <span class="n">hashtags</span> <span class="o">=</span> <span class="p">[]</span>
-            <span class="k">for</span> <span class="n">hashtag</span> <span class="ow">in</span> <span class="n">tweet</span><span class="p">[</span><span class="s">&#39;entities&#39;</span><span class="p">][</span><span class="s">&#39;hastags&#39;</span><span class="p">]:</span>
+            <span class="k">for</span> <span class="n">hashtag</span> <span class="ow">in</span> <span class="n">tweet</span><span class="p">[</span><span class="s">&#39;entities&#39;</span><span class="p">][</span><span class="s">&#39;hashtags&#39;</span><span class="p">]:</span>
             	<span class="n">hashtags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hashtag</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">])</span>
             <span class="k">print</span> <span class="n">hashtags</span>
 
@@ -225,7 +225,8 @@ Wed Jul 01 19:50:46 +0000 2015
 #CFP Workshop on Noisy User-generated Text at ACL - Beijing 31 July 2015. Papers due: 11 May 2015. http://t.co/rcygyEowqH   #NLProc #WNUT15
 237918251
 Wei Xu
-cocoweixu</code></pre></div>
+cocoweixu
+[u&#39;CFP&#39;, u&#39;NLProc&#39;, u&#39;WNUT15&#39;]</code></pre></div>
 
 <p>Note that the same url will have a few different versions in the Twitter stream: <em>http://t.co/rcygyEowqH</em> in the text, <em>http://noisy-text.github.io</em> as the expanded full version, <em>noisy-text.github.io</em> as the display version. </p>
 
