@@ -39,7 +39,7 @@ $ python setup.py install
 
 ###3. Connecting to Twitter Streaming APIs
 
-The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets are posted on Twitter and you (normal users) will get a small proportion of it (<=1%). The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searches, such as searching historic tweets, reading user profile information, or posting Tweets. The Streaming API **only** sends out real-time tweets, while the Search API (one of the popular REST APIs) gives historical tweets up to about a week with a max of a couple of hundreds. You may request elevated access (e.g. Firehose, Retweet, Link, Birddog or Shadow) for more data by contacting Twitter's API support. 
+The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets per second are posted on Twitter and you (normal dev users) will get a small proportion (<=1%) of it. The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searches, such as searching historic tweets, reading user profile information, or posting Tweets. The Streaming API **only** sends out real-time tweets, while the Search API (one of the popular REST APIs) gives historical tweets up to about a week with a max of a couple of hundreds. You may request elevated access (e.g. Firehose, Retweet, Link, Birddog or Shadow) for more data by contacting Twitter's API support. 
 
 #### Basic Uses of Streaming APIs
 
@@ -289,9 +289,9 @@ twitter.application.rate_limit_status()
 
 ###6. Learning More about Twitter APIs
 
-This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient for research purposes:
+This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient:
 
-- Look up the [documentation](https://dev.twitter.com/rest/public) of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/_ of the Twitter Python Tools to see how to call it in your program.
+- Look up the [documentation](https://dev.twitter.com/rest/public) of Twitter APIs to find the function you would like to use, then search in the [source code](https://github.com/sixohsix/twitter/) of the Twitter Python Tools to see how to call it in your program.
 
 - Check more example Python scripts that demonstrate interactions with the Twitter API
 via the Python Twitter Tools: 

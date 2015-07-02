@@ -87,15 +87,15 @@
       title: A Dependency Parser for Tweets
       url: http://aclweb.org/anthology/D/D14/D14-1108.pdf    
     -
-      author: Rotter, Mausam, Etzioni (KDD 2012)
+      author: Ritter, Mausam, Etzioni (KDD 2012)
       title: Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
 -
   date: 5
   title: Natural Language Processing for Social Media (III)
   highlights:
-    - obtaining large-scale paraphrases from Twitter
-    - sarcasm and sentiment analysis 
+    - Obtaining large-scale paraphrases from Twitter
+    - Sarcasm and sentiment analysis 
 
   reading:
     -
