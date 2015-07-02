@@ -43,7 +43,7 @@ The Streaming APIs give access to (usually a sample of) all tweets as they publi
 
 #### Basic Uses of Streaming APIs
 
-Create a file called twitter_streaming.py, and copy the code below into it. Make sure to enter your credentials obtained in the Step 1 above into ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, and CONSUMER_SECRET.
+Create a file called *twitter_streaming.py*, and copy the code below into it. Make sure to enter your credentials obtained in the Step 1 above into ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, and CONSUMER_SECRET.
 
 {% highlight python %}
 # Import the necessary package to process data in JSON format
@@ -119,7 +119,7 @@ First, you can set different parameters (see [here](https://dev.twitter.com/stre
 iterator = twitter_stream.statuses.filter(track="Google", language="en")
 {% endhighlight %}
 
-**Location is a bit tricky**. Read [here](https://dev.twitter.com/streaming/overview/request-parameters#locations) for a simple guide, and [here](http://thoughtfaucet.com/search-twitter-by-location/) for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user's location field is also used). 
+**Location is a bit tricky**. Read [here](https://dev.twitter.com/streaming/overview/request-parameters#locations) for a simple guide, and [here](http://thoughtfaucet.com/search-twitter-by-location/) for a complete guide. Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user's location field is also used). 
 
 Second, by default, streaming API is connecting to the "public streams" --- all public data on Twitter as we showed in the above example. Also, there are "user streams" and "site streams" that contains the data specific to the authenticated user or users (see [here](https://dev.twitter.com/streaming/overview) for more details). For conducting research on Twitter data, you usually only need to use "public streams" to collect data. In case you do need to use other streams, here is how to specify it:
 
