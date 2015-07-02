@@ -224,7 +224,7 @@ It returns all the trends that are offered by Twitter at the time. Here are part
 
 {% highlight text %}
 {"name": "United States", "countryCode": "US", "url": "http://where.yahooapis.com/v1/place/23424977", "country": "United States", "parentid": 1, "placeType": {"code": 12, "name": "Country"}, "woeid": 23424977}
-{u'name': u'San Francisco', u'countryCode': u'US', u'url': u'http://where.yahooapis.com/v1/place/2487956', u'country': u'United States', u'parentid': 23424977, u'placeType': {u'code': 7, u'name': u'Town'}, u'woeid': 2487956}
+{"name": "San Francisco", "countryCode": "US", "url": "http://where.yahooapis.com/v1/place/2487956", "country": "United States", "parentid": 23424977, "placeType": {"code": 7, "name": "Town"}, "woeid": 2487956}
 {"name": "Bangkok", "countryCode": "TH", "url": "http://where.yahooapis.com/v1/place/1225448", "country": "Thailand", "parentid": 23424960, "placeType": {"code": 7, "name": "Town"}, "woeid": 1225448}
 {% endhighlight %}
 
