@@ -220,7 +220,7 @@ Twitter provides global trends and as well as localized tweets. The easiest and 
 world_trends = twitter.trends.available(_woeid=1)
 {% endhighlight %}
 
-It returns all the trends that are offered by Twitter at the time. Here are part of the returned results:
+It returns all the trends that are offered by Twitter at the time. Here is part of the returned results:
 
 {% highlight text %}
 {"name": "United States", "countryCode": "US", "url": "http://where.yahooapis.com/v1/place/23424977", "country": "United States", "parentid": 1, "placeType": {"code": 12, "name": "Country"}, "woeid": 23424977}
