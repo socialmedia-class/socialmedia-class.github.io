@@ -121,7 +121,7 @@ iterator = twitter_stream.statuses.filter(track="Google", language="en")
 
 **Location is a bit tricky**. Read [here](https://dev.twitter.com/streaming/overview/request-parameters#locations) for a simple guide, and [here](http://thoughtfaucet.com/search-twitter-by-location/) for a complete guide.Find tweets by location can be done either by the Streaming API (only geolocated tweets) or the Search API (user's location field is also used). 
 
-Second, by default, streaming API is connecting to the "public streams" -- all public data on Twitter as we showed in the above example. Also, there are "user streams" and "site streams" that contains the data specific to the authenticated user or users (see [here](https://dev.twitter.com/streaming/overview) for more details). For conducting research on Twitter data, you usually only need to use "public streams" to collect data. In case you do need to use other streams, here is how to specify it:
+Second, by default, streaming API is connecting to the "public streams" --- all public data on Twitter as we showed in the above example. Also, there are "user streams" and "site streams" that contains the data specific to the authenticated user or users (see [here](https://dev.twitter.com/streaming/overview) for more details). For conducting research on Twitter data, you usually only need to use "public streams" to collect data. In case you do need to use other streams, here is how to specify it:
 
 {% highlight javascript %}
 twitter_userstream = TwitterStream(auth=oauth, domain='userstream.twitter.com')
@@ -189,7 +189,7 @@ Note that the same url will have a few different versions in the Twitter stream:
 
 ###5. Using Twitter Search API and Trends API
 
-Besides the streaming APIs, Twitter also provide another type of APIs — REST APIs. It provides two main functionalities: *GET* data from Twitter and *POST* data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user's tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the [lecture slides](syllabus.html) on this course website.
+Besides the streaming APIs, Twitter also provide another type of APIs --- REST APIs. It provides two main functionalities: *GET* data from Twitter and *POST* data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user's tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the [lecture slides](syllabus.html) on this course website.
 
 #### Search API
 
