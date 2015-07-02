@@ -176,7 +176,7 @@
 
 <h3 id="reading-and-processing-tweets-in-json-format">4. Reading and Processing Tweets in JSON format</h3>
 
-<p>The streaming API returns <a href="https://dev.twitter.com/overview/api/tweets">tweets</a>, as well as several <a href="https://dev.twitter.com/streaming/overview/messages-types">other types of messages</a> (e.g. a tweet deletion notice, user update profile notice, etc). All in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. </p>
+<p>The streaming API returns <a href="https://dev.twitter.com/overview/api/tweets">tweets</a>, as well as several <a href="https://dev.twitter.com/streaming/overview/messages-types">other types of messages</a> (e.g. a tweet deletion notice, user update profile notice, etc), all in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. </p>
 
 <p>Tweets, also known more generically as “status updates”. This map made by Raffi Krikorian  explains a tweet in JSON format:</p>
 
@@ -249,7 +249,7 @@ cocoweixu</code></pre></div>
 
 <h4 id="trends-api">Trends API</h4>
 
-<p>Twitter provide global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:</p>
+<p>Twitter provides global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Get all the locations where Twitter provides trends service</span>
 <span class="n">world_trends</span> <span class="o">=</span> <span class="n">twitter</span><span class="o">.</span><span class="n">trends</span><span class="o">.</span><span class="n">available</span><span class="p">(</span><span class="n">_woeid</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
@@ -260,7 +260,7 @@ cocoweixu</code></pre></div>
 {u&#39;name&#39;: u&#39;San Francisco&#39;, u&#39;countryCode&#39;: u&#39;US&#39;, u&#39;url&#39;: u&#39;http://where.yahooapis.com/v1/place/2487956&#39;, u&#39;country&#39;: u&#39;United States&#39;, u&#39;parentid&#39;: 23424977, u&#39;placeType&#39;: {u&#39;code&#39;: 7, u&#39;name&#39;: u&#39;Town&#39;}, u&#39;woeid&#39;: 2487956}
 {&quot;name&quot;: &quot;Bangkok&quot;, &quot;countryCode&quot;: &quot;TH&quot;, &quot;url&quot;: &quot;http://where.yahooapis.com/v1/place/1225448&quot;, &quot;country&quot;: &quot;Thailand&quot;, &quot;parentid&quot;: 23424960, &quot;placeType&quot;: {&quot;code&quot;: 7, &quot;name&quot;: &quot;Town&quot;}, &quot;woeid&quot;: 1225448}</code></pre></div>
 
-<p>The places ids are WOEIDs (the Where On Earth ID), which are 32-bit identifiers provided by <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo! GeoPlanet</a> project. And yes! Twitter is very international. </p>
+<p>The places ids are WOEIDs (Where On Earth ID), which are 32-bit identifiers provided by <a href="https://developer.yahoo.com/geo/geoplanet/guide/concepts.html">Yahoo! GeoPlanet</a> project. And yes! Twitter is very international. </p>
 
 <p>After you know the ids for the places you are interested in, you can get the local trends like this:</p>
 
@@ -268,6 +268,10 @@ cocoweixu</code></pre></div>
 <span class="n">sfo_trends</span> <span class="o">=</span> <span class="n">twitter</span><span class="o">.</span><span class="n">trends</span><span class="o">.</span><span class="n">place</span><span class="p">(</span><span class="n">_id</span> <span class="o">=</span> <span class="mi">2487956</span><span class="p">)</span></code></pre></div>
 
 <p>The trends will be returned in JSON, again. This time we reformat JSON data in a prettier way to make it easier to read by human beings:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">sfo_trends</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span></code></pre></div>
+
+<p>and get:</p>
 
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
    <span class="s2">&quot;created_at&quot;</span><span class="o">:</span><span class="s2">&quot;2015-07-01T22:09:55Z&quot;</span><span class="p">,</span>

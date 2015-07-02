@@ -129,7 +129,7 @@ twitter_userstream = TwitterStream(auth=auth, domain='userstream.twitter.com')
 
 ###4. Reading and Processing Tweets in JSON format
 
-The streaming API returns [tweets](https://dev.twitter.com/overview/api/tweets), as well as several [other types of messages](https://dev.twitter.com/streaming/overview/messages-types) (e.g. a tweet deletion notice, user update profile notice, etc). All in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. 
+The streaming API returns [tweets](https://dev.twitter.com/overview/api/tweets), as well as several [other types of messages](https://dev.twitter.com/streaming/overview/messages-types) (e.g. a tweet deletion notice, user update profile notice, etc), all in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. 
 
 Tweets, also known more generically as “status updates”. This map made by Raffi Krikorian  explains a tweet in JSON format:
 
@@ -213,7 +213,7 @@ twitter.search.tweets(q='#nlproc', result_type='recent', lang='en', count=10)
 
 #### Trends API
 
-Twitter provide global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:
+Twitter provides global trends and as well as localized tweets. The easiest and best way to see what trends are available and the place ids (which you will need to know to query localized trends or tweets), is by using this commend to request worldwide trends:
 
 {% highlight python %}
 # Get all the locations where Twitter provides trends service
@@ -229,7 +229,7 @@ It returns all the trends that are offered by Twitter at the time. Here are part
 {% endhighlight %}
 
 
-The places ids are WOEIDs (the Where On Earth ID), which are 32-bit identifiers provided by [Yahoo! GeoPlanet](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html) project. And yes! Twitter is very international. 
+The places ids are WOEIDs (Where On Earth ID), which are 32-bit identifiers provided by [Yahoo! GeoPlanet](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html) project. And yes! Twitter is very international. 
 
 After you know the ids for the places you are interested in, you can get the local trends like this:
 {% highlight python %}
@@ -238,6 +238,12 @@ sfo_trends = twitter.trends.place(_id = 2487956)
 {% endhighlight %}
 
 The trends will be returned in JSON, again. This time we reformat JSON data in a prettier way to make it easier to read by human beings:
+
+{% highlight python %}
+print json.dumps(sfo_trends, indent=4))
+{% endhighlight %}
+
+and get:
 
 {% highlight javascript %}
 {
