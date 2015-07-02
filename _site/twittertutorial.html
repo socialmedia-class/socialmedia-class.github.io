@@ -85,7 +85,7 @@
 
 <h3 id="installing-a-twitter-library">2. Installing a Twitter library</h3>
 
-<p>We will be using a Python library called <a href="https://pypi.python.org/pypi/twitter">Python Twitter Tools</a> to connect to Twitter API and downloading the data from Twitter. There are many other <a href="https://dev.twitter.com/overview/api/twitter-libraries&gt;">libraries</a> in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. </p>
+<p>We will be using a Python library called <a href="https://pypi.python.org/pypi/twitter">Python Twitter Tools</a> to connect to Twitter API and downloading the data from Twitter. There are <a href="https://dev.twitter.com/overview/api/twitter-libraries&gt;">many other libraries</a> in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. </p>
 
 <p>Download the Python Twitter tools at <a href="https://pypi.python.org/pypi/twitter">https://pypi.python.org/pypi/twitter</a>.</p>
 
@@ -243,7 +243,7 @@ cocoweixu</code></pre></div>
 <span class="c"># Search for latest tweets about &quot;#nlproc&quot;</span>
 <span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">)</span></code></pre></div>
 
-<p>Alternatively, you can search with more parameters (see a full list <a href="https://dev.twitter.com/rest/public/search">here</a>. For example, search for 10 latest tweets about “#nlproc” in English:</p>
+<p>Alternatively, you can search with more parameters (see a full list <a href="https://dev.twitter.com/rest/public/search">here</a>). For example, search for 10 latest tweets about “#nlproc” in English:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">twitter</span><span class="o">.</span><span class="n">search</span><span class="o">.</span><span class="n">tweets</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="s">&#39;#nlproc&#39;</span><span class="p">,</span> <span class="n">result_type</span><span class="o">=</span><span class="s">&#39;recent&#39;</span><span class="p">,</span> <span class="n">lang</span><span class="o">=</span><span class="s">&#39;en&#39;</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span></code></pre></div>
 

@@ -24,7 +24,7 @@ To start with, you will need to have a Twitter account and obtain credentials (i
 
 ###2. Installing a Twitter library
 
-We will be using a Python library called [Python Twitter Tools](https://pypi.python.org/pypi/twitter) to connect to Twitter API and downloading the data from Twitter. There are many other [libraries](https://dev.twitter.com/overview/api/twitter-libraries>) in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. 
+We will be using a Python library called [Python Twitter Tools](https://pypi.python.org/pypi/twitter) to connect to Twitter API and downloading the data from Twitter. There are [many other libraries](https://dev.twitter.com/overview/api/twitter-libraries>) in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. 
 
 Download the Python Twitter tools at [https://pypi.python.org/pypi/twitter](https://pypi.python.org/pypi/twitter).
 
@@ -204,7 +204,7 @@ twitter.search.tweets(q='#nlproc')
 {% endhighlight %}
 
 
-Alternatively, you can search with more parameters (see a full list [here](https://dev.twitter.com/rest/public/search). For example, search for 10 latest tweets about "#nlproc" in English:
+Alternatively, you can search with more parameters (see a full list [here](https://dev.twitter.com/rest/public/search)). For example, search for 10 latest tweets about "#nlproc" in English:
 
 {% highlight python %}
 twitter.search.tweets(q='#nlproc', result_type='recent', lang='en', count=10)
