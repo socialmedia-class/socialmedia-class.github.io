@@ -26,7 +26,7 @@
   date: 2
   title: Twitter and Twitter API Tutorial
   highlights:
-    - Brief history and useful statistics of Twitter
+    - Brief history and statistics of Twitter
     - Key features of Twitter
     - Hands-on instructions on obtaining Twitter data via APIs
 
@@ -52,7 +52,7 @@
 
   reading:
     -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013)
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
       title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
       url: http://www.aclweb.org/anthology/I13-1041.pdf
     -
@@ -61,7 +61,7 @@
       url: http://www.aclweb.org/anthology/N13-1037.pdf
     -
       author: Han, Baldwin (ACL 2011)
-      title: Lexical Normalisation of Short Text Messages - Makn Sens a \#twitter
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
       
       
@@ -76,11 +76,11 @@
   reading:
     -
       author: Gimpel et al.  (ACL 2011)
-      title: Part-of-Speech Tagging for Twitter - Annotation, Features, and Experiments
+      title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
       url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
     -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
-      title: Named Entity Recognition in Tweets - An Experimental Study
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf
     -
       author: Kong et al. (EMNLP 2014)
