@@ -276,7 +276,7 @@ If you want to get the real tweets in each trend, use the Search API to get them
 
 #### User API
 
-Another popular use of API is to obtain the social graph users' followers and friends, as well as a particular user's tweets. Below we show two common usage exmaples of the User APIs:
+Another popular use of API is to obtain the social graph of users' followers and friends, as well as a particular user's tweets. Below we show two common usage examples of the User APIs:
 
 {% highlight python %}
 # Get a list of followers of a particular user
