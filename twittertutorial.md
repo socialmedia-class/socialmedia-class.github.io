@@ -187,6 +187,8 @@ cocoweixu
 
 Note that the same url will have a few different versions in the Twitter stream: *http://t.co/rcygyEowqH* in the text, *http://noisy-text.github.io* as the expanded full version, *noisy-text.github.io* as the display version. 
 
+For long-term data collection, you can consider setup a [cron job](https://en.wikipedia.org/wiki/Cron) or use Mark Dredze's [library](https://github.com/mdredze/twitter_stream_downloader). 
+
 
 ###5. Using Twitter Search API and Trends API
 
