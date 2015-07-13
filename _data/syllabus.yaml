@@ -1,10 +1,10 @@
 -
   date: 1
-  slides: 
+  slides: http://socialmedia-class.org//slides/lecture1_SocialScience.pdf
   title: Big Data Social Science
   highlights:
     - Relationship between social media, big data, data science, natural language processing
-    - Examples of social science research on finance, politics, health, human behavivor, etc. 
+    - Social science research on finance, politics, health, human behavivor, etc. 
   reading:
     -
       author: Golder and Macy (Science 2011) 
@@ -24,9 +24,10 @@
       url: http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2847/3275.pdf
 -
   date: 2
+  slides: http://socialmedia-class.org//slides/lecture2_TwitterAPI.pdf
   title: Twitter and Twitter API Tutorial
-  highlights:
-    - Brief history and statistics of Twitter
+  highlights: 
+    - Brief history of Twitter
     - Key features of Twitter
     - Hands-on instructions on obtaining Twitter data via APIs
 
@@ -105,7 +106,7 @@
     -
       author: Brody, Diakopoulos (EMNLP 2011)
       title:  Cooooooooooooooollllllllllllll!!!!!!!!!!!!!! Using Word Lengthening to Detect Sentiment in Microblogs
-      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+      url: http://www.aclweb.org/anthology/D11-1052.pdf
     -
       author: Davidov, Tsur, Rappoport (CoNLL 2010)
       title:  Semi-Supervised Recognition of Sarcastic Sentences in Twitter and Amazon
