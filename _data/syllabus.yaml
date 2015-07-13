@@ -33,29 +33,46 @@
 
   reading:
     -
-      title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
-      url: https://developers.google.com/edu/python/
-    - 
-      title: Intro to NLP in Python
-      url: http://www.nltk.org/book/
-    -
       author:  the instructor Wei Xu
       title:  Twitter API Tutorial
       url: http://socialmedia-class.org/twittertutorial.html
+    - 
+      author: Nick Parlante
+      title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/
 
 -
   date: 3
-  title: Natural Language Processing for Social Media (I)
+  title: Natural Language Processing for Social Media (part 1)
   highlights:
     - Main research areas and publication venues of NLP
     - Challenges in processing social media text
-    - Language identification and normalization
+    - Language identification 
+    - Classification method&colon; Naïve Bayes
 
   reading:
     -
       author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
       title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
       url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+      
+-
+  date: 4
+  title: Natural Language Processing for Social Media (part 2)
+  highlights:
+    - NLP Pipeline
+    - Tokenization
+    - Text Normalization
+
+  reading:
     -
       author: Jacob Eisenstein (NAACL 2013)
       title: What to Do about Bad Language on the Internet? 
@@ -64,14 +81,13 @@
       author: Han, Baldwin (ACL 2011)
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
-      
-      
+            
 -
-  date: 4
-  title: Natural Language Processing for Social Media (II)
+  date: 5
+  title: Natural Language Processing for Social Media (part 3)
   highlights:
-    - NLP Pipeline for Twitter 
-    - Tokenization, part-of-speech, named entity tagging 
+    - Part-of-speech tagging
+    - Named entity recognition 
     - Event extraction
 
   reading:
@@ -92,8 +108,8 @@
       title: Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
 -
-  date: 5
-  title: Natural Language Processing for Social Media (III)
+  date: 6
+  title: Natural Language Processing for Social Media (part 4)
   highlights:
     - Obtaining large-scale paraphrases from Twitter
     - Sarcasm and sentiment analysis 
