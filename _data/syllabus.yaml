@@ -47,10 +47,11 @@
 
 -
   date: 3
+  slides: http://socialmedia-class.org//slides/lecture3_TwitterNLP_langid.pdf
   title: Natural Language Processing for Social Media (part 1)
   highlights:
     - Main research areas and publication venues of NLP
-    - Challenges in processing social media text
+    - Domain/Genre Difference
     - Language identification 
     - Classification method&colon; Naïve Bayes
 
@@ -68,6 +69,7 @@
   date: 4
   title: Natural Language Processing for Social Media (part 2)
   highlights:
+    - Challenges in processing social media text
     - NLP Pipeline
     - Tokenization
     - Text Normalization
@@ -87,8 +89,8 @@
   title: Natural Language Processing for Social Media (part 3)
   highlights:
     - Part-of-speech tagging
+    - Chunking
     - Named entity recognition 
-    - Event extraction
 
   reading:
     -
