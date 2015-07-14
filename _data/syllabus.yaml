@@ -53,7 +53,7 @@
     - Main research areas and publication venues of NLP
     - Domain/Genre Difference
     - Language identification 
-    - Classification method&colon; Naïve Bayes
+    - Classification method&colon; Naïve Bayes + feature selection (Information Gain)
 
   reading:
     -
