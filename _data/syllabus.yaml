@@ -93,7 +93,7 @@
     - Chunking
     - Named entity recognition 
     - Sequential tagging methods (HMM and CRF) and their relations to Naïve Bayes
-    - Unsupervised learing method: Brown Clustering
+    - Unsupervised learing method&colon; Brown Clustering
 
   reading:
     -
