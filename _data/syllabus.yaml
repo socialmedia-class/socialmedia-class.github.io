@@ -70,9 +70,9 @@
   title: Natural Language Processing for Social Media (part 2)
   highlights:
     - Challenges in processing social media text
-    - NLP Pipeline
     - Tokenization
     - Text Normalization
+    - Sequential tagging methods
 
   reading:
     -
