@@ -30,8 +30,8 @@ The second assignment will include using Twitter's streaming API, an off-the-she
 - what % of different language of tweets posted from U.S.?
 
 ##### 5. (optional) draw some fancy plots 
-- R is a good package for plotting, [here](http://www.statmethods.net/) is a simpe guide of R. 
 - e.g. the language mix in Twitter like the ones in [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981)
+- R is a good package for plotting, [here](http://www.statmethods.net/) is a simpe guide of R. 
 
 
 Send your homework to xwe@cis.upenn.edu
