@@ -12,7 +12,7 @@ active_tab: homework
 Twitter's Language Mix <span class="text-muted">: Assignment 2</span> 
 =============================================================
 
-The second assignment will include using Twitter's streaming API, an off-the-shell language identification tool (langid.py) and (optional) data visualization.
+The second assignment will include using Twitter's streaming API, an off-the-shell language identification tool and (optional) data visualization.
 
 ##### 1. Get >=10k tweets from Twitter Streaming API following the instructions on [Twitter API tutorial](/twittertutorial.html) 
 
