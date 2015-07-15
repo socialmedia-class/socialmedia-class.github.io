@@ -114,7 +114,7 @@
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
 -
   date: 6
-  title: Case Study &num;1 - Multi-Tweet Summarization and the PageRank Algorithm 
+  title: Case Study &num;1 - Automatic Summarization for Twitter and the PageRank Algorithm 
   highlights:
     - SumBasic algorithm
     - PageRank algorithm
