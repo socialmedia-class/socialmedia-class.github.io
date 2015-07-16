@@ -8,7 +8,7 @@ active_tab: main_page
 ---
 
 
-Social media provides a massive amount of valuable information and shows us how language is actually used by lots of people. This course will give an overview of prominent research findings on language use in social media. The course will also cover statistical analysis methods and off-the-shelf tools for obtaining and processing Twitter data.
+Social media provides a massive amount of valuable information and shows us how language is actually used by lots of people. This course will give an overview of prominent research findings on language use in social media. The course will also cover several machine learning algorithms and the core natural language processing techniques for obtaining and processing Twitter data.
 
 
 Instructor
@@ -31,7 +31,7 @@ Place
 
 
 Prerequisites
-: &nbsp;&nbsp;&nbsp;&nbsp; There is no prerequisites for the class. Most content will be accessible for undergraduate and graduate students with any background. 
+: &nbsp;&nbsp;&nbsp;&nbsp; There is no prerequisites for the class. Most content will be accessible for graduate students with any background. Undergraduate students are welcomed too.  
 
 Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
