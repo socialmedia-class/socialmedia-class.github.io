@@ -123,13 +123,15 @@
 
   reading:
     -
-      title:  PageRank Wikipedia Page
+      author: Wikipedia
+      title:  PageRank 
       url: https://en.wikipedia.org/wiki/PageRank
     -
       author: Xu, Grishman, Meyers, Ritter (LASM 2013)
       title:  A Preliminary Study of Tweet Summarization using Information Extraction
       url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
     -
+      author: Matiello et al. 
       title:  Python-Graph (a library for working with graphs in Python)
       url: https://github.com/pmatiello/python-graph
 -
