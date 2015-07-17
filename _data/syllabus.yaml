@@ -97,13 +97,13 @@
 
   reading:
     -
-      author: Gimpel et al.  (ACL 2011)
-      title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
-      url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
-    -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
       title: Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf
+    -
+      author: Gimpel et al.  (ACL 2011)
+      title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
+      url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
     -
       author: Kong et al. (EMNLP 2014)
       title: A Dependency Parser for Tweets
@@ -112,6 +112,10 @@
       author: Ritter, Mausam, Etzioni (KDD 2012)
       title: Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
+    -
+      author: Cherry and Guo (NAACL 2015)
+      title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+      url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
 -
   date: 6
   slides: http://socialmedia-class.org/slides/lecture6_TwitterNLP_summarization.pdf
