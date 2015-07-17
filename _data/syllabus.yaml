@@ -1,6 +1,6 @@
 -
   date: 1
-  slides: http://socialmedia-class.org//slides/lecture1_SocialScience.pdf
+  slides: http://socialmedia-class.org/slides/lecture1_SocialScience.pdf
   title: Big Data Social Science
   highlights:
     - Relationship between social media, big data, data science, natural language processing
@@ -24,7 +24,7 @@
       url: http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2847/3275.pdf
 -
   date: 2
-  slides: http://socialmedia-class.org//slides/lecture2_TwitterAPI.pdf
+  slides: http://socialmedia-class.org/slides/lecture2_TwitterAPI.pdf
   title: Twitter and Twitter API Tutorial
   highlights: 
     - Brief history of Twitter
@@ -47,7 +47,7 @@
 
 -
   date: 3
-  slides: http://socialmedia-class.org//slides/lecture3_TwitterNLP_langid.pdf
+  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
   title: Natural Language Processing for Social Media (part 1)
   highlights:
     - Main research areas and publication venues of NLP
@@ -67,7 +67,7 @@
       
 -
   date: 4
-  slides: http://socialmedia-class.org//slides/lecture4_TwitterNLP_lexical.pdf
+  slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
   title: Natural Language Processing for Social Media (part 2)
   highlights:
     - Challenges in processing social media text
@@ -86,14 +86,14 @@
             
 -
   date: 5
-  slides: http://socialmedia-class.org//slides/lecture5_TwitterNLP_tagging.pdf
+  slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
   title: Natural Language Processing for Social Media (part 3)
   highlights:
     - Part-of-speech tagging
     - Chunking
     - Named entity recognition 
     - Sequential tagging methods (HMM and CRF) and their relations to Naïve Bayes
-    - Unsupervised learing method&colon; Brown Clustering
+    - Unsupervised learning method&colon; Brown Clustering
 
   reading:
     -
@@ -114,6 +114,7 @@
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
 -
   date: 6
+  slides: http://socialmedia-class.org/slides/lecture6_TwitterNLP_summarization.pdf
   title: Case Study &num;1 - Automatic Summarization for Twitter and the PageRank Algorithm 
   highlights:
     - SumBasic algorithm
@@ -136,6 +137,7 @@
       url: https://github.com/pmatiello/python-graph
 -
   date: 7
+  slides: http://socialmedia-class.org/slides/lecture7_TwitterNLP_paraphrase.pdf
   title: Case Study &num;2 - Learning Large-Scale Paraphrases from Twitter 
   highlights:
     - Usefulness of paraphrase
