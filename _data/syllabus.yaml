@@ -37,6 +37,10 @@
       title:  Twitter API Tutorial
       url: http://socialmedia-class.org/twittertutorial.html
     - 
+      author: Justin Johnson
+      title:  Python Numpy Tutorial
+      url: http://cs231n.github.io/python-numpy-tutorial/
+    - 
       author: Nick Parlante
       title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
       url: https://developers.google.com/edu/python/
