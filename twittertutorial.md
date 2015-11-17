@@ -187,7 +187,14 @@ cocoweixu
 
 Note that the same url will have a few different versions in the Twitter stream: *http://t.co/rcygyEowqH* in the text, *http://noisy-text.github.io* as the expanded full version, *noisy-text.github.io* as the display version. 
 
-For long-term data collection, you can consider setup a [cron job](https://en.wikipedia.org/wiki/Cron) or use Mark Dredze's [library](https://github.com/mdredze/twitter_stream_downloader). 
+For long-term data collection, you can consider setup a [cron job](https://en.wikipedia.org/wiki/Cron). If you are interested in running a long term collection of one or multiple streaming queries, consider using [Mark Dredze](http://www.cs.jhu.edu/~mdredze/)'s Twitter
+streaming [library](https://github.com/mdredze/twitter_stream_downloader). 
+The library wraps the basic streaming API with
+several helpful features, such as organizing data into files by data,
+support for multiple feed types, and ensuring feeds remain active
+after interruptions. You can run this library inside of crontab or
+supervisord.
+
 
 
 ###5. Using Twitter Search API and Trends API
