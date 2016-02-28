@@ -21,19 +21,21 @@ Washington for two years. She is organizing the ACL Workshop on Noisy
 User-generated Text.
 
 
-Time 
-: &nbsp;&nbsp;&nbsp;&nbsp; 2-4pm | July 13,14,15,16 \| 2015 
+<br>Time/Place ([registration](http://nasslli2016.rutgers.edu/about_nasslli.html) is now open!)
+
+: &nbsp;&nbsp;&nbsp;&nbsp; The North American Summer School on Logic, Language, and Information (NASSLLI) <br>
+&nbsp;&nbsp;&nbsp;&nbsp; **[July 9-10, 2016](http://nasslli2016.rutgers.edu/about_nasslli.html)** ![new](assets/img/new_1.gif)<br> 
+&nbsp;&nbsp;&nbsp;&nbsp; Rutgers University –- New Brunswick, NJ 
 
 
-Place
-: &nbsp;&nbsp;&nbsp;&nbsp; University of Pennsylvania <br>
-&nbsp;&nbsp;&nbsp;&nbsp;  IRCS Conference Room (Suite 400A [directions](https://www.ircs.upenn.edu/about/directions-ircs)\)
 
-
-Prerequisites
+<br>Prerequisites
 : &nbsp;&nbsp;&nbsp;&nbsp; There is no prerequisites for the class. Most content will be accessible for graduate students with any background. Undergraduate students are welcomed too.  
 
-Course Readings
+<br>Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
+
+<br>Previous Offerings
+: &nbsp;&nbsp;&nbsp;&nbsp; July 2015, University of Pennsylvania (this course was first designed and taught)
 
 

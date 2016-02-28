@@ -70,7 +70,9 @@
         <div class="col-sm-10">
           <h1 id="twitter-api-tutorial">Twitter API tutorial</h1>
 
-<p><strong>by <a href="http://www.cis.upenn.edu/~xwe/">Wei Xu</a>    (July 1, 2015)</strong>      <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+<p><strong>by <a href="http://www.cis.upenn.edu/~xwe/">Wei Xu</a></strong> <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> <strong>  — University of Pennsylvania</strong></p>
+
+<p>(up-to-date Feb 28, 2016; originally written July 1, 2015)</p>
 
 <h3 id="getting-twitter-api-keys">1. Getting Twitter API keys</h3>
 
@@ -231,7 +233,13 @@ cocoweixu
 
 <p>Note that the same url will have a few different versions in the Twitter stream: <em>http://t.co/rcygyEowqH</em> in the text, <em>http://noisy-text.github.io</em> as the expanded full version, <em>noisy-text.github.io</em> as the display version. </p>
 
-<p>For long-term data collection, you can consider setup a <a href="https://en.wikipedia.org/wiki/Cron">cron job</a> or use Mark Dredze’s <a href="https://github.com/mdredze/twitter_stream_downloader">library</a>. </p>
+<p>For long-term data collection, you can setup a <a href="https://en.wikipedia.org/wiki/Cron">cron job</a>. If you are interested in running a long term collection of one or multiple streaming queries, consider using <a href="http://www.cs.jhu.edu/~mdredze/">Mark Dredze</a>’s Twitter
+streaming <a href="https://github.com/mdredze/twitter_stream_downloader">library</a>. 
+This library wraps the basic streaming API with
+several helpful features, such as organizing data into files by data,
+support for multiple feed types, and ensuring feeds remain active
+after interruptions. You can run this library inside of crontab or
+supervisord.</p>
 
 <h3 id="using-twitter-search-api-and-trends-api">5. Using Twitter Search API and Trends API</h3>
 
@@ -341,7 +349,7 @@ via the Python Twitter Tools:
 
       <footer class="text-center text-muted">
         <hr/>
-        Last updated July 17, 2015. <br/>
+        Last updated February 28, 2016. <br/>
         Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
         <br/>
       </footer>
