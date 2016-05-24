@@ -10,11 +10,11 @@ active_tab: tutorial
 Twitter API tutorial 
 =============================================================
 
-**by [Wei Xu](http://www.cis.upenn.edu/~xwe/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;--- University of Pennsylvania**
+**by [Wei Xu](http://www.cis.upenn.edu/~xwe/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(University of Pennsylvania)**
 
-(last updated Feb 28, 2016; originally written July 1, 2015)
+last updated Feb 28, 2016; originally written July 1, 2015
 
-###1. Getting Twitter API keys
+### 1. Getting Twitter API keys
 
 To start with, you will need to have a Twitter account and obtain credentials (i.e. API key, API secret, Access token and Access token secret) on the Twitter developer site to access the Twitter API, following these steps:
 
@@ -24,7 +24,7 @@ To start with, you will need to have a Twitter account and obtain credentials (i
 - Fill out the form, agree to the terms, and click "Create your Twitter application"
 - In the next page, click on "Keys and Access Tokens" tab, and copy your "API key" and "API secret". Scroll down and click "Create my access token", and copy your "Access token" and "Access token secret".
 
-###2. Installing a Twitter library
+### 2. Installing a Twitter library
 
 We will be using a Python library called [Python Twitter Tools](https://pypi.python.org/pypi/twitter) to connect to Twitter API and downloading the data from Twitter. There are [many other libraries](https://dev.twitter.com/overview/api/twitter-libraries>) in various programming languages that let you use Twitter API. We choose the Python Twitter Tools for this tutorial, because it is simple to use yet fully supports the Twitter API. 
 
@@ -39,7 +39,7 @@ $ python setup.py install
 {% endhighlight %}
 
 
-###3. Connecting to Twitter Streaming APIs
+### 3. Connecting to Twitter Streaming APIs
 
 The Streaming APIs give access to (usually a sample of) all tweets as they published on Twitter. On average, about 6,000 tweets per second are posted on Twitter and you (normal dev users) will get a small proportion (<=1%) of it. The Streaming APIs are one of the two types of Twitter APIs. The other one called REST APIs (we will talk about later in this tutorial), which is more suitable for singular searches, such as searching historic tweets, reading user profile information, or posting Tweets. The Streaming API **only** sends out real-time tweets, while the Search API (one of the popular REST APIs) gives historical tweets up to about a week with a max of a couple of hundreds. You may request elevated access (e.g. Firehose, Retweet, Link, Birddog or Shadow) for more data by contacting Twitter's API support. 
 
@@ -129,7 +129,7 @@ Second, by default, streaming API is connecting to the "public streams" --- all 
 twitter_userstream = TwitterStream(auth=oauth, domain='userstream.twitter.com')
 {% endhighlight %}
 
-###4. Reading and Processing Tweets in JSON format
+### 4. Reading and Processing Tweets in JSON format
 
 The streaming API returns [tweets](https://dev.twitter.com/overview/api/tweets), as well as several [other types of messages](https://dev.twitter.com/streaming/overview/messages-types) (e.g. a tweet deletion notice, user update profile notice, etc), all in JSON format. Here we demonstrate how to read and process tweets in details. Other data in JSON format can be processed similarly. 
 
@@ -199,7 +199,7 @@ supervisord.
 
 
 
-###5. Using Twitter Search API and Trends API
+### 5. Using Twitter Search API and Trends API
 
 Besides the streaming APIs, Twitter also provide another type of APIs --- REST APIs. It provides two main functionalities: *GET* data from Twitter and *POST* data (e.g. a tweet from your account) to Twitter. In this tutorial, we will demonstrate three most useful APIs to collect data for social media research: Search (tweets contain certain words), Trends (trending topics) and User (a user's tweets, followers, friends, etc.). For explanations of these key types of data offered by Twitter, see the [lecture slides](syllabus.html) on this course website.
 
@@ -311,7 +311,7 @@ twitter.application.rate_limit_status()
 {% endhighlight %}
 
 
-###6. Learning More about Twitter APIs
+### 6. Learning More about Twitter APIs
 
 This tutorial is meant to help you to start. To learn more about Twitter APIs, here are two ways I found quite sufficient:
 
