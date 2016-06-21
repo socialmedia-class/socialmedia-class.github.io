@@ -12,13 +12,11 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/) is a post-doctoral researcher in the Computer and Information
-Science Department at the University of Pennsylvania. Her research
+: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://www.cis.upenn.edu/~xwe/) will be starting as an assistant professor in the Department of Computer Science and Engineering at the Ohio State University in fall 2016. She is currently a post-doctoral researcher in the Computer and Information Science Department at the University of Pennsylvania. Her research
 interests are in social media and natural language processing. She has received her
-PhD in 2014 from New York University, and is a recipient of the
-MacCracken Fellowship. During her PhD, she visited University of
-Washington for two years. She is organizing the ACL Workshop on Noisy
-User-generated Text.
+PhD in 2014 from New York University. During her PhD, she visited University of
+Washington for two years. She is organizing the ACL/COLING [Workshop on Noisy
+User-generated Text](http://noisy-text.github.io/). She  a workshop co-chair for ACL 2017, an area chair for EMNLP 2016 and the publicity chair for NAACL 2016. 
 
 
 <br>Time/Place ([registration](http://nasslli2016.rutgers.edu/about_nasslli.html) is now open!)
