@@ -14,7 +14,7 @@ Subject to change as the term progresses. (slides will be updated again around J
       <th>Lecture</th>
       <th>Topic</th>
       <th>Readings</th>
-    </tr>
+
     {% for lecture in site.data.syllabus %}
     <tr>
       <td>{{ lecture.date }}</td>
@@ -58,9 +58,8 @@ Subject to change as the term progresses. (slides will be updated again around J
           {% endfor %}
           </ul>
         {% endif %}
-      </td>
-    </tr>
+     
     {% endfor %}
-  </tbody>
+  
 </table>
 
