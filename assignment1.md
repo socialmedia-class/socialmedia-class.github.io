@@ -1,37 +1,42 @@
 ---
 layout: default
-img: firsttweet
-caption: First Twitter ever published on March 21, 2006.  
-img_link: http://time.com/31752/twitter-launches-easy-tool-that-finds-your-first-tweet/
-title: Homework 1 | Become a Twitter User
+img: languagemix
+caption: Twitter's Language Mix in 2013  
+img_link: http://www.technologyreview.com/graphiti/522376/the-many-tongues-of-twitter/
+title: Homework 2 | Twitter's Language Mix
 active_tab: homework
 ---
 
 
 
-Become a Twitter User <span class="text-muted">: Assignment 1</span> 
+Twitter's Language Mix <span class="text-muted">: Assignment 1</span> 
 =============================================================
 
-The first assignment includes two parts: 1) becoming a Twitter user and 2) becoming a Twitter dev user.
+The second assignment will include using Twitter's streaming API, an off-the-shell language identification tool and (optional) data visualization.
+
+##### 1. Get >=10k tweets from Twitter Streaming API following the instructions on [Twitter API tutorial](/twittertutorial.html) 
+
+##### 2. and check:
+- are all tweets LangID tagged (what %) by Twitter?
+- how many different language tags provided by Twitter?
+
+##### 3. then install/run [langid.py](https://github.com/saffsd/langid.py) and check:
+- how many different language tagged?
+- what % langid.py and Twitter’s API agree/disagree?
+- what kind of tweets/languages do they disagree?
+
+##### 4. what about tweets in US?
+- what % of tweets are geotagged?
+- what % of different language of tweets posted from U.S.?
+
+##### 5. (optional) draw some fancy plots 
+- e.g. the language mix in Twitter like the ones in [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981)
+- R is a good package for plotting, [here](http://www.statmethods.net/) is a simpe guide of R. 
 
 
-#### Becoming a Twitter user (if you haven't)
+Send your homework to xwe@cis.upenn.edu
 
-- sign up a Twitter account
-- post a tweet 
-- post a tweet that uses hashtag (may consider using #secondtweet) 
-- follow others
-- look at the trends
-- try search 
-- reply another user (if you don't have anybody in mind, you can try me @cocoweixu)
-- find some cashtags
 
-If you have already had a Twitter account and tweeted before, you can discover your #FirstTweet by [this widget](https://discover.twitter.com/first-tweet#cocoweixu) Twitter launched in 2014. It brings memories. 
-
-#### Becoming a Twitter dev user
-
-- follow the Step 1 in this [Twitter API tutorial](/twittertutorial.html) to sign up for Twitter dev account
-- and follow the Step 2 and 3 to make your first connection to Twitter API!
 
 
 

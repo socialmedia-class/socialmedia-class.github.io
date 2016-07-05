@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 1 | Become a Twitter User</title>
+    <title>Homework 2 | Twitter's Language Mix</title>
 
     <!-- CSS -->
     <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
@@ -51,8 +51,8 @@
             <li id="homework">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework Assignments <span class="caret"></span></a>
               <ol class="dropdown-menu">
-                <li><a href="assignment1.html">Become a Twitter User</a></li>
-                <li><a href="assignment2.html">Twitter's Language Mix</a></li>
+                <li><a href="assignment0.html">0. Become a Twitter User</a></li>
+                <li><a href="assignment1.html">1. Twitter's Language Mix</a></li>
           </ul>
         </nav>
       </div>
@@ -62,37 +62,44 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-2 hidden-sm hidden-xs">
-          <a href="http://time.com/31752/twitter-launches-easy-tool-that-finds-your-first-tweet/"> 
-          <img src="assets/img/firsttweet.jpg" class="img-responsive img-rounded" alt=""/>
+          <a href="http://www.technologyreview.com/graphiti/522376/the-many-tongues-of-twitter/"> 
+          <img src="assets/img/languagemix.jpg" class="img-responsive img-rounded" alt=""/>
           </a> 
-          <span class="text-muted"><i>First Twitter ever published on March 21, 2006.</i></span>
+          <span class="text-muted"><i>Twitter's Language Mix in 2013</i></span>
         </div>
         <div class="col-sm-10">
-          <h1 id="become-a-twitter-user-span-classtext-muted-assignment-1span">Become a Twitter User <span class="text-muted">: Assignment 1</span></h1>
+          <h1 id="twitters-language-mix-span-classtext-muted-assignment-1span">Twitter’s Language Mix <span class="text-muted">: Assignment 1</span></h1>
 
-<p>The first assignment includes two parts: 1) becoming a Twitter user and 2) becoming a Twitter dev user.</p>
+<p>The second assignment will include using Twitter’s streaming API, an off-the-shell language identification tool and (optional) data visualization.</p>
 
-<h4 id="becoming-a-twitter-user-if-you-havent">Becoming a Twitter user (if you haven’t)</h4>
+<h5 id="get-10k-tweets-from-twitter-streaming-api-following-the-instructions-on-twitter-api-tutorialtwittertutorialhtml">1. Get &gt;=10k tweets from Twitter Streaming API following the instructions on <a href="/twittertutorial.html">Twitter API tutorial</a></h5>
 
+<h5 id="and-check">2. and check:</h5>
 <ul>
-  <li>sign up a Twitter account</li>
-  <li>post a tweet </li>
-  <li>post a tweet that uses hashtag (may consider using #secondtweet) </li>
-  <li>follow others</li>
-  <li>look at the trends</li>
-  <li>try search </li>
-  <li>reply another user (if you don’t have anybody in mind, you can try me @cocoweixu)</li>
-  <li>find some cashtags</li>
+  <li>are all tweets LangID tagged (what %) by Twitter?</li>
+  <li>how many different language tags provided by Twitter?</li>
 </ul>
 
-<p>If you have already had a Twitter account and tweeted before, you can discover your #FirstTweet by <a href="https://discover.twitter.com/first-tweet#cocoweixu">this widget</a> Twitter launched in 2014. It brings memories. </p>
-
-<h4 id="becoming-a-twitter-dev-user">Becoming a Twitter dev user</h4>
-
+<h5 id="then-installrun-langidpyhttpsgithubcomsaffsdlangidpy-and-check">3. then install/run <a href="https://github.com/saffsd/langid.py">langid.py</a> and check:</h5>
 <ul>
-  <li>follow the Step 1 in this <a href="/twittertutorial.html">Twitter API tutorial</a> to sign up for Twitter dev account</li>
-  <li>and follow the Step 2 and 3 to make your first connection to Twitter API!</li>
+  <li>how many different language tagged?</li>
+  <li>what % langid.py and Twitter’s API agree/disagree?</li>
+  <li>what kind of tweets/languages do they disagree?</li>
 </ul>
+
+<h5 id="what-about-tweets-in-us">4. what about tweets in US?</h5>
+<ul>
+  <li>what % of tweets are geotagged?</li>
+  <li>what % of different language of tweets posted from U.S.?</li>
+</ul>
+
+<h5 id="optional-draw-some-fancy-plots">5. (optional) draw some fancy plots</h5>
+<ul>
+  <li>e.g. the language mix in Twitter like the ones in <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981">this paper</a></li>
+  <li>R is a good package for plotting, <a href="http://www.statmethods.net/">here</a> is a simpe guide of R. </li>
+</ul>
+
+<p>Send your homework to xwe@cis.upenn.edu</p>
 
 
         </div>
@@ -100,7 +107,7 @@
 
       <footer class="text-center text-muted">
         <hr/>
-        Last updated July 04, 2016. <br/>
+        Last updated July 05, 2016. <br/>
         Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
         <br/>
       </footer>
