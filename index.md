@@ -28,7 +28,7 @@ Instructor
 <br>Upcoming Offerings ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Fall 2016, CSE 5539](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Room CH0218 | Wednesday 2:20PM -- 4:10PM  <br>
-**<font color='red'>This regular course will be significantly more challenging than the summer version that is currently on this website!</font>** <br>  **Prerequisites** In order to succeed in this course, you should be comfortable with probability and statistics. You must know what the chain rule of probability is, and Bayes' rule. You also need to be proficient in programming in Python as most homework assignments will be in Python. 
+**<font color='red'>This regular course will be significantly more challenging than the summer version that is currently on this website!</font>** <br>  **Prerequisites** In order to succeed in this course, you should be comfortable with probability and statistics. You must know what the chain rule of probability is, and Bayes' rule. You also need to be proficient in programming in Python as most projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc). 
 
 <br>Previous Offerings
 : &nbsp;&nbsp;&nbsp;&nbsp; July 2015, University of Pennsylvania (where this course was first designed and taught)
