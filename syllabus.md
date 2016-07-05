@@ -17,7 +17,7 @@ Subject to change as the term progresses. (slides will be updated again around J
 
     {% for lecture in site.data.syllabus %}
     <tr>
-      <td>{{ lecture.date }}</td>
+      <td>{{ lecture.date }}
       <td>
 	{% if lecture.profile %}
 	Company Profile:  
@@ -38,7 +38,6 @@ Subject to change as the term progresses. (slides will be updated again around J
 	   </li></span>
           {% endfor %}
         {% endif %}
-      </td>
       <td>
         {% if lecture.reading %}
           <ul class="fa-ul">
@@ -57,9 +56,7 @@ Subject to change as the term progresses. (slides will be updated again around J
             </li>
           {% endfor %}
           </ul>
-        {% endif %}
-     
+        {% endif %} 
     {% endfor %}
-  
-</table>
+
 
