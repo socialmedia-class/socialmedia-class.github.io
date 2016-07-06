@@ -27,9 +27,9 @@ We will start writing some code! This bootcamp is designed to be a crash-course 
 
 ### 0. Installation of Python and/or Jupyter Notebook
 
-For this bootcamp, I will recommend following [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science.
+For this bootcamp, I will recommend following [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. You can then You download the Jupyter notebook [file](assignments/python-bootcamp/IPythonBootcamp.ipynb), and open it in the [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/running.html) and follow all the instructions (same as on this page but can run interactively) to do your work there. 
 
-Alternatively, if you have trouble installing Anaconda, you can try installing [standalone Python](https://www.python.org/downloads/). 
+Alternatively, if you have trouble installing Anaconda, you can try installing [standalone Python](https://www.python.org/downloads/) anf follow the instructions on this page. 
 
 ### 1. The basics: variables and data structures
 
@@ -38,15 +38,13 @@ Python has the basic variable types you are used to: strings, ints, floats. Unli
 Open up the python interpreter and play with variable assignment and reassignment:
 
 
-{% highlight tcsh %} 
+{% highlight tcsh %}
 $ python
 {% endhighlight %}
 
-{% highlight python %} 
+{% highlight python %}
 # You can comment with pound sign
-"""
-Or with triple quotes
-"""
+
 >>> x = 2
 >>> x
 2
@@ -169,7 +167,7 @@ You can open, read, and write files using the aptly-named open(), read(), and wr
 
 ### 4. Text processing in Python
 
-For this part, you will need to write your code to answer the following questions. You should download the [Jupyter notebook](assignments/python-bootcamp/IPythonBootcamp.ipynb) file, and do all of your work there. 
+For this part, you will need to write your code to answer the following questions. 
  
 We will be playing with a small but oh so wonderful data set of wine reviews! You can download the data [here](assignments/python-bootcamp/data.tgz). You can unpack it as follows, and should see two files:
 
