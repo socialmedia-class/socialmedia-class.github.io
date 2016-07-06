@@ -19,7 +19,7 @@ Instructor
 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[July 9-10, 2016](http://nasslli2016.rutgers.edu/about_nasslli.html) The North American Summer School on Logic, Language, and Information (NASSLLI)** <br>
 &nbsp;&nbsp;&nbsp;&nbsp; Rutgers University –- New Brunswick, NJ <br>
-**<font color='red'>Remember to bring your laptop to the class and have Python installed</font>**  <br>
+**<font color='red'>Remember to bring your laptop to the class and have the [Jupyter Notebook (or Python) installed](/python_bootcamp.html) !</font>**  <br>
 **Prerequisites** There is no prerequisites for this summer class. Most content will be accessible for graduate students with any background. Undergraduate students are welcomed too.  
 
 <br>Course Readings
