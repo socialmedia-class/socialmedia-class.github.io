@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Bootcamp</title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="assets/css/syntax.css" rel="stylesheet" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="tutorial"><a href="twittertutorial.html">Twitter API Tutorial</a></li>
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework<span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment0.html">0. Become a Twitter User</a></li>
+                <li><a href="assignment1.html">1. Twitter's Language Mix</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+          <a href="http://xkcd.com/353/"> 
+          <img src="assets/img/python.jpg" class="img-responsive img-rounded" alt=""/>
+          </a> 
+          <span class="text-muted"><i>Hello world!</i></span>
+        </div>
+        <div class="col-sm-10">
+          <!-- Check whether the assignment is up to date -->
+
+<!-- End of check whether the assignment is up to date -->
+
+<h1 id="python-bootcamp">Python Bootcamp</h1>
+<p>(credit: Ellie Pavlick for this material)</p>
+
+<p>We will start writing some code! This bootcamp is designed to be a crash-course to get you up to speed on Python programming. </p>
+
+<h3 id="installation-of-python-andor-jupyter-notebook">0. Installation of Python and/or Jupyter Notebook</h3>
+
+<p>For this bootcamp, I will recommend following <a href="http://jupyter.readthedocs.io/en/latest/install.html">this guide</a> to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science.</p>
+
+<p>Alternatively, if you have trouble installing Anaconda, you can try installing <a href="https://www.python.org/downloads/">standalone Python</a>. </p>
+
+<h3 id="the-basics-variables-and-data-structures">1. The basics: variables and data structures</h3>
+
+<p>Python has the basic variable types you are used to: strings, ints, floats. Unlike Java and many other languages, variables are not type-checked. You simply declare a variable by assigning a value to it. Later, you can reassign a different type to that same variable and Python couldn’t care less.</p>
+
+<p>Open up the python interpreter and play with variable assignment and reassignment:</p>
+
+<div class="highlight"><pre><code class="language-tcsh" data-lang="tcsh"><span class="nv">$ </span>python</code></pre></div>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># You can comment with pound sign</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Or with triple quotes</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span>
+<span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="s">&quot;hello world&quot;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">y</span>
+<span class="s">&#39;hello world&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">y</span> <span class="c"># Notice the lack of whining about &quot;incompatible types&quot;...</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span>
+<span class="s">&#39;hello world&#39;</span></code></pre></div>
+
+<p>This also means that you can mix variable types within a data structure. There is no need to specify that L is a list of ints or that M is a map from strings to floats.</p>
+
+<p>Lists are declared with square brackets and indexed using square bracket notation. They can also be treated as stacks, if you are into that sort of thing. </p>
+
+<p>Create a list of ints. Then, in order to drive those Scala people insane, start appending strings to it. Play with indexing and slicing. In Python, you can use the colon notation to pull out slices of a list. E.g. lst[i:j] will give you a new list which includes the ith through the (j-1)th elements of lst.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">l</span><span class="p">:</span> <span class="c">#We&#39;ll talk about loops more in a bit</span>
+<span class="o">...</span>	<span class="k">print</span> <span class="n">elem</span> 
+<span class="o">...</span> 
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">&quot;i am a string. mwahahaha.&quot;</span><span class="p">)</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">l</span><span class="p">:</span> 
+<span class="o">...</span>	<span class="k">print</span> <span class="n">elem</span> 
+<span class="o">...</span> 
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+<span class="n">i</span> <span class="n">am</span> <span class="n">a</span> <span class="n">string</span><span class="o">.</span> <span class="n">mwahahaha</span><span class="o">.</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span> <span class="o">+=</span> <span class="p">[</span><span class="s">&#39;here is more stuff&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">],</span> <span class="mi">5</span><span class="o">*</span><span class="mi">1367</span><span class="p">]</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">l</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s">&#39;i am a string. mwahahaha.&#39;</span><span class="p">,</span> <span class="s">&#39;here is more stuff&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="mi">6835</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span> 
+<span class="mi">6835</span></code></pre></div>
+
+<p>Dictionaries (or maps or associative arrays) are probably the favorite data structure of Python. They are a simple key/value store, again without any restrictions on which data types are the keys or values. You can declare dictionaries with curly braces and associate or retrieve keys and values using square bracket notation.</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;give me an A!&quot;</span> <span class="p">:</span> <span class="s">&quot;B&quot;</span><span class="p">,</span> <span class="s">&quot;give me a P!&quot;</span> <span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="s">&quot;give me a Q!&quot;</span> <span class="p">:</span> <span class="s">&quot;no.&quot;</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="p">[</span><span class="s">&quot;give me a P!&quot;</span><span class="p">]</span>
+<span class="mi">7</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="p">[</span><span class="mi">14</span><span class="p">]</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span>
+<span class="p">{</span><span class="s">&#39;give me a Q!&#39;</span><span class="p">:</span> <span class="s">&#39;no.&#39;</span><span class="p">,</span> <span class="s">&#39;give me an A!&#39;</span><span class="p">:</span> <span class="s">&#39;B&#39;</span><span class="p">,</span> <span class="mi">14</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span> <span class="s">&#39;give me a P!&#39;</span><span class="p">:</span> <span class="mi">7</span><span class="p">}</span> <span class="c"># the new k/v pair was added to d</span></code></pre></div>
+
+<h3 id="control-structures-and-functions">2. Control structures and functions</h3>
+
+<p>Python makes it easy to write bad code. But it makes it <em>very</em> hard to write ugly code. So chalk one up for superficiality. Python uses whitespace to denote control structures, like loops and if/else blocks. By convention, you should use four spaces for each level of indentation. </p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">l</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s">&#39;here is more stuff&#39;</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
+<span class="c"># Here is a for loop. </span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">l</span><span class="p">:</span>
+<span class="o">...</span>     <span class="k">print</span> <span class="n">elem</span>
+<span class="o">...</span> 
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+<span class="n">here</span> <span class="ow">is</span> <span class="n">more</span> <span class="n">stuff</span>
+<span class="mi">6</span>
+<span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="c"># Here is a while loop</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span> <span class="p">:</span> 
+<span class="o">...</span>     <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span> 
+<span class="o">...</span>             <span class="k">print</span> <span class="s">&quot;even&quot;</span>
+<span class="o">...</span>     <span class="k">else</span> <span class="p">:</span> 
+<span class="o">...</span>             <span class="k">print</span> <span class="s">&quot;odd&quot;</span>
+<span class="o">...</span>     <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="o">...</span> 
+<span class="n">even</span>
+<span class="n">odd</span>
+<span class="n">even</span>
+<span class="n">odd</span>
+<span class="n">even</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">No types are required for parameters, so commenting is SO important. So important.</span>
+<span class="sd">Returns the idx element of a list</span>
+
+<span class="sd">lst - the list </span>
+<span class="sd">idx - the integer index of the element to return</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">get_list_element</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">idx</span><span class="p">)</span> <span class="p">:</span> 
+<span class="o">...</span>     <span class="k">return</span> <span class="n">lst</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span>
+<span class="o">...</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">get_list_element</span><span class="p">(</span><span class="n">l</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="mi">6</span></code></pre></div>
+
+<h3 id="file-io">3. File IO</h3>
+
+<p>You can open, read, and write files using the aptly-named open(), read(), and write() commands. read() returns the entire contents of the file as a string. readlines() will split on the newline character and return the lines as a list, which is generally nicer for allowing you to iterate line-by-line. I won’t go through an example here, but I highly recommend playing with the <a href="https://docs.python.org/2/library/csv.html">csv module</a>, which is incredibly useful and we will likely use regularly throughout the semester. </p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="nb">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;test.txt&#39;</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="p">[</span><span class="s">&#39;line1&#39;</span><span class="p">,</span> <span class="s">&#39;line2&#39;</span><span class="p">,</span> <span class="s">&#39;line3&#39;</span><span class="p">,</span> <span class="s">&#39;line4&#39;</span><span class="p">]</span> <span class="p">:</span> 
+<span class="o">...</span>     <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">s</span><span class="o">+</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">)</span>
+<span class="o">...</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">contents</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;test.txt&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">contents</span>
+<span class="s">&#39;line1</span><span class="se">\n</span><span class="s">line2</span><span class="se">\n</span><span class="s">line3</span><span class="se">\n</span><span class="s">line4</span><span class="se">\n</span><span class="s">&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">contents</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;test.txt&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">contents</span>
+<span class="p">[</span><span class="s">&#39;line1</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;line2</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;line3</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;line4</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">]</span></code></pre></div>
+
+<h3 id="text-processing-in-python">4. Text processing in Python</h3>
+
+<p>For this part, you will need to write your code to answer the following questions. You should download the <a href="assignments/python-bootcamp/IPythonBootcamp.ipynb">Jupyter notebook</a> file, and do all of your work there. </p>
+
+<p>We will be playing with a small but oh so wonderful data set of wine reviews! You can download the data <a href="assignments/python-bootcamp/data.tgz">here</a>. You can unpack it as follows, and should see two files:</p>
+
+<div class="highlight"><pre><code class="language-tcsh" data-lang="tcsh"><span class="nv">$ </span>tar -xzvf data.tgz 
+x data/
+x data/stopwords.txt
+x data/wine.txt
+<span class="nv">$ </span>ls data
+stopwords.txt	wine.txt</code></pre></div>
+
+<p>wine.txt is in the format of one review per line, followed but a star rating between 1 and 5 (except for 3 reviews, where the review decided to go rogue and give 6 stars. Pft.) The text of the review and the star rating are separated by a single tab character. There is also a file called stopwords.txt. You will use this in question 6.</p>
+
+<p>Write a python script that answers each of the following questions and prints the answer to standard output:</p>
+
+<ol>
+  <li>What is the distribution over star ratings?</li>
+  <li>What are the 10 most common words used across all of the reviews, and how many times is each used?</li>
+  <li>How many times does the word ‘a’ appear?</li>
+  <li>How many times does the word ‘fruit’ appear?</li>
+  <li>How many times does the word ‘mineral’ appear?</li>
+  <li>Common words (like ‘a’) are not as interesting as uncommon words (like ‘mineral’). In natural language processing, we call these common words “stop words” and often remove them before we process text. stopwords.txt gives you a list of some very common words. Remove these stopwords from your reviews. Also, try converting all the words to lower case (since we probably don’t want to count ‘fruit’ and ‘Fruit’ as two different words). Now what are the 10 most common words across all of the reviews, and how many times is each used?</li>
+  <li>You should continue to use the preprocessed reviews for the following questions (lower-cased, no stopwords).  What are the 10 most used words among the 5 star reviews, and how many times is each used? </li>
+  <li>What are the 10 most used words among the 1 star reviews, and how many times is each used? </li>
+  <li>Gather two sets of reviews: 1) Those that use the word “red” and 2) those that use the word “white”. What are the 10 most frequent words in the “red” reviews which do NOT appear in the “white” reviews?</li>
+  <li>What are the 10 most frequent words in the “white” reviews which do NOT appear in the “red” reviews?</li>
+</ol>
+
+<p>You can compare your answers against <a href="assignments/python-bootcamp/bootcamp-key.txt">our key</a> to see if you have done things correctly. I highly recommend looking into the functions available in the <a href="https://docs.python.org/2/library/string.html">python string module</a>.</p>
+
+<p>That’s it! </p>
+
+<h3 id="bonus-bash-bootcamp">Bonus! Bash bootcamp.</h3>
+
+<p>Knowing more than one scripting language increases your productivity 1 zillion fold (proven fact). If you breezed through the python bootcamp and are sitting and twiddling your thumbs, try brushing up your bash programming skills by doing the following questions using the same wine.txt file. Many of them are the same or similar to what you just did in python. Think about how these operations are conceptually different when you write in bash compared to python. Check out this <a href="http://crowdsourcing-class.org/bash-commands.html">cheat sheet</a> of bash commands to get you started.</p>
+
+<ol>
+  <li>How many lines are there in the file?</li>
+  <li>What is the distribution over star ratings?</li>
+  <li>How many reviews contain the word ‘a’?</li>
+  <li>How many reviews contain the word ‘fruit’?</li>
+  <li>How many reviews contain the word ‘mineral’?</li>
+  <li>Make a new file containing the full text of all the reviews, with one word per line. (You don’t have to do this in python, but I think that is the easiest way. If you want to try a new command-line tool, check out <a href="http://stackoverflow.com/questions/1853009/replace-all-whitespace-with-a-line-break-paragraph-mark-to-make-a-word-list">sed</a>). </li>
+  <li>How many total words appear in your list?</li>
+  <li>How many unique words appear in your list?</li>
+  <li>What are the 10 most common words used across all of the reviews, and how many times is each used?</li>
+  <li>How many times does the word “red” appear? (Be careful of capitalization!)</li>
+</ol>
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated July 05, 2016. <br/>
+        Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#homework").addClass("active");
+      });
+    </script>
+  </body>
+</html>

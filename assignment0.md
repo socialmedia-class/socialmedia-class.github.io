@@ -3,7 +3,7 @@ layout: default
 img: firsttweet
 caption: First Twitter ever published on March 21, 2006.  
 img_link: http://time.com/31752/twitter-launches-easy-tool-that-finds-your-first-tweet/
-title: Homework 1 | Become a Twitter User
+title: Homework 0 | Become a Twitter User
 active_tab: homework
 ---
 
