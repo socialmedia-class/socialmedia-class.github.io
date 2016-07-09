@@ -27,7 +27,7 @@ We will start writing some code! This bootcamp is designed to be a crash-course 
 
 ### 0. Installation of Python and/or Jupyter Notebook
 
-For this bootcamp, I will recommend following [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. You can then You download the Jupyter notebook [file](assignments/python-bootcamp/IPythonBootcamp.ipynb), and open it in the [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/running.html) and follow all the instructions (same as on this page but can run interactively) to do your work there. 
+For this bootcamp, I will recommend following [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. You can then download the Jupyter notebook [file](assignments/python-bootcamp/IPythonBootcamp.ipynb), and open it in the [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/running.html) and follow all the instructions (same as on this page but can run interactively) to do your work there. 
 
 Alternatively, if you have trouble installing Anaconda, you can try installing [standalone Python](https://www.python.org/downloads/) anf follow the instructions on this page. 
 
