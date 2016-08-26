@@ -12,7 +12,7 @@ active_tab: homework
 Twitter's Language Mix <span class="text-muted">: Assignment 1</span> 
 =============================================================
 
-(Due Wednesday September 7th; 20% penalty per day for late submission.)
+(Due Wednesday September 7th, 2016; 20% penalty per day for late submission.)
 
 The second assignment will include using Twitter's streaming API, an off-the-shell language identification tool and data visualization.
 
