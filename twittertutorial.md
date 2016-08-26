@@ -10,7 +10,7 @@ active_tab: tutorial
 Twitter API tutorial 
 =============================================================
 
-**by [Wei Xu](http://www.cis.upenn.edu/~xwe/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(University of Pennsylvania)**
+**by [Wei Xu](http://www.cis.upenn.edu/~xwe/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
 
 last updated Feb 28, 2016; originally written July 1, 2015
 
