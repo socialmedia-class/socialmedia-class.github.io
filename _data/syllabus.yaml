@@ -1,31 +1,23 @@
 -
   date: 1
-  slides: http://socialmedia-class.org/slides/lecture1_SocialScience.pdf
-  title: Big Data Social Science
+  slides: http://socialmedia-class.org/slides/lecture1_Intro.pdf
+  title: (NEW) Introduction 
   highlights:
-    - Relationship between social media, big data, data science, natural language processing
-    - Social science research on finance, politics, health, human behavivor, etc. 
+    - Introduction of social media and natural language processing research
+    - Overview of the course and grading
   reading:
     -
       author: Golder and Macy (Science 2011) 
       title: Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
       url: http://www3.ntu.edu.sg/home/linqiu/teaching/psychoinformatics/Diurnal%20and%20Seasonal%20Mood%20Vary%20Across%20Diverse%20Cultures.pdf
     -
-      author: Hanna Wallach (2014) 
-      title: Big Data, Machine Learning, and the Social Sciences
-      url: https://medium.com/@hannawallach/big-data-machine-learning-and-the-social-sciences-927a8e20460d
-    -
       author: Kwak, Lee, Park and Moon (WWW 2010) 
       title:  What is Twitter, a Social Network or a News Media?  
       url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
-    -
-      author: Conover, Francisco, Flammini, Flammini (ICWSM 2011)
-      title:  Political Polarization on Twitter 
-      url: http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2847/3275.pdf
 -
   date: 2
   slides: http://socialmedia-class.org/slides/lecture2_TwitterAPI.pdf
-  title: Twitter and Twitter API Tutorial
+  title: (OLD) Twitter and Twitter API Tutorial 
   highlights: 
     - Brief history of Twitter
     - Key features of Twitter
@@ -52,7 +44,7 @@
 -
   date: 3
   slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
-  title: Natural Language Processing for Social Media (part 1)
+  title: (OLD) Natural Language Processing for Social Media - part 1
   highlights:
     - Main research areas and publication venues of NLP
     - Domain/Genre Difference
@@ -72,7 +64,7 @@
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
-  title: Natural Language Processing for Social Media (part 2)
+  title: (OLD) Natural Language Processing for Social Media - part 2
   highlights:
     - Challenges in processing social media text
     - Tokenization
@@ -91,7 +83,7 @@
 -
   date: 5
   slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
-  title: Natural Language Processing for Social Media (part 3)
+  title: (OLD) Natural Language Processing for Social Media - part 3
   highlights:
     - Part-of-speech tagging
     - Chunking
@@ -123,7 +115,7 @@
 -
   date: 6
   slides: http://socialmedia-class.org/slides/lecture6_TwitterNLP_summarization.pdf
-  title: Case Study &num;1 - Automatic Summarization for Twitter and the PageRank Algorithm 
+  title: (OLD) Case Study &num;1 - Automatic Summarization for Twitter and the PageRank Algorithm 
   highlights:
     - SumBasic algorithm
     - PageRank algorithm
@@ -146,7 +138,7 @@
 -
   date: 7
   slides: http://socialmedia-class.org/slides/lecture7_TwitterNLP_paraphrase.pdf
-  title: Case Study &num;2 - Learning Large-Scale Paraphrases from Twitter 
+  title: (OLD) Case Study &num;2 - Learning Large-Scale Paraphrases from Twitter 
   highlights:
     - Usefulness of paraphrase
     - Overview of paraphrase research

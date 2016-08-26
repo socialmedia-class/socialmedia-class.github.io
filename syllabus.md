@@ -6,7 +6,7 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses. 
+Subject to change as the term progresses. The lectures marked as NEW are for CSE 5539-0010 Fall 2017. The lectures marked as OLD are used at NASSLLI, which are to be updated and used in CSE 5539. 
 
 <table class="table table-striped"> 
   <tbody>
