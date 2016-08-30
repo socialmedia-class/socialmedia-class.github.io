@@ -37,7 +37,7 @@ This assignment includes using Twitter's streaming API, an off-the-shell languag
 - Matplotlib is a Python package for plotting, [here](http://matplotlib.org/users/pyplot_tutorial.html) is a simpe guide of Matplotlib. 
 
 
-Submit your homework in [OSU's Carmen](https://carmen.osu.edu/) system.
+Pack your data and code into a zip file named like hw1_yourdotid.zip. Submit your homework in [OSU's Carmen](https://carmen.osu.edu/) system.
 
 
 
