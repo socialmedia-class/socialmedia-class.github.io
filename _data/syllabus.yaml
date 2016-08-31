@@ -1,7 +1,7 @@
 -
-  date: 1
+  date: August 24, 2016
   slides: http://socialmedia-class.org/slides/lecture1_Intro.pdf
-  title: (NEW) Introduction 
+  title: Introduction 
   highlights:
     - Introduction of social media and natural language processing research
     - Overview of the course and grading
@@ -15,9 +15,9 @@
       title:  What is Twitter, a Social Network or a News Media?  
       url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
 -
-  date: 2
-  slides: http://socialmedia-class.org/slides/lecture2_TwitterAPI.pdf
-  title: (OLD) Twitter and Twitter API Tutorial 
+  date: August 31, 2016
+  slides: http://socialmedia-class.org/slides/lecture2_api.pdf
+  title: Twitter and Twitter API Tutorial 
   highlights: 
     - Brief history of Twitter
     - Key features of Twitter
