@@ -14,7 +14,7 @@ Twitter's Language Mix <span class="text-muted">: Assignment 1</span>
 
 (Due Wednesday September 7th, 2016; 20% penalty per day for late submission.)
 
-This assignment includes using Twitter's streaming API, an off-the-shell language identification tool and data visualization.
+This assignment includes using Twitter's streaming API, an off-the-shell language identification tool and data visualization. Some of the questions are open-ended, which means that there is no single best answer (do the best you can) and the grading will not be strict. 
 
 ##### 1. Get >=10k tweets from Twitter Streaming API following the instructions on [Twitter API tutorial](/twittertutorial.html) 
 
