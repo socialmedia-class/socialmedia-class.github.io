@@ -39,8 +39,30 @@
     - 
       author: Bird, Klein, Loper
       title: Intro to NLP in Python
-      url: http://www.nltk.org/book/
-      
+      url: http://www.nltk.org/book/   
+-
+  date: September 7, 2016
+  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
+  title: (OLD) Natural Language Processing for Social Media - part 1
+  highlights:
+    - Domain/Genre Difference
+    - Language Identification 
+    - Supervised Learning and Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+
+  reading:
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf      
 -
   date: September 26, 2016 (Monday)
   slides: http://web.stanford.edu/~jiweil/
@@ -57,28 +79,7 @@
     - 
       author:  Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky (NAACL 2016)
       title:  Visualizing and Understanding Neural Models in NLP
-      url: http://www.aclweb.org/anthology/N16-1082.pdf
-      
--
-  date: 3
-  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
-  title: (OLD) Natural Language Processing for Social Media - part 1
-  highlights:
-    - Main research areas and publication venues of NLP
-    - Domain/Genre Difference
-    - Language identification 
-    - Classification method&colon; Naïve Bayes + feature selection (Information Gain)
-
-  reading:
-    -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
-      url: http://www.aclweb.org/anthology/I13-1041.pdf
-    -
-      author: Lui, Baldwin (ACL 2012)
-      title: langid.py&colon; An Off-the-shelf Language Identification Tool
-      url: http://www.aclweb.org/anthology/P12-3005.pdf
-      
+      url: http://www.aclweb.org/anthology/N16-1082.pdf      
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
