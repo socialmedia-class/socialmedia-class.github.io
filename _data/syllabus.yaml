@@ -40,7 +40,25 @@
       author: Bird, Klein, Loper
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/
+      
+-
+  date: September 26, 2016 (Monday)
+  slides: http://web.stanford.edu/~jiweil/
+  title: Invited Talk by Jiwei Li (Stanford)
+  highlights: 
+    - 4:00 -- 5:00pm, Dreese 480
 
+
+  reading:
+    -
+      author:  Jiwei Li, Alan Ritter, Eduard H Hovy (ACL 2014)
+      title:  Weakly Supervised User Profile Extraction from Twitter
+      url: http://www.aclweb.org/anthology/P14-1016.pdf
+    - 
+      author:  Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky (NAACL 2016)
+      title:  Visualizing and Understanding Neural Models in NLP
+      url: http://www.aclweb.org/anthology/N16-1082.pdf
+      
 -
   date: 3
   slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
