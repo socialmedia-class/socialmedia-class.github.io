@@ -27,7 +27,7 @@ Instructor
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
 <br>Grading
-: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will three hands-on programming assignments.
+: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments.
 
 * Homework #1 (20 points/individual)
 * Homework #2 (30 points/individual)
