@@ -26,7 +26,17 @@ Instructor
 <br>Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
+<br>Grading
+: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will three hands-on programming assignments.
 
+* Homework #1 (20 points/individual)
+* Homework #2 (30 points/individual)
+* Homework #3 (30 points/group) or a research project (optional)
+* In-class Presentation (20 points/group)
+* Quizzes (bonus 10 points)
+* Participation in class and/or on the **[Piazza](https://piazza.com/class/ishtc5j4j6h4p9) discussion board** (bonus 10 points)
+
+&nbsp;&nbsp;&nbsp;&nbsp; Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. 
 
 <br>Previous Offerings
 : &nbsp;&nbsp;&nbsp;&nbsp; Summer 2016, [The North American Summer School on Logic, Language, and Information (NASSLLI)](http://nasslli2016.rutgers.edu/about_nasslli.html) 
