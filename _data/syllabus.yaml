@@ -43,7 +43,7 @@
 -
   date: September 7, 2016
   slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
-  title: (OLD) Natural Language Processing for Social Media - part 1
+  title: Language Identification and Naïve Bayes
   highlights:
     - Domain/Genre Difference
     - Language Identification 
