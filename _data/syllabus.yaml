@@ -66,8 +66,25 @@
     -
       author: Sunil Ray 
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
-      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/
-          
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+-
+  date: September 14, 2016 
+  slides: 
+  title: Paraphrase - part 1
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, PPDB (Paraphrase Database), etc. 
+    - Microsoft Research Paraphrase Corpus
+  reading:
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)
+      title:  PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+
 -
   date: September 26, 2016 (Monday)
   slides: http://web.stanford.edu/~jiweil/
@@ -86,7 +103,7 @@
 -
   date: September 28, 2016 
   slides: 
-  title: no class -- go to Jiwei (Monday) and Jeniya (Friday)'s talks instead
+  title: no class - go to Jiwei (Monday) and Jeniya (Friday)'s talks instead
 -
   date: September 30, 2016 (Friday)
   slides: https://sites.google.com/site/jeniyatabassum/
