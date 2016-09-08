@@ -4,7 +4,7 @@
   title: Introduction 
   highlights:
     - Introduction of social media and natural language processing research
-    - Overview of the course and grading
+    - Overview of the course
   reading:
     -
       author: Golder and Macy (Science 2011) 
@@ -74,8 +74,6 @@
   title: Invited Talk by Jiwei Li (Stanford)
   highlights: 
     - 4:00 -- 5:00pm, Dreese 480
-
-
   reading:
     -
       author:  Jiwei Li, Alan Ritter, Eduard H Hovy (ACL 2014)
@@ -84,7 +82,23 @@
     - 
       author:  Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky (NAACL 2016)
       title:  Visualizing and Understanding Neural Models in NLP
-      url: http://www.aclweb.org/anthology/N16-1082.pdf      
+      url: http://www.aclweb.org/anthology/N16-1082.pdf    
+-
+  date: September 28, 2016 
+  slides: 
+  title: no class -- go to Jiwei (Monday) and Jeniya (Friday)'s talks instead
+-
+  date: September 30, 2016 (Friday)
+  slides: https://sites.google.com/site/jeniyatabassum/
+  title: AI Seminar Talk by Jeniya Tabassum (OSU)
+  highlights: 
+    - 3:00 -- 4:00pm, Dreese 263
+    - A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
+  reading:
+    -
+      author:   Jeniya Tabassum, Alan Ritter, Wei Xu (EMNLP 2016)
+      title:  A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
+      url: https://arxiv.org/pdf/1608.02904v1.pdf
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
