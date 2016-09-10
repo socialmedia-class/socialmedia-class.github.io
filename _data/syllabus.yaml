@@ -77,6 +77,10 @@
     - Microsoft Research Paraphrase Corpus
   reading:
     - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    - 
       author:  Chris Brockett and Bill Dolan (IWP 2005)
       title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
       url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
