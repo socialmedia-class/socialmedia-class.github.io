@@ -73,8 +73,7 @@
   title: Paraphrase Data Sources
   highlights: 
     - Overview of paraphrase research 
-    - WordNet, DIRT, PPDB (Paraphrase Database), etc. 
-    - Microsoft Research Paraphrase Corpus
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
   reading:
     - 
       author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
