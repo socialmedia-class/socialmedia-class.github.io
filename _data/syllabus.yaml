@@ -94,14 +94,15 @@
   highlights: 
     - 4:00 -- 5:00pm, Dreese 480
   reading:
+    - 
+      author:  Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao and Dan Jurafsky. (EMNLP 2016)
+      title:  Deep Reinforcement Learning for Dialogue Generation
+      url: https://arxiv.org/pdf/1606.01541.pdf
     -
       author:  Jiwei Li, Alan Ritter, Eduard H Hovy (ACL 2014)
       title:  Weakly Supervised User Profile Extraction from Twitter
       url: http://www.aclweb.org/anthology/P14-1016.pdf
-    - 
-      author:  Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky (NAACL 2016)
-      title:  Visualizing and Understanding Neural Models in NLP
-      url: http://www.aclweb.org/anthology/N16-1082.pdf    
+
 -
   date: September 28, 2016 
   slides: 
