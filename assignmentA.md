@@ -16,7 +16,7 @@ You will pair together (2 students) and give a 8-minute presentation (plus 2-min
 
 First, please **[sign up](https://docs.google.com/spreadsheets/d/1M-m8OURTxmXSNRbkzXTg4-Air_tZ0WwPSdbM4YpZ-rs/edit?usp=sharing)** to pick a date you want to present, and pick a social media platform (a list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP research group (a list [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). 
 
-Second, after your presentation in the class, **upload your slides** to [OSU's Carmen](https://carmen.osu.edu/) system. 
+Second, after your presentation in the class, **upload your slides** to [OSU's Carmen](https://carmen.osu.edu/) system. Your slides will be also published on this course website. 
 
 
 
