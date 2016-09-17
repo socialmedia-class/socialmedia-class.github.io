@@ -92,8 +92,10 @@
   slides: 
   title: Paraphrase Identification and Logisitc Regression
   highlights: 
-    - Log-linear Model and Decision Boundary
-    - Cost Function and Gradient Descent 
+    - Log-linear Model 
+    - Decision Boundary
+    - Cost Function 
+    - Gradient Descent 
     - Evaluation&colon; Precision, Recall, F-measure
   reading:
     - 
