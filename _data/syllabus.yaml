@@ -92,7 +92,7 @@
   slides: 
   title: Paraphrase Identification
   highlights: 
-    -   
+    - Logistic Regression  
   reading:
     - 
       author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
@@ -103,10 +103,9 @@
       title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
       url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
     - 
-      author:  Weiwei Guo and Mona Diab (ACL 2012)
-      title:  Modeling Sentences in the Latent Space
-      url: http://www.aclweb.org/anthology/P12-1091.pdf
-
+      author:  Andrew Ng
+      title:  Lecture Note on Supervise Learning
+      url: http://socialmedia-class.org/slides/notes1_AndrewNg.pdf        
 -
   date: September 26, 2016 (Monday)
   slides: https://cse.osu.edu/events/2016/09/guest-speaker-jiwei-li
@@ -140,6 +139,24 @@
       author:   Jeniya Tabassum, Alan Ritter, Wei Xu (EMNLP 2016)
       title:  A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
       url: https://arxiv.org/pdf/1608.02904v1.pdf
+-
+  date: September 28, 2016 
+  slides: 
+  title: Twitter Paraphrase 
+  highlights: 
+    - Multiple Instance Learning
+    - Conditional Log-linear Models with Latant Variable 
+    - Crowdsourcing  
+  reading:
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
+      title:  Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
+    - 
+      author:  Weiwei Guo and Mona Diab (ACL 2012)
+      title:  Modeling Sentences in the Latent Space
+      url: http://www.aclweb.org/anthology/P12-1091.pdf
+
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
