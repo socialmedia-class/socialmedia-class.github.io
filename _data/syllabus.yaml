@@ -52,9 +52,9 @@
 
   reading:
     -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
-      url: http://www.aclweb.org/anthology/I13-1041.pdf
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
     -
       author: Lui, Baldwin (IJCNLP 2011) 
       title: Cross-domain Feature Selection for Language Identification 
@@ -64,9 +64,9 @@
       title: langid.py&colon; An Off-the-shelf Language Identification Tool
       url: http://www.aclweb.org/anthology/P12-3005.pdf
     -
-      author: Sunil Ray 
-      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
-      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
 -
   date: September 14, 2016 
   slides: http://socialmedia-class.org/slides/lecture4_paraphrase_data.pdf
@@ -92,20 +92,18 @@
   slides: 
   title: Paraphrase Identification and Logisitc Regression
   highlights: 
-    - 
+    - Log-linear Model and Decision Boundary
+    - Cost Function and Gradient Descent 
+    - Evaluation&colon; Precision, Recall, F-measure
   reading:
-    - 
-      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
-      title:  Extracting Lexically Divergent Paraphrases from Twitter
-      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
-    -
-      author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
-      title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
-      url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
     - 
       author:  Andrew Ng
       title:  Lecture Note on Supervised Learning
       url: http://socialmedia-class.org/slides/notes1_AndrewNg.pdf        
+    -
+      author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
+      title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
+      url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
 -
   date: September 26, 2016 (Monday)
   slides: https://cse.osu.edu/events/2016/09/guest-speaker-jiwei-li
