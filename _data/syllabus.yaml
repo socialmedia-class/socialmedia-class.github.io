@@ -90,9 +90,9 @@
 -
   date: September 21, 2016 
   slides: 
-  title: Paraphrase Identification
+  title: Paraphrase Identification and Logisitc Regression
   highlights: 
-    - Logistic Regression  
+    - 
   reading:
     - 
       author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
@@ -142,7 +142,7 @@
 -
   date: Octorber 5, 2016 
   slides: 
-  title: Twitter Paraphrase 
+  title: Twitter Paraphrase and Latent Variable Model
   highlights: 
     - Multiple Instance Learning
     - Conditional Log-linear Model with Latant Variables 
