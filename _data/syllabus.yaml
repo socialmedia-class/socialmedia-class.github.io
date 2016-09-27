@@ -115,16 +115,11 @@
     - Linear Regression 
     - Cost Function 
     - Gradient Descent 
-    - Evaluation&colon; Precision, Recall, F-measure
   reading:
     - 
       author:  Andrew Ng
       title:  Lecture Note on Supervised Learning
       url: http://socialmedia-class.org/slides/notes1_AndrewNg.pdf        
-    -
-      author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
-      title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
-      url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
 -
   date: September 30, 2016 (Friday)
   slides: https://sites.google.com/site/jeniyatabassum/
@@ -140,6 +135,22 @@
 -
   date: Octorber 5, 2016 
   slides: 
+  title: Paraphrase Identification and Logisitc Regression (cont')
+  highlights: 
+    - Logistic Regression  
+    - Evaluation&colon; Precision, Recall, F-measure
+  reading:
+    - 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+    -
+      author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
+      title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
+      url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
+-
+  date: Octorber 12, 2016 
+  slides: 
   title: Twitter Paraphrase and Latent Variable Model
   highlights: 
     - Multiple Instance Learning
@@ -154,7 +165,6 @@
       author:  Weiwei Guo and Mona Diab (ACL 2012)
       title:  Modeling Sentences in the Latent Space
       url: http://www.aclweb.org/anthology/P12-1091.pdf
-
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
