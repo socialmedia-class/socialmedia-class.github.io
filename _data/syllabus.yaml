@@ -109,7 +109,7 @@
       url: http://www.aclweb.org/anthology/P14-1016.pdf
 -
   date: September 28, 2016 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture5_paraphrase_identification_a.pdf
   title: Paraphrase Identification and Logisitc Regression
   highlights: 
     - Semantic Similarity
