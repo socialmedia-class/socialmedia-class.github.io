@@ -12,7 +12,7 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for ACL 2017, an area chair for EMNLP 2016 and the publicity chair for NAACL 2016. 
+: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). 
 
 
 <br>Time/Place ![new](assets/img/new_1.gif) 
