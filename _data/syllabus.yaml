@@ -112,6 +112,7 @@
   slides: 
   title: Paraphrase Identification and Logisitc Regression
   highlights: 
+    - Semantic Similarity
     - Linear Regression 
     - Cost Function 
     - Gradient Descent 
