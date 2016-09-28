@@ -112,7 +112,6 @@
   slides: http://socialmedia-class.org/slides/lecture5_paraphrase_identification_a.pdf
   title: Paraphrase Identification and Logisitc Regression
   highlights: 
-    - Semantic Similarity
     - Linear Regression 
     - Cost Function 
     - Gradient Descent 
