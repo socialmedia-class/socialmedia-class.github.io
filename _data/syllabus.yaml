@@ -138,11 +138,11 @@
       url: https://arxiv.org/pdf/1608.02904v1.pdf
 -
   date: Octorber 5, 2016 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture5_paraphrase_identification_b.pdf
   title: Paraphrase Identification and Logisitc Regression (cont')
   highlights: 
     - Logistic Regression  
-    - Evaluation&colon; Precision, Recall, F-measure
+    - Decision Boundary
   reading:
     -
       author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
@@ -157,6 +157,7 @@
   slides: 
   title: Twitter Paraphrase and Latent Variable Model
   highlights: 
+    - Evaluation&colon; Precision, Recall, F-measure
     - Multiple Instance Learning
     - Conditional Log-linear Model with Latant Variables 
     - Crowdsourcing  
