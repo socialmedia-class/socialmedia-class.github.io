@@ -177,6 +177,11 @@
   highlights: 
     - 3:00 -- 4:00pm, Dreese 480
     - From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up 
+  reading:
+    - 
+      author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
+      title: Generating Natural Questions About an Image
+      url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
 -
   date: 4
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
