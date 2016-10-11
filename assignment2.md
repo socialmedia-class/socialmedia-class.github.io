@@ -28,10 +28,11 @@ In this assignment, you will implement the logistic regression and get a good un
 - cost function
 - decision boundary
 - gradient decent algorithm
-- and [feature scaling](https://en.wikipedia.org/wiki/Feature_scaling)
+- [feature scaling](https://en.wikipedia.org/wiki/Feature_scaling)
+- and [gradient checking](http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/) (optional)
 
+You will also apply your implemented logistic regression model to a small dataset and predict whether a student will be admitted to a university. This small dataset will allow you to visualize the data and debug more easily. You will find this **[documentation](http://socialmedia-class.org/slides/AndrewNg_ex2.pdf)** very helpful, though it is about how to implement logistic regression in Octave.  
 
-You will also apply your implemented logistic regression model to a small dataset and predict whether a student will be admitted to a university. This small dataset will allow you to visualize the data and debug more easily. 
 
 #### Instructions
 
