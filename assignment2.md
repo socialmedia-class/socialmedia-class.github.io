@@ -35,9 +35,9 @@ You will also apply your implemented logistic regression model to a small datase
 
 #### Instructions
 
-You will use Jupyter Notebook, an interactive Python programming and data visualization tool, for this homework. You can follow [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. The start code is tested for Python 3.4 that you are recommended to use. 
+You will use [Jupyter Notebook](http://jupyter.org/), an interactive Python programming and data visualization tool, for this homework. You can follow [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. The start code is tested for Python 3.4 that you are recommended to use. 
 
-You can download the homework assignment zip file from Carmen that contains the starter code, some visualization, and explanatory text. Then, open the included *.ipynb file in the [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/running.html) and follow all the instructions to do your work there.
+You can download the homework assignment zip file from Carmen that contains the starter code, some visualization, and explanatory text. Then, [open the included *.ipynb file](http://jupyter.readthedocs.io/en/latest/running.html) in the Jupyter Notebook and follow all the instructions to do your work there.
 
 After finished, follow the instruction, pack your code into a zip file named like 'hw2_yourdotid.zip', and submit it in the [OSU's Carmen](https://carmen.osu.edu/) system.
 
