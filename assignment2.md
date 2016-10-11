@@ -18,7 +18,7 @@ Logistic Regression <span class="text-muted">: Assignment 2 (30 points)</span>
 </div>
 
 
-We have been talking about logistic regression, one of the most important and fundamental machine learning algorithms, in the class. It is time for you to execute what you have learned in the class to really implement the logistic regression model. Instead of covering many algorithms quickly on the high-level, this course aims to explain a few important machine learning algorithms in-depth. It meant to prepare you to be a a researcher/scientist -- the very top class in the [Machine Learning Skills Pyramid](http://socialmedia-class.org/assets/img/ml_pyramid.jpg), who can not only  apply algorithms but create algorithms! 
+We have been talking about logistic regression, one of the most important and fundamental machine learning (ML) algorithms, in the class. It is time for you to execute what you have learned in the class to really implement the logistic regression model. Instead of covering many algorithms quickly on the high-level and use ML algorithm libraries (e.g. [Scikit-learn](http://scikit-learn.org/stable/)), this course aims to explain a few important ML algorithms in-depth. It is meant to prepare you to be a a researcher/scientist --- the very top class in the [Machine Learning Skills Pyramid](http://socialmedia-class.org/assets/img/ml_pyramid.jpg), who can not only  apply algorithms but create algorithms! 
 
 
 
@@ -28,7 +28,7 @@ In this assignment, you will implement the logistic regression and get a good un
 - cost function
 - decision boundary
 - gradient decent algorithm
-- and [feature scaling](https://en.wikipedia.org/wiki/Feature_scaling);
+- and [feature scaling](https://en.wikipedia.org/wiki/Feature_scaling)
 
 
 You will also apply your implemented logistic regression model to a small dataset and predict whether a student will be admitted to a university. This small dataset will allow you to visualize the data and debug more easily. 
@@ -44,7 +44,7 @@ After finished, follow the instruction, pack your code into a zip file named lik
 
 #### Extracurricular
 
-If you are interested in applying logistic regression to some real-world NLP problems, you can try out this task and dataset: [Paraphrase Identification and Semantic Similarity in Twitter](http://alt.qcri.org/semeval2015/task1/). It was an international research competition (so called shared-task) organized by the instructor that has attracted 19 top research groups to participate in 2015, including Stanford, Columbia University, MITRE and etc. More details can be found in the [overview paper](https://cocoxu.github.io/publications/semeval_pit_2015_overview.pdf) of the 2015 shared-task. We are planning to organize it again in 2017. Note that, you oftn need to implement some regularization (e.g. L2) to avoid overfitting and use an advanced optimization algorithm (e.g. L-BFGS; you probably should not implement these algorithms unless you are an expert in numerical computing), for minimizing the cost function. 
+If you are interested in applying logistic regression to some real-world NLP problems, you can try out this task and dataset: [Paraphrase Identification and Semantic Similarity in Twitter](http://alt.qcri.org/semeval2015/task1/). It was an international research competition (so called shared-task) organized by the instructor with Microsoft Research that has attracted 19 top research groups to participate in 2015, including Stanford, Columbia University, MITRE and etc. More details can be found in the [overview paper](https://cocoxu.github.io/publications/semeval_pit_2015_overview.pdf) of the 2015 shared-task. We are planning to organize it again in 2017. Note that, for a large dataset using many features, you often need to implement some regularizations (e.g. L2) to avoid overfitting and use an advanced optimization algorithm (e.g. L-BFGS; you probably should not implement these algorithms unless you are an expert in numerical computing) for minimizing the cost function. 
 
 
 
