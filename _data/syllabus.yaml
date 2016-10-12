@@ -171,9 +171,9 @@
       title:  Discriminative Improvements to Distributional Sentence Similarity
       url: http://www.aclweb.org/anthology/D13-1090.pdf
 -
-  date: Octorber 19, 2016 (subject to change)
+  date: Octorber 19, 2016 
   slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
-  title: Tokenization and Normalization
+  title: Tokenization and Normalization  (subject to change)
   highlights:
     - Challenges in processing social media text
     - Tokenization
