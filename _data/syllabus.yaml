@@ -154,7 +154,7 @@
       url: http://www.aclweb.org/anthology/P12-1091.pdf
 -
   date: Octorber 12, 2016 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf
   title: Twitter Paraphrase and Latent Variable Model
   highlights: 
     - Evaluation&colon; Precision, Recall, F-measure
@@ -171,6 +171,23 @@
       title:  Discriminative Improvements to Distributional Sentence Similarity
       url: http://www.aclweb.org/anthology/D13-1090.pdf
 -
+  date: Octorber 19, 2016 (subject to change)
+  slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
+  title: Tokenization and Normalization
+  highlights:
+    - Challenges in processing social media text
+    - Tokenization
+    - Noisy Text Normalization
+  reading:
+    -
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Han, Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+-
   date: Octorber 18, 2016 (Tuesday)
   slides: http://www.m-mitchell.com/
   title: Invited Talk by Margaret Mitchell 
@@ -182,25 +199,7 @@
       author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
       title: Generating Natural Questions About an Image
       url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
--
-  date: 4
-  slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
-  title: (OLD) Natural Language Processing for Social Media - part 2
-  highlights:
-    - Challenges in processing social media text
-    - Tokenization
-    - Text Normalization
-
-  reading:
-    -
-      author: Jacob Eisenstein (NAACL 2013)
-      title: What to Do about Bad Language on the Internet? 
-      url: http://www.aclweb.org/anthology/N13-1037.pdf
-    -
-      author: Han, Baldwin (ACL 2011)
-      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
-      url: http://www.aclweb.org/anthology/P11-1038.pdf
-            
+           
 -
   date: 5
   slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
@@ -256,26 +255,3 @@
       author: Matiello et al. 
       title:  Python-Graph (a library for working with graphs in Python)
       url: https://github.com/pmatiello/python-graph
--
-  date: 7
-  slides: http://socialmedia-class.org/slides/lecture7_TwitterNLP_paraphrase.pdf
-  title: (OLD) Case Study &num;2 - Learning Large-Scale Paraphrases from Twitter 
-  highlights:
-    - Usefulness of paraphrase
-    - Overview of paraphrase research
-    - Constructing the Twitter Paraphrase Corpus
-    - Multi-instance learning and latent variable model
-
-  reading:
-    -
-      author: Xu, Ritter, Callison-Burch, Dolan, Ji (TACL 2014)
-      title:  Extracting Lexically Divergent Paraphrases from Twitter
-      url: http://www.cis.upenn.edu/~xwe/publications/tacl2014-extracting-paraphrases-from-twitter.pdf
-    -
-      author: Brody, Diakopoulos (EMNLP 2011)
-      title:  Cooooooooooooooollllllllllllll!!!!!!!!!!!!!! Using Word Lengthening to Detect Sentiment in Microblogs
-      url: http://www.aclweb.org/anthology/D11-1052.pdf
-    -
-      author: Davidov, Tsur, Rappoport (CoNLL 2010)
-      title:  Semi-Supervised Recognition of Sarcastic Sentences in Twitter and Amazon
-      url: http://www.aclweb.org/anthology/W10-2914.pdf
