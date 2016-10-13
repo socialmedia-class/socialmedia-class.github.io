@@ -14,7 +14,7 @@ Logistic Regression <span class="text-muted">: Assignment 2 (30 points)</span>
 
 
 <div class="alert alert-info">
-  <p>Due Thursday October 31st, 2016 (in 3 weeks); 3 flexible days for the whole semester; 20% penalty per day for late submission.</p>
+  <p>Due Thursday November 3rd, 2016 (in 3 weeks); 3 flexible days for the whole semester; 20% penalty per day for late submission.</p>
 </div>
 
 
