@@ -73,15 +73,23 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
   <table class="table table-striped">
     <thead>
       <tr>
+        <th> Date </th>
         <th>Speaker</th>
         <th>Title</th>
       </tr>
     </thead>
     <tbody>
       <tr>
+        <td>Octorber 5, 2016</td>
         <td>David Palzer</td>
         <td><a href="./slides/students/davidpalzer_138983_1104729_NLP.pdf">NLP/CL: Carnegie Mellon</a></td>
       </tr>
+        <tr>
+        <td>Octorber 12, 2016</td>
+        <td>Wuwei Lan and Wei Sun</td>
+        <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
+      </tr>
+      
     </tbody>
   </table>
 
