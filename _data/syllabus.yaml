@@ -170,13 +170,17 @@
       author:  Yangfeng Ji and Jacob Eisenstein  (EMNLP 2013)
       title:  Discriminative Improvements to Distributional Sentence Similarity
       url: http://www.aclweb.org/anthology/D13-1090.pdf
+    - 
+      author:  Wei Xu, Alan Ritter, Ralph Grishman (BUCC 2013)
+      title:  Gathering and Generating Paraphrases from Twitter with Application to Normalization
+      url: http://aclweb.org/anthology/W/W13/W13-2515.pdf  
 -
   date: Octorber 19, 2016 
   slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_lexical.pdf
   title: Tokenization and Normalization  (subject to change)
   highlights:
     - Challenges in processing social media text
-    - Tokenization
+    - Tokenization, Emoticons 
     - Noisy Text Normalization
   reading:
     -
@@ -184,8 +188,12 @@
       title: What to Do about Bad Language on the Internet? 
       url: http://www.aclweb.org/anthology/N13-1037.pdf
     -
-      author: Han, Baldwin (ACL 2011)
+      author: Bo Han and Tim Baldwin (ACL 2011)
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+    -
+      author: HDirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015)
+      title: User Review Sites as a Resource for Large-scale Sociolinguistic Studies
       url: http://www.aclweb.org/anthology/P11-1038.pdf
 -
   date: Octorber 18, 2016 (Tuesday)
