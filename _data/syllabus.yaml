@@ -16,7 +16,7 @@
       url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
 -
   date: August 31, 2016
-  slides: http://socialmedia-class.org/slides/lecture2_api.pdf
+  slides: http://socialmedia-class.org/slides/lecture2_Twitter_API.pdf
   title: Twitter and Twitter API Tutorial 
   highlights: 
     - Brief history of Twitter
@@ -172,7 +172,7 @@
       url: http://www.aclweb.org/anthology/D13-1090.pdf
 -
   date: Octorber 19, 2016 
-  slides: http://socialmedia-class.org/slides/lecture4_TwitterNLP_lexical.pdf
+  slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_lexical.pdf
   title: Tokenization and Normalization  (subject to change)
   highlights:
     - Challenges in processing social media text
@@ -199,7 +199,10 @@
       author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
       title: Generating Natural Questions About an Image
       url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
-           
+-
+  date: November 21, 2016 
+  slides: http://www.emnlp2016.net/
+  title: no class - The instructor will be attending EMNLP and session chairing in Austin           
 -
   date: 5
   slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
