@@ -175,6 +175,18 @@
       title:  Gathering and Generating Paraphrases from Twitter with Application to Normalization
       url: http://aclweb.org/anthology/W/W13/W13-2515.pdf  
 -
+  date: Octorber 18, 2016 (Tuesday)
+  slides: http://www.m-mitchell.com/
+  title: Invited Talk by Margaret Mitchell 
+  highlights: 
+    - 4:00 -- 5:00pm, Dreese 480
+    - From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up 
+  reading:
+    - 
+      author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
+      title: Generating Natural Questions About an Image
+      url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
+-
   date: Octorber 19, 2016 
   slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_lexical.pdf
   title: Tokenization and Normalization  (subject to change)
@@ -195,18 +207,6 @@
       author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015)
       title: User Review Sites as a Resource for Large-scale Sociolinguistic Studies
       url: http://www.aclweb.org/anthology/P11-1038.pdf
--
-  date: Octorber 18, 2016 (Tuesday)
-  slides: http://www.m-mitchell.com/
-  title: Invited Talk by Margaret Mitchell 
-  highlights: 
-    - 4:00 -- 5:00pm, Dreese 480
-    - From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up 
-  reading:
-    - 
-      author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
-      title: Generating Natural Questions About an Image
-      url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
 -
   date: November 2, 2016 
   slides: 
