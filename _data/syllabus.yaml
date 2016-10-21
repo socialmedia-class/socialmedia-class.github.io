@@ -188,6 +188,12 @@
       url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
 -
   date: Octorber 19, 2016 
+  slides: http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf
+  title: Twitter Paraphrase and Latent Variable Model (cont')
+  highlights: 
+  reading:
+-
+  date: Octorber 26, 2016 
   slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_lexical.pdf
   title: Tokenization and Normalization  (subject to change)
   highlights:
