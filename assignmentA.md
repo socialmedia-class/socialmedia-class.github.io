@@ -89,7 +89,16 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Wuwei Lan and Wei Sun</td>
         <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
       </tr>
-      
+        <tr>
+        <td>Octorber 19, 2016</td>
+        <td>Sankeerth V S and Pravar Mahajan</td>
+        <td><a href="./slides/students/IIT_Madras.pdf">IIT – Madras: AIDB Lab</a></td>
+      </tr>
+        <tr>
+        <td>Octorber 19, 2016</td>
+        <td>Amad Hussain and Rob LaTour</td>
+        <td><a href="./slides/students/NLP_at_Cambridge.pdf">NLP at Cambridge</a></td>
+      </tr>      
     </tbody>
   </table>
 
