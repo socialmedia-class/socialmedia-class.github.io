@@ -89,6 +89,11 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Wuwei Lan and Wei Sun</td>
         <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
       </tr>
+      <tr>
+        <td>Octorber 12, 2016</td>
+        <td>Evan Kozliner and Evan Jaffe</td>
+        <td><a href="./slides/students/Stanford_NLP.pdf">Stanford NLP</a></td>
+      </tr>
         <tr>
         <td>Octorber 19, 2016</td>
         <td>Sankeerth V S and Pravar Mahajan</td>
