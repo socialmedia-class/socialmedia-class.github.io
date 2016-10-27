@@ -194,6 +194,37 @@
   reading:
 -
   date: Octorber 26, 2016 
+  slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_summarization.pdf
+  title:  Automatic Summarization for Twitter and the PageRank Algorithm 
+  highlights:
+    - SumBasic algorithm
+    - PageRank algorithm
+    - Graph visualization
+    - Event-based summarization system
+
+  reading:
+    -
+      author: William Wang
+      title: How to Do Research
+      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
+    -
+      author: Wikipedia
+      title:  PageRank 
+      url: https://en.wikipedia.org/wiki/PageRank
+    -
+      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
+      title:  A Preliminary Study of Tweet Summarization using Information Extraction
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: Matiello et al. 
+      title:  Python-Graph (a library for working with graphs in Python)
+      url: https://github.com/pmatiello/python-graph
+-
+  date: November 2, 2016 
+  slides: 
+  title: no class - The instructor will be attending EMNLP and session chairing in Austin           
+-
+  date: Octorber 26, 2016 
   slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_lexical.pdf
   title: Tokenization and Normalization  (subject to change)
   highlights:
@@ -213,10 +244,6 @@
       author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015)
       title: User Review Sites as a Resource for Large-scale Sociolinguistic Studies
       url: http://www.aclweb.org/anthology/P11-1038.pdf
--
-  date: November 2, 2016 
-  slides: 
-  title: no class - The instructor will be attending EMNLP and session chairing in Austin           
 -
   date: 5
   slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
@@ -249,26 +276,4 @@
       author: Cherry and Guo (NAACL 2015)
       title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
--
-  date: 6
-  slides: http://socialmedia-class.org/slides/lecture6_TwitterNLP_summarization.pdf
-  title: (OLD) Case Study &num;1 - Automatic Summarization for Twitter and the PageRank Algorithm 
-  highlights:
-    - SumBasic algorithm
-    - PageRank algorithm
-    - Graph visualization
-    - Event-based summarization system
 
-  reading:
-    -
-      author: Wikipedia
-      title:  PageRank 
-      url: https://en.wikipedia.org/wiki/PageRank
-    -
-      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
-      title:  A Preliminary Study of Tweet Summarization using Information Extraction
-      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
-    -
-      author: Matiello et al. 
-      title:  Python-Graph (a library for working with graphs in Python)
-      url: https://github.com/pmatiello/python-graph
