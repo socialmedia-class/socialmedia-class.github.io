@@ -194,7 +194,7 @@
   reading:
 -
   date: Octorber 26, 2016 
-  slides: http://socialmedia-class.org/slides/lecture8_TwitterNLP_summarization.pdf
+  slides: http://socialmedia-class.org/slides/lecture8_Twitter_summarization.pdf
   title:  Automatic Summarization for Twitter and the PageRank Algorithm 
   highlights:
     - SumBasic algorithm
