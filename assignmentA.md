@@ -103,6 +103,16 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Octorber 19, 2016</td>
         <td>Amad Hussain and Rob LaTour</td>
         <td><a href="./slides/students/NLP_at_Cambridge.pdf">NLP at Cambridge</a></td>
+      </tr>
+        <tr>
+        <td>Octorber 26, 2016</td>
+        <td>Fang Cao and Venkata Sai Mandadapu</td>
+        <td><a href="./slides/students/NLP-UCB.pdf">NLP: UC Berkeley</a></td>
+      </tr>
+        <tr>
+        <td>Octorber 26, 2016</td>
+        <td>Subash Chebolu and Jacob Hoylman</td>
+        <td><a href="./slides/students/NLP_Georgia_Tech.pdf">NLP: Georgia Tech</a></td>
       </tr>      
     </tbody>
   </table>
