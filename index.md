@@ -18,7 +18,7 @@ Instructor
 <br>Time/Place ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Fall 2016, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Cockins Hall](https://www.osu.edu/map/google.php?buildingIn=063) Room 218 | Wednesday 2:20PM -- 4:10PM** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-Office Hour (Dreese 495 | Wednesday 4:15PM -- 5:15PM )
+<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 495 | Wednesday 4:15PM -- 5:15PM
 
 <br>Prerequisites
 : &nbsp;&nbsp;&nbsp;&nbsp; In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc). 
