@@ -114,6 +114,16 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Subash Chebolu and Jacob Hoylman</td>
         <td><a href="./slides/students/NLP_Georgia_Tech.pdf">NLP: Georgia Tech</a></td>
       </tr>      
+        <tr>
+        <td>November 9, 2016</td>
+        <td>Nikhita Vedula and Ashish Konda</td>
+        <td><a href="./slides/students/CSE5539Presentation_ashish_nikhita.pdf">Cornell University NLP Group</a></td>
+      </tr>      
+        <tr>
+        <td>November 9, 2016</td>
+        <td>Sourav Chakraborty</td>
+        <td><a href="./slides/students/chakrabs_5539.pdf">NLP Research @ UCSB</a></td>
+      </tr>   
     </tbody>
   </table>
 
