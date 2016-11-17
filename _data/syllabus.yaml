@@ -230,7 +230,7 @@
 -
   date: November 9, 2016 
   slides: http://socialmedia-class.org/slides/lecture9_Twitter_NLPpipeline.pdf
-  title: Tokenization, Normalization, POS/NE Tagging 
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter
   highlights:
     - Challenges in processing social media text
     - Tokenization, Emoticons 
