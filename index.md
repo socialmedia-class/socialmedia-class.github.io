@@ -30,10 +30,10 @@ Instructor
 <br>Grading
 : &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. 
 
-* Homework #1 (20 points/individual)
-* Homework #2 (30 points/individual)
-* Homework #3 (30 points/group) or a research project (optional)
-* In-class Presentation (20 points/group)
+* Homework #1 (30 points/individual)
+* Homework #2 (40 points/individual)
+* Homework #3  or a research project (optional)
+* In-class Presentation (30 points/group)
 * Quizzes (bonus 10 points)
 * Participation in class and/or on the **[Piazza](https://piazza.com/class/ishtc5j4j6h4p9) discussion board** (bonus 10 points)
 

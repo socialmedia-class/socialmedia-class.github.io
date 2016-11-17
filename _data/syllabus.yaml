@@ -256,27 +256,35 @@
       title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
       url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
     -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    -
       author: Kong et al. (EMNLP 2014)
       title: A Dependency Parser for Tweets
       url: http://aclweb.org/anthology/D/D14/D14-1108.pdf   
 -
   date: November 16, 2016 
-  slides: 
-  title: Vector Semantics (subject to change)
+  slides:  http://socialmedia-class.org/slides/lecture10_vector_semantics.pdf
+  title: Vector Semantics 
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
     - Soft Clustering&colon; Singular Value Decomposition (SVD)
-    - Neural Word Embeddings
+    - Neural Word Embeddings: Word2vec (CBOW and Skip-gram)
   reading:
-    -
-      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
-      title: Named Entity Recognition in Tweets &colon; An Experimental Study
-      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: Speech and Language Processing (upcoming new edition, Chapter 16)
+      url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
     -
       author: Cherry and Guo (NAACL 2015)
       title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
+    -
+      author: Levy and Goldberg (NIPS 2014)
+      title: Neural Word Embedding as Implicit Matrix Factorization
+      url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
 -
   date: November 23, 2016 
   slides: 
@@ -284,11 +292,11 @@
 -
   date: November 30, 2016 
   slides: 
-  title: Deep Learning for NLP&colon; Word Representations (subject to change)
+  title: Deep Learning for NLP or Guest Lecture (subject to change)
 -
   date: December 7, 2016 
   slides: 
-  title: (no class) 1-on-1 meetings for research project review     
+  title: (no class) 1-on-1 meetings for research project review, Q&A, etc    
   
      
   
