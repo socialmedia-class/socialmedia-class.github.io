@@ -9,7 +9,7 @@ active_tab: homework
 
 
 
-Survey a Social Media Platform or a NLP Research Group <span class="text-muted">: In-class Presentation (20 points)</span> 
+Survey a Social Media Platform or a NLP Research Group <span class="text-muted">: In-class Presentation (30 points)</span> 
 =============================================================
 
 You will pair together (2 students) and give a 8-minute presentation (plus 2-minute Q&A) in class on a social media platform or a NLP research group of your choice. 
