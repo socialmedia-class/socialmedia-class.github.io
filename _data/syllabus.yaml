@@ -271,7 +271,7 @@
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
     - Soft Clustering&colon; Singular Value Decomposition (SVD)
-    - Neural Word Embeddingsg&colon; Word2vec (CBOW and Skip-gram)
+    - Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
   reading:
     - 
       author: Dan Jurafsky and James H. Martin 
