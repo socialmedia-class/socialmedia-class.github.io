@@ -124,6 +124,16 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Sourav Chakraborty</td>
         <td><a href="./slides/students/chakrabs_5539.pdf">NLP Research @ UCSB</a></td>
       </tr>   
+        <tr>
+        <td>November 16, 2016</td>
+        <td>Dushyanta Dhyani and Karan Grover</td>
+        <td><a href="./slides/students/JHU_CLSP.pdf">Johns Hopkins CLSP</a></td>
+      </tr>
+        <tr>
+        <td>November 16, 2016</td>
+        <td>Brett Bejcek</td>
+        <td><a href="">Facebook</a></td>
+      </tr>
     </tbody>
   </table>
 

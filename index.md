@@ -15,7 +15,7 @@ Instructor
 : &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). 
 
 
-<br>Time/Place ![new](assets/img/new_1.gif) 
+<br>Time/Place 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Fall 2016, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Cockins Hall](https://www.osu.edu/map/google.php?buildingIn=063) Room 218 | Wednesday 2:20PM -- 4:10PM** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
 <br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 495 | Wednesday 4:15PM -- 5:15PM
@@ -27,7 +27,7 @@ Instructor
 <br>Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
-<br>Grading
+<br>Grading ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. 
 
 * Homework #1 (30 points/individual)

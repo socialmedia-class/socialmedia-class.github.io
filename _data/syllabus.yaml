@@ -285,6 +285,10 @@
       author: Levy and Goldberg (NIPS 2014)
       title: Neural Word Embedding as Implicit Matrix Factorization
       url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
+    -
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
 -
   date: November 23, 2016 
   slides: 
