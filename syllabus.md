@@ -6,7 +6,7 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses. The lectures marked as OLD are used at NASSLLI summer school, which are to be updated and used in CSE 5539. 
+Subject to change as the term progresses. 
 
 <table class="table table-striped"> 
   <tbody>
