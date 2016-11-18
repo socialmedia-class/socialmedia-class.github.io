@@ -32,7 +32,7 @@ Instructor
 
 * Homework #1 (30 points/individual)
 * Homework #2 (40 points/individual)
-* Homework #3  or a research project (bonus 30 points)
+* Homework #3  or a research project (bonus 20 points)
 * In-class Presentation (30 points/group)
 * Quizzes (bonus 10 points)
 * Participation in class and/or on the **[Piazza](https://piazza.com/class/ishtc5j4j6h4p9) discussion board** (bonus 10 points)
