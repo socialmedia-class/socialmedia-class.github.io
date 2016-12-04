@@ -134,6 +134,11 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Brett Bejcek</td>
         <td><a href="">Facebook</a></td>
       </tr>
+        <tr>
+        <td>November 30, 2016</td>
+        <td>Zhuoer Wang & Chuhan Feng</td>
+        <td><a href="./slides/students/Instagram.pdf">Instagram</a></td>
+      </tr>
     </tbody>
   </table>
 
