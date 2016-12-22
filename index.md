@@ -1,5 +1,5 @@
 ---
-title: Social Media and Text Analytics - Summer 2015 - University of Pennsylvania
+title: Social Media and Text Analytics - Autumn 2016 - Ohio State University
 layout: default
 img: nyc_twitter_visualization
 img_link: http://bits.blogs.nytimes.com/2011/07/15/bits-pics-showing-the-location-of-tweets-and-flickr-photos/
