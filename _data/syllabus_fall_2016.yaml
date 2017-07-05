@@ -10,14 +10,10 @@
       author: Golder and Macy (Science 2011) 
       title: Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
       url: http://www3.ntu.edu.sg/home/linqiu/teaching/psychoinformatics/Diurnal%20and%20Seasonal%20Mood%20Vary%20Across%20Diverse%20Cultures.pdf
-    - 
-      author: Nick Parlante
-      title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
-      url: https://developers.google.com/edu/python/
-    - 
-      author: Bird, Klein, Loper
-      title: Intro to NLP in Python
-      url: http://www.nltk.org/book/ 
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010) 
+      title:  What is Twitter, a Social Network or a News Media?  
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
 -
   date: August 31, 2016
   slides: http://socialmedia-class.org/slides/lecture2_Twitter_API.pdf
@@ -29,17 +25,21 @@
 
   reading:
     -
-      author: Kwak, Lee, Park and Moon (WWW 2010) ★ 
-      title:  What is Twitter, a Social Network or a News Media? 
-      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
-    -
       author:  the instructor Wei Xu
       title:  Twitter API Tutorial
       url: http://socialmedia-class.org/twittertutorial.html
     - 
       author: Justin Johnson
       title:  Python Numpy Tutorial
-      url: http://cs231n.github.io/python-numpy-tutorial/  
+      url: http://cs231n.github.io/python-numpy-tutorial/
+    - 
+      author: Nick Parlante
+      title:  Google's Python class (for people with a little bit of programming experience who want to learn Python) 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/   
 -
   date: September 7, 2016
   slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
@@ -56,7 +56,7 @@
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
     -
-      author: Lui, Baldwin (IJCNLP 2011) ★ 
+      author: Lui, Baldwin (IJCNLP 2011) 
       title: Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
     -
@@ -80,7 +80,7 @@
       title:  Paraphrasing for Style
       url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
     -
-      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014) ★ 
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)
       title:  PPDB&colon; The Paraphrase Database
       url: http://www.aclweb.org/anthology/N13-1092.pdf
     - 
@@ -163,7 +163,7 @@
     - Crowdsourcing  
   reading:
     - 
-      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014) ★ 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
       title:  Extracting Lexically Divergent Paraphrases from Twitter
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
     - 
@@ -177,7 +177,7 @@
 -
   date: Octorber 18, 2016 (Tuesday)
   slides: http://www.m-mitchell.com/
-  title: Invited Talk by Margaret Mitchell (Microsoft Research)
+  title: Invited Talk by Margaret Mitchell 
   highlights: 
     - 4:00 -- 5:00pm, Dreese 480
     - From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up 
@@ -208,7 +208,7 @@
       title:  A Preliminary Study of Tweet Summarization using Information Extraction
       url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
     -
-      author: Ritter, Mausam, Etzioni (KDD 2012) ★ 
+      author: Ritter, Mausam, Etzioni (KDD 2012)
       title: Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
     -
@@ -248,7 +248,7 @@
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
-      author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015) ★ 
+      author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015)
       title: User Review Sites as a Resource for Large-scale Sociolinguistic Studies
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
@@ -256,7 +256,7 @@
       title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
       url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
     -
-      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) ★ 
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
       title: Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
     -
@@ -282,7 +282,7 @@
       title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
     -
-      author: Levy and Goldberg (NIPS 2014) ★ 
+      author: Levy and Goldberg (NIPS 2014)
       title: Neural Word Embedding as Implicit Matrix Factorization
       url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
     -
@@ -305,7 +305,7 @@
     - Neural Conversation Generation
   reading:
     - 
-      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le ★ 
+      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le
       title: Sequence to Sequence Learning with Neural Networks
       url: https://arxiv.org/pdf/1409.3215v3.pdf
     - 

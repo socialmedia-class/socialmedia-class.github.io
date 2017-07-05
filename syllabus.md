@@ -6,7 +6,7 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the term progresses. 
+Subject to change as the Fall 2017 term progresses. ★ marks the required reading.
 
 <table class="table table-striped"> 
   <tbody>
