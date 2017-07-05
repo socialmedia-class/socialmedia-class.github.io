@@ -12,35 +12,46 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: &nbsp;&nbsp;&nbsp;&nbsp; [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). 
+: [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). 
 
 
-<br>Time/Place 
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Fall 2016, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Cockins Hall](https://www.osu.edu/map/google.php?buildingIn=063) Room 218 | Wednesday 2:20PM -- 4:10PM** 
+<br>Time/Place ![new](assets/img/new_1.gif) 
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Fall 2017, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Bolz Hall](https://www.osu.edu/map/google.php?buildingIn=146) Room 318 | Tuesday 2:20PM -- 4:10PM** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 495 | Wednesday 4:15PM -- 5:15PM
+<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 495 | Tuesday 4:15PM -- 5:15PM
 
 <br>Prerequisites
-: &nbsp;&nbsp;&nbsp;&nbsp; In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc). 
-
+: In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc). 
 
 <br>Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
-<br>Grading ![new](assets/img/new_1.gif) 
-: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. 
+<br> Discussion Board
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza]()** (TBA)
 
-* Homework #1 (30 points/individual)
-* Homework #2 (40 points/individual)
-* Homework #3  or a research project (bonus 20 points)
-* In-class Presentation (30 points/group)
-* Quizzes (bonus 10 points)
-* Participation in class and/or on the **[Piazza](https://piazza.com/class/ishtc5j4j6h4p9) discussion board** (bonus 10 points)
+<br>Grading (subject to changes)
+: This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments or an optional research project. The class will assign one paper for reading each week. Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations, or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 
+
+- programming homework #1 (10 points/individual)
+- programming homework #2 (40 points/individual) or a research project (40 points/group)
+- paper summaries (20 points/individual) 
+- in-class presentation (20 points/group) 
+- participation in class discussions (10 points/individual)
+ 
+[//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )
+
+[//]: <> (* Homework #1 (30 points/individual))
+[//]: <> (* Homework #2 (40 points/individual))
+[//]: <> (* Homework #3  or a research project (bonus 20 points))
+[//]: <> (* In-class Presentation (30 points/group))
+[//]: <> (* Quizzes (bonus 10 points))
+[//]: <> (* Participation in class and/or on the **[Piazza](https://piazza.com/class/ishtc5j4j6h4p9) discussion board** (bonus 10 points))
 
 
 <br>Previous Offerings
-: &nbsp;&nbsp;&nbsp;&nbsp; Summer 2016, [The North American Summer School on Logic, Language, and Information (NASSLLI)](http://nasslli2016.rutgers.edu/about_nasslli.html) 
+: &nbsp;&nbsp;&nbsp;&nbsp; Fall 2016, Ohio State University
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Summer 2016, [The North American Summer School on Logic, Language, and Information (NASSLLI)](http://nasslli2016.rutgers.edu/about_nasslli.html) 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; Teaching evaluation was 5.72 out of 6 at NASSLLI; average across all instructors was 5.23. 
-<br> &nbsp;&nbsp;&nbsp;&nbsp; Summer 2015, University of Pennsylvania (where this course was first designed and taught)
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Summer 2015, University of Pennsylvania
 
 

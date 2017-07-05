@@ -9,10 +9,10 @@ active_tab: homework
 
 
 
-Twitter's Language Mix <span class="text-muted">: Assignment 1 (30 points)</span> 
+Twitter's Language Mix <span class="text-muted">: Assignment 1 (10 points)</span> 
 =============================================================
 
-(Due Thursday September 8th, 2016; 20% penalty per day for late submission.)
+(Due date TBA; 20% penalty per day for late submission.)
 
 This assignment includes using Twitter's streaming API, an off-the-shell language identification tool and data visualization. Some of the questions are open-ended, which means that there is no single best answer (do the best you can) and the grading will not be strict. 
 

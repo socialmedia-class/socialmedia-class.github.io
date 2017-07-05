@@ -9,7 +9,7 @@ active_tab: homework
 
 
 
-Word2vec or Research Projects <span class="text-muted">: Assignment 3 (Bonus 20 points)</span> 
+Word2vec <span class="text-muted">: Assignment 3 (Extracurricular)</span> 
 =============================================================
 
 
@@ -20,7 +20,7 @@ Word2vec or Research Projects <span class="text-muted">: Assignment 3 (Bonus 20 
  
 
 
-Due to the time limitation of this 2-credit special topic course, we only got to quickly walk through some basic building blocks of the deep learning in the class. However, you may get a much better understanding by following the provided readings and implementing the algorithms in this assignment (group of up to 2):
+Due to the time limitation of this 2-credit special topic course, we only got to quickly walk through some basic building blocks of the deep learning in the class. However, you may get a much better understanding by following the provided readings and implementing the algorithms in this assignment:
 
 - A softmax function and a sigmoid function
 - A simple neural network with back propagation
@@ -38,13 +38,6 @@ You will use [Jupyter Notebook](http://jupyter.org/), an interactive Python prog
 You can download the homework assignment zip file from Carmen that contains the starter code, some visualization, and explanatory text. Then, [open the included *.ipynb file](http://jupyter.readthedocs.io/en/latest/running.html) in the Jupyter Notebook and follow all the instructions to do your work there.
 
 To earn bonus points for this assignment, you will need to 1) demo your code in person to the instructor and answer some questions about this assignment ([make an appointment here](https://docs.google.com/spreadsheets/d/1M-m8OURTxmXSNRbkzXTg4-Air_tZ0WwPSdbM4YpZ-rs/edit?usp=sharing)) on Wednesday December 7th, 2016; AND 2) pack your *.ipynb file into a zip file named like 'hw3_yourdotid.zip' and submit in the [OSU's Carmen](https://carmen.osu.edu/) system. Since this is an extracurricular activity, strictly no late submission or alternative submission methods will be accepted. 
-
-#### Research Projects
-
-The same -- please also [make an appointment](https://docs.google.com/spreadsheets/d/1M-m8OURTxmXSNRbkzXTg4-Air_tZ0WwPSdbM4YpZ-rs/edit?usp=sharing) and give a brief report on your research projects in person on Wednesday December 7th, 2016.
-
-
-
 
 
 
