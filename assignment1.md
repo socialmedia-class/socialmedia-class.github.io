@@ -9,7 +9,7 @@ active_tab: homework
 
 
 
-Twitter's Language Mix <span class="text-muted">: Assignment 1 (10 points)</span> 
+Twitter's Language Mix <span class="text-muted">: Assignment 1 (15 points)</span> 
 =============================================================
 
 (Due date TBA; 20% penalty per day for late submission.)

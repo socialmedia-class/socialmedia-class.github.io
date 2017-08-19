@@ -12,13 +12,19 @@ active_tab: homework
 Survey a Social Media Platform or a NLP Research Group <span class="text-muted">: In-class Presentation (20 points)</span> 
 =============================================================
 
-You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class on a social media platform or a NLP research group of your choice. 
+You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) and a NLP researcher of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences (e.g. ACL, NAACL, EACL, EMNLP). 
 
+[//]: <> (on a social media platform or a NLP research group of your choice. )
+[//]: <> (and pick a social media platform (a list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP research group (a list [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). )
 
-First, please **[sign up](https://docs.google.com/spreadsheets/d/1KO_8SZt6g2igaoMbj96JgtdHuXr8rYdCzRrR_qVCXh8/edit?usp=sharing)** to pick a date you want to present, and pick a social media platform (a list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP research group (a list [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). 
+First, please **[sign up](https://docs.google.com/spreadsheets/d/1KO_8SZt6g2igaoMbj96JgtdHuXr8rYdCzRrR_qVCXh8/edit?usp=sharing)** to pick a date you want to present, and pick a social media platform or a NLP researcher. 
 
 Second, after your presentation in the class, **upload your slides** to [OSU's Carmen](https://carmen.osu.edu/) system. Your slides will be also published on this course website. 
 
+#### For NLP researchers, you may focus on
+
+- Who: You are encouraged to consider NLP researchers at different stages of their career, ranging from junior phd students and established senior researchers. Summarize his/her career. How and why do they become successful?
+- What: What research topics they are working on? What are they famous for? Present one of his/her important or recent work. 
 
 
 #### For social media platforms, you may focus on:
@@ -30,16 +36,18 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
 - and any other things you think are important
 
 
-#### For NLP research groups, you may focus on:
 
-- Who? What are the prominent researchers, famous students or alumni?
-- What do they do? What research topics they are working on?
-- Any interesting or notable paper(s) that worth mentioning?
-- and any other things you think are important 
+
+[//]: <> (#### For NLP research groups, you may focus on:)
+
+[//]: <> (- Who? What are the prominent researchers, famous students or alumni?)
+[//]: <> (- What do they do? What research topics they are working on?)
+[//]: <> (- Any interesting or notable paper(s) that worth mentioning?)
+[//]: <> (- and any other things you think are important)
 
 <hr>
 
-#### Some examples on how to deliver a short survey type of presentations effectively: 
+#### Some video-recorded examples on how to deliver a short survey type of presentations effectively: 
 
 
   <table class="table table-striped">
@@ -67,7 +75,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
  
 <hr>
   
-#### Slides from student in-class presentations in Autumn 2016: 
+#### Slides from student in-class presentations in Autumn 2016 (a social media platform or a NLP research group): 
 
 
   <table class="table table-striped">
