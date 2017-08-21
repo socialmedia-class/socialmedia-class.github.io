@@ -37,7 +37,7 @@ Instructor
 - paper summaries (20 points/individual) 
 - in-class presentation (20 points/group) 
 - participation in class discussions (10 points/individual)
-- a research project (optional)
+- a research project (optional, bonus points)
  
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )
 
