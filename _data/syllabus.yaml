@@ -47,8 +47,8 @@
 
   reading:
     -
-      author: Kwak, Lee, Park and Moon (WWW 2010) ★ 
-      title:  What is Twitter, a Social Network or a News Media? 
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
       url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
     -
       author:  the instructor Wei Xu
@@ -74,8 +74,8 @@
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
     -
-      author: Lui, Baldwin (IJCNLP 2011) ★ 
-      title: Cross-domain Feature Selection for Language Identification 
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
     -
       author: Lui, Baldwin (ACL 2012)
@@ -98,8 +98,8 @@
       title:  Paraphrasing for Style
       url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
     -
-      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014) ★ 
-      title:  PPDB&colon; The Paraphrase Database
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
       url: http://www.aclweb.org/anthology/N13-1092.pdf
     - 
       author:  Chris Brockett and Bill Dolan (IWP 2005)
@@ -181,8 +181,8 @@
     - Crowdsourcing  
   reading:
     - 
-      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014) ★ 
-      title:  Extracting Lexically Divergent Paraphrases from Twitter
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: ★ Extracting Lexically Divergent Paraphrases from Twitter
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
     - 
       author:  Yangfeng Ji and Jacob Eisenstein  (EMNLP 2013)
@@ -226,8 +226,8 @@
       title:  A Preliminary Study of Tweet Summarization using Information Extraction
       url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
     -
-      author: Ritter, Mausam, Etzioni (KDD 2012) ★ 
-      title: Open Domain Event Extraction from Twitter
+      author: Ritter, Mausam, Etzioni (KDD 2012) 
+      title: ★ Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
     -
       author: William Wang
@@ -266,16 +266,16 @@
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
-      author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015) ★ 
-      title: User Review Sites as a Resource for Large-scale Sociolinguistic Studies
+      author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015) 
+      title: ★ User Review Sites as a Resource for Large-scale Sociolinguistic Studies
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
       author: Gimpel et al.  (ACL 2011)
       title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
       url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
     -
-      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) ★ 
-      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
+      title: ★ Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
     -
       author: Kong et al. (EMNLP 2014)
@@ -300,8 +300,8 @@
       title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
     -
-      author: Levy and Goldberg (NIPS 2014) ★ 
-      title: Neural Word Embedding as Implicit Matrix Factorization
+      author: Levy and Goldberg (NIPS 2014)  
+      title: ★ Neural Word Embedding as Implicit Matrix Factorization
       url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
     -
       author: Ng et al. 
@@ -323,8 +323,8 @@
     - Neural Conversation Generation
   reading:
     - 
-      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le ★ 
-      title: Sequence to Sequence Learning with Neural Networks
+      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
+      title: ★ Sequence to Sequence Learning with Neural Networks
       url: https://arxiv.org/pdf/1409.3215v3.pdf
     - 
       author: Li et al.
