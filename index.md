@@ -21,7 +21,7 @@ Instructor
 <br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 495 | Tuesday 4:15PM -- 5:15PM
 
 <br>Prerequisites
-: In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc). 
+: In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule; some basic calculus and linear algebra will also help, such as knowing what is gradient. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc).  
 
 <br>Course Readings
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
