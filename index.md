@@ -27,7 +27,7 @@ Instructor
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
 <br> Discussion Board
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza]()** (TBA)
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/j6n1tzsbovw4b1)** 
 
 <br>Grading (subject to changes)
 : This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments and an optional research project. The class will assign one paper for reading each week. Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10:00am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations, or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 
