@@ -19,6 +19,24 @@
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/ 
 -
+  date: September 1, 2017 (Friday, tentative)
+  slides: https://web.cse.ohio-state.edu/~lan.105/
+  title: AI Seminar Talk by Wuwei Lan (OSU)
+  highlights: 
+    - 3:00 -- 4:00pm, Dreese 480  
+    - A Continuously Growing Dataset of Sentential Paraphrases
+  reading:
+    -
+      author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu  (EMNLP 2017)
+      title:  A Continuously Growing Dataset of Sentential Paraphrases
+      url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
+-
+  date: September 12, 2017 
+  slides: 
+  title: Guest Lecture by Pravar Mahajan (OSU)
+  highlights: Hashtag/Word Segmentation or Numpy Tutorial
+  reading:
+-
   date: August 31, 2016
   slides: http://socialmedia-class.org/slides/lecture2_Twitter_API.pdf
   title: Twitter and Twitter API Tutorial 
