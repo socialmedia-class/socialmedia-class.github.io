@@ -9,7 +9,7 @@ active_tab: homework
 
 
 
-Logistic Regression <span class="text-muted">: Assignment 2 (40 points)</span> 
+Logistic Regression <span class="text-muted">: Assignment 2 (35 points)</span> 
 =============================================================
 
 
