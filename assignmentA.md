@@ -147,7 +147,6 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Zhuoer Wang & Chuhan Feng</td>
         <td><a href="./slides/students/Instagram.pdf">Instagram</a></td>
       </tr>
-      </tr>
         <tr>
         <td>December 7, 2016</td>
         <td>Poorya Zaremoodi & Rafah Asadi</td>
