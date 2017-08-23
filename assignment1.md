@@ -12,7 +12,10 @@ active_tab: homework
 Twitter's Language Mix <span class="text-muted">: Assignment 1 (15 points)</span> 
 =============================================================
 
-(**Due Sep 1st 02:00PM EDT** - 20% penalty per day for late submission.)
+<div class="alert alert-info">
+  <p>Due Sep 1st 02:00PM EDT (20% penalty per day for late submission)</p>
+</div>
+
 
 This assignment includes using Twitter's streaming API, an off-the-shell language identification tool and data visualization. Some of the questions are open-ended, which means that there is no single best answer (do the best you can) and the grading will not be strict. You are encouraged to think creatively and go above-and-beyond in this class.
 
@@ -37,7 +40,7 @@ This assignment includes using Twitter's streaming API, an off-the-shell languag
 - Matplotlib is a Python package for plotting, [here](http://matplotlib.org/users/pyplot_tutorial.html) is a simpe guide of Matplotlib. 
 
 
-Pack your data and code into a zip file named like hw1_yourOSUdotid.zip, that contains a *.py file which is your code that can outputs the answers in the order of questions with some brief text to be self-explainable, and a few image files for question 5 or possibly code to generate the plots. This is not a strict requirement --- think what is the clearest way to present your homework that the grader or instructor can understand and check easily. Submit your homework in [OSU's Carmen](https://carmen.osu.edu/) system.
+Pack your data and code into a zip file named like hw1_yourOSUdotid.zip, that contains a *.py file which is your code that can outputs the answers in the order of questions with some brief text to be self-explainable, and a few image files for question 5 or possibly code to generate the plots. This is not a strict requirement --- think what is the clearest way to present your homework that the TA or instructor can understand and check easily. Submit your homework in [OSU's Carmen](https://carmen.osu.edu/) system.
 
 
 
