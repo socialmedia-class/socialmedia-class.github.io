@@ -26,7 +26,7 @@ The first assignment includes two parts: 1) becoming a Twitter user and 2) becom
 - reply another user (if you don't have anybody in mind, you can try me @cocoweixu)
 - find some cashtags
 
-If you have already had a Twitter account and tweeted before, you can discover your #FirstTweet by [this widget](https://discover.twitter.com/first-tweet#cocoweixu) Twitter launched in 2014. It brings memories. 
+If you have already had a Twitter account and tweeted before, you can discover your #FirstTweet by [this widget](https://discover.twitter.com/first-tweet#cocoweixu) Twitter launched in 2014. It brings back memories. 
 
 #### Becoming a Twitter dev user
 
