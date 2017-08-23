@@ -94,37 +94,37 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
       </tr>
         <tr>
         <td>Octorber 12, 2016</td>
-        <td>Wuwei Lan and Wei Sun</td>
+        <td>Wuwei Lan & Wei Sun</td>
         <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
       </tr>
       <tr>
         <td>Octorber 12, 2016</td>
-        <td>Evan Kozliner and Evan Jaffe</td>
+        <td>Evan Kozliner & Evan Jaffe</td>
         <td><a href="./slides/students/Stanford_NLP.pdf">Stanford NLP</a></td>
       </tr>
         <tr>
         <td>Octorber 19, 2016</td>
-        <td>Sankeerth V S and Pravar Mahajan</td>
+        <td>Sankeerth V S & Pravar Mahajan</td>
         <td><a href="./slides/students/IIT_Madras.pdf">IIT – Madras: AIDB Lab</a></td>
       </tr>
         <tr>
         <td>Octorber 19, 2016</td>
-        <td>Amad Hussain and Rob LaTour</td>
+        <td>Amad Hussain & Rob LaTour</td>
         <td><a href="./slides/students/NLP_at_Cambridge.pdf">NLP at Cambridge</a></td>
       </tr>
         <tr>
         <td>Octorber 26, 2016</td>
-        <td>Fang Cao and Venkata Sai Mandadapu</td>
+        <td>Fang Cao & Venkata Sai Mandadapu</td>
         <td><a href="./slides/students/NLP-UCB.pdf">NLP: UC Berkeley</a></td>
       </tr>
         <tr>
         <td>Octorber 26, 2016</td>
-        <td>Subash Chebolu and Jacob Hoylman</td>
+        <td>Subash Chebolu & Jacob Hoylman</td>
         <td><a href="./slides/students/NLP_Georgia_Tech.pdf">NLP: Georgia Tech</a></td>
       </tr>      
         <tr>
         <td>November 9, 2016</td>
-        <td>Nikhita Vedula and Ashish Konda</td>
+        <td>Nikhita Vedula & Ashish Konda</td>
         <td><a href="./slides/students/CSE5539Presentation_ashish_nikhita.pdf">Cornell University NLP Group</a></td>
       </tr>      
         <tr>
@@ -134,7 +134,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
       </tr>   
         <tr>
         <td>November 16, 2016</td>
-        <td>Dushyanta Dhyani and Karan Grover</td>
+        <td>Dushyanta Dhyani & Karan Grover</td>
         <td><a href="./slides/students/JHU_CLSP.pdf">Johns Hopkins CLSP</a></td>
       </tr>
         <tr>
