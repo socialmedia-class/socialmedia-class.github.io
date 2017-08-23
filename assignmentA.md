@@ -12,7 +12,7 @@ active_tab: homework
 Survey a Social Media Platform or a NLP Researcher <span class="text-muted">: In-class Presentation (20 points)</span> 
 =============================================================
 
-You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) and a NLP researcher of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences (e.g. ACL, NAACL, EACL, EMNLP). 
+You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) and a NLP researcher of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences/jounals (e.g. ACL, NAACL, TACL, EMNLP). 
 
 [//]: <> (on a social media platform or a NLP research group of your choice. )
 [//]: <> (and pick a social media platform (a list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP research group (a list [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). )
@@ -140,12 +140,23 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <tr>
         <td>November 16, 2016</td>
         <td>Brett Bejcek</td>
-        <td><a href="">Facebook</a></td>
+        <td><a href="./slides/students/Facebook.pdf">Facebook</a></td>
       </tr>
         <tr>
         <td>November 30, 2016</td>
         <td>Zhuoer Wang & Chuhan Feng</td>
         <td><a href="./slides/students/Instagram.pdf">Instagram</a></td>
+      </tr>
+      </tr>
+        <tr>
+        <td>December 7, 2016</td>
+        <td>Poorya Zaremoodi & Rafah Asadi</td>
+        <td><a href="./slides/students/OSU_NLP_group.pdf">NLP: Ohio State</a></td>
+      </tr>
+        <tr>
+        <td>December 7, 2016</td>
+        <td>Gordon Moon & Jie Zhao</td>
+        <td><a href="./slides/students/NLP_UW_gordon_jie.pdf">NLP: University of Washington</a></td>
       </tr>
     </tbody>
   </table>
