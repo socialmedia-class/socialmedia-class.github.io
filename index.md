@@ -27,19 +27,6 @@ Instructor
 : &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
 
 <br> Discussion Board
-<<<<<<< HEAD
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza]()** (TBA)
-
-<br>Grading (subject to changes)
-: This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments and an optional research project. The class will assign one paper for reading each week (about 10 papers total). Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations, or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 
-
-- programming homework #1 (15 points/individual)
-- programming homework #2 (35 points/individual) 
-- paper summaries (20 points/individual) 
-- in-class presentation (20 points/group) 
-- participation in class discussions (10 points/individual)
-- a research project (optional)
-=======
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/j6n1tzsbovw4b1)** 
 
 <br>Grading
@@ -52,7 +39,7 @@ Instructor
 - in-class presentation (20 points/group of two) 
 - participation in class discussions (5 points/individual)
 - a research project or programming homework #3 (optional, 20 bonus points)
->>>>>>> af7765e5cabde4ff6c2fe6a4c21da495d6d59068
+
  
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )
 
