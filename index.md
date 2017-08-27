@@ -24,10 +24,11 @@ Instructor
 : In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule; some basic calculus and linear algebra will also help, such as knowing what is gradient. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc).  
 
 <br>Course Readings
-: &nbsp;&nbsp;&nbsp;&nbsp; [Various academic papers](syllabus.html)
+: &nbsp;&nbsp;&nbsp;&nbsp; Each lecture has an accompanying set of [academic papers](syllabus.html)
 
-<br> Discussion Board
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/j6n1tzsbovw4b1)** 
+<br> Resources
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/j6n1tzsbovw4b1)** (discussion, announcements and restricted resources)
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Carmen](https://carmen.osu.edu/)** (homework submission and grades)
 
 <br>Grading
 : This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments and an optional research project. The class will assign one paper for reading each week. Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10:00am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations (some [examples](https://nlpers.blogspot.com/2016/08/some-papers-i-liked-at-acl-2016.html?m=0)), or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 

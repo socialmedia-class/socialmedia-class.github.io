@@ -23,11 +23,34 @@
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/ 
 -
-  date: September 1, 2017 (Friday, tentative)
-  slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: AI Seminar Talk by Wuwei Lan (OSU)
+  date: August 29, 2017
+  slides: 
+  title: Twitter and Twitter API Tutorial 
   highlights: 
-    - 3:00 -- 4:00pm, Dreese 480  
+    - Brief history of Twitter
+    - Key features of Twitter
+    - Hands-on instructions on obtaining Twitter data via APIs
+
+  reading:
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
+    -
+      author:  the instructor Wei Xu
+      title: ★ Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
+    - 
+      author: Justin Johnson
+      title:  Python Numpy Tutorial
+      url: http://cs231n.github.io/python-numpy-tutorial/  
+
+-
+  date: September 1, 2017 (Friday) 
+  slides: https://web.cse.ohio-state.edu/~lan.105/
+  title: AI Seminar Talk by Wuwei Lan (OSU) <img src="assets/img/new_1.gif">  
+  highlights: 
+    - 3:00 -- 4:00pm, Dreese 263  
     - A Continuously Growing Dataset of Sentential Paraphrases
   reading:
     -
@@ -44,28 +67,6 @@
   date: 
   slides: 
   title: 
--
-  date: August 31, 2016
-  slides: http://socialmedia-class.org/slides/lecture2_Twitter_API.pdf
-  title: Twitter and Twitter API Tutorial 
-  highlights: 
-    - Brief history of Twitter
-    - Key features of Twitter
-    - Hands-on instructions on obtaining Twitter data via APIs
-
-  reading:
-    -
-      author: Kwak, Lee, Park and Moon (WWW 2010)  
-      title: ★ What is Twitter, a Social Network or a News Media? 
-      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
-    -
-      author:  the instructor Wei Xu
-      title:  Twitter API Tutorial
-      url: http://socialmedia-class.org/twittertutorial.html
-    - 
-      author: Justin Johnson
-      title:  Python Numpy Tutorial
-      url: http://cs231n.github.io/python-numpy-tutorial/  
 -
   date: September 7, 2016
   slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
