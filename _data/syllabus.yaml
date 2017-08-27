@@ -25,7 +25,7 @@
 -
   date: August 29, 2017
   slides: 
-  title: Twitter and Twitter API Tutorial 
+  title: Twitter and Twitter API Tutorial [Quiz1 due]
   highlights: 
     - Brief history of Twitter
     - Key features of Twitter
@@ -40,14 +40,11 @@
       author:  the instructor Wei Xu
       title: ★ Twitter API Tutorial
       url: http://socialmedia-class.org/twittertutorial.html
-    - 
-      author: Justin Johnson
-      title:  Python Numpy Tutorial
-      url: http://cs231n.github.io/python-numpy-tutorial/  
+
 -
   date: September 1, 2017 (Friday) 
   slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: AI Seminar Talk by Wuwei Lan (OSU) <img src="assets/img/new_1.gif">  
+  title: AI Seminar Talk by Wuwei Lan [HW1 due]
   highlights: 
     - 3:00 -- 4:00pm, Dreese 263  
     - A Continuously Growing Dataset of Sentential Paraphrases
@@ -60,11 +57,23 @@
   date: September 5, 2017 
   slides: 
   title: no class - instructor travels for conference (EMNLP and W-NUT)
+  highlights: 
+  reading:
+    -
+      author:  Justin Johnson
+      title:  ★ Python Numpy Tutorial
+      url: http://cs231n.github.io/python-numpy-tutorial/  
 -
   date: September 12, 2017 
   slides: 
-  title: Guest Lecture by Pravar Mahajan (OSU)
+  title: Guest Lecture by Pravar Mahajan [Quiz2 due]
   highlights: Hashtag/Word Segmentation or Numpy Tutorial
+  reading:
+-
+  date: September 15, 2017 
+  slides: 
+  title: Drop Deadline
+  highlights: 
   reading:
 -
   date: 
