@@ -44,7 +44,6 @@
       author: Justin Johnson
       title:  Python Numpy Tutorial
       url: http://cs231n.github.io/python-numpy-tutorial/  
-
 -
   date: September 1, 2017 (Friday) 
   slides: https://web.cse.ohio-state.edu/~lan.105/
@@ -57,6 +56,10 @@
       author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu  (EMNLP 2017)
       title:  A Continuously Growing Dataset of Sentential Paraphrases
       url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
+-
+  date: September 5, 2017 
+  slides: 
+  title: no class - instructor travels for conference (EMNLP and W-NUT)
 -
   date: September 12, 2017 
   slides: 
