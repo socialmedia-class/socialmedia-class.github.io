@@ -24,7 +24,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
 #### For NLP researchers, you may focus on
 
 - Who: You are encouraged to consider NLP researchers at different stages of their career, ranging from junior phd students and established senior researchers. Summarize his/her career. How and why do they become successful?
-- What: What research topics they are working on? What are they famous for? Present one of his/her important or recent work. 
+- What: What research topics they are working on? What are they famous for? What does his/her first NLP paper (if after year 2005) look like? Present one of his/her important or recent work.  
 
 
 #### For social media platforms, you may focus on:

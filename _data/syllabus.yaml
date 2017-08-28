@@ -44,7 +44,7 @@
 -
   date: September 1, 2017 (Friday) 
   slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: AI Seminar Talk by Wuwei Lan [HW1 due]
+  title: AI Seminar Talk by Wuwei Lan 
   highlights: 
     - 3:00 -- 4:00pm, Dreese 263  
     - A Continuously Growing Dataset of Sentential Paraphrases
@@ -56,8 +56,9 @@
 -
   date: September 5, 2017 
   slides: 
-  title: no class - instructor travels for conference (EMNLP and W-NUT)
+  title: no class [HW1 due]
   highlights: 
+    - instructor travels for conference (EMNLP and W-NUT)
   reading:
     -
       author:  Justin Johnson
