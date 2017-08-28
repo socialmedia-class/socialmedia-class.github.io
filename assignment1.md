@@ -13,7 +13,7 @@ Twitter's Language Mix <span class="text-muted">: Assignment 1 (15 points)</span
 =============================================================
 
 <div class="alert alert-info">
-  <p>Due Sep 1st 02:00PM EDT (20% penalty per day for late submission)</p>
+  <p>Due Sep 5th 02:00PM EDT (20% penalty per day for late submission)</p>
 </div>
 
 
