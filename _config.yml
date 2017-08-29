@@ -1,4 +1,4 @@
 exclude: ['README.md']
 timezone: US/Eastern
 markdown: kramdown
-highlighter: pygments
+highlighter: Rouge
