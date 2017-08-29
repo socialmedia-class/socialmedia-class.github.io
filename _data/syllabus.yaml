@@ -33,14 +33,17 @@
 
   reading:
     -
-      author: Kwak, Lee, Park and Moon (WWW 2010)  
-      title: ★ What is Twitter, a Social Network or a News Media? 
-      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
-    -
       author:  the instructor Wei Xu
       title: ★ Twitter API Tutorial
       url: http://socialmedia-class.org/twittertutorial.html
-
+    -
+      author: Mocanu et al. (PLOS ONE 2013)  
+      title: ★ The Twitter of Babel - Mapping World Languages through Microblogging Platforms
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
 -
   date: September 1, 2017 (Friday) 
   slides: https://web.cse.ohio-state.edu/~lan.105/
@@ -67,7 +70,7 @@
 -
   date: September 12, 2017 
   slides: 
-  title: Guest Lecture by Pravar Mahajan [Quiz2 due]
+  title: Guest Lecture by Pravar Mahajan [Read1 due]
   highlights: Hashtag/Word Segmentation or Numpy Tutorial
   reading:
 -
