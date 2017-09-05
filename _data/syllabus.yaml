@@ -45,6 +45,33 @@
       title: How to Do Research with a Professor 
       url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
 -
+  date: September 5, 2017 
+  slides: 
+  title: no class [HW1 due]
+  highlights: 
+    - instructor travels for conference (EMNLP and W-NUT)
+  reading:
+    -
+      author: Mocanu et al. (PLOS ONE 2013)  
+      title: ★ The Twitter of Babel - Mapping World Languages through Microblogging Platforms
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981
+-
+  date: September 12, 2017 
+  slides: 
+  title: Guest Lecture by Pravar Mahajan [Read1 due]
+  highlights: Hashtag/Word Segmentation or Numpy Tutorial
+  reading: 
+    -
+      author:  Justin Johnson
+      title:  ★ Python Numpy Tutorial
+      url: http://cs231n.github.io/python-numpy-tutorial/  
+-
+  date: September 15, 2017 
+  slides: 
+  title: Drop Deadline
+  highlights: 
+  reading:
+-
   date: TBA 
   slides: https://web.cse.ohio-state.edu/~lan.105/
   title: AI Seminar Talk by Wuwei Lan 
@@ -56,33 +83,6 @@
       author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu  (EMNLP 2017)
       title:  A Continuously Growing Dataset of Sentential Paraphrases
       url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
--
-  date: September 5, 2017 
-  slides: 
-  title: no class [HW1 due]
-  highlights: 
-    - instructor travels for conference (EMNLP and W-NUT)
-  reading:
-    -
-      author:  Justin Johnson
-      title:  ★ Python Numpy Tutorial
-      url: http://cs231n.github.io/python-numpy-tutorial/  
--
-  date: September 12, 2017 
-  slides: 
-  title: Guest Lecture by Pravar Mahajan [Read1 due]
-  highlights: Hashtag/Word Segmentation or Numpy Tutorial
-  reading: 
-    -
-      author: Mocanu et al. (PLOS ONE 2013)  
-      title: ★ The Twitter of Babel - Mapping World Languages through Microblogging Platforms
-      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981
--
-  date: September 15, 2017 
-  slides: 
-  title: Drop Deadline
-  highlights: 
-  reading:
 -
   date: 
   slides: 
