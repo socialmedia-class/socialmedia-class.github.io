@@ -44,6 +44,10 @@
       author: Jason Eisner 
       title: How to Do Research with a Professor 
       url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
+    -
+      author: William Wang
+      title: How to Do Research
+      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
 -
   date: September 5, 2017 
   slides: 
@@ -72,7 +76,7 @@
 -
   date: September 15, 2017 
   slides: 
-  title: Drop Deadline
+  title: drop deadline
   highlights: 
   reading:
 -
@@ -87,10 +91,6 @@
 
   reading:
     -
-      author: Sunil Ray 
-      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
-      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
-    -
       author: Lui, Baldwin (IJCNLP 2011) 
       title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
@@ -99,17 +99,17 @@
       title: langid.py&colon; An Off-the-shelf Language Identification Tool
       url: http://www.aclweb.org/anthology/P12-3005.pdf
     -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
-      url: http://www.aclweb.org/anthology/I13-1041.pdf
-    -
       author: Blodgett, Wei, O'Connor (W-NUT 2017)
       title: ★ A Dataset and Classifier for Recognizing Social Media English
       url: http://noisy-text.github.io/2017/pdf/WNUT08.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
 -
-  date: TBA 
+  date: September 26, 2016 
   slides: http://aritter.github.io/
-  title: Guest Lecture by Alan Ritter 
+  title: Guest Lecture by Alan Ritter [Read3 due]
   highlights: 
   reading:
     -
@@ -126,6 +126,10 @@
       author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu (EMNLP 2017)
       title:  ★ A Continuously Growing Dataset of Sentential Paraphrases
       url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
 -
   date: 
   slides: 
@@ -194,7 +198,7 @@
       title:  Deep Reinforcement Learning for Dialogue Generation
       url: https://arxiv.org/pdf/1606.01541.pdf
     -
-      author:  Jiwei Li, Alan Ritter, Eduard H Hovy (ACL 2014)
+      author:  Jiwei Li, Alan Ritter, Eduard Hovy (ACL 2014)
       title:  Weakly Supervised User Profile Extraction from Twitter
       url: http://www.aclweb.org/anthology/P14-1016.pdf
 -
@@ -235,9 +239,9 @@
     - Decision Boundary
   reading:
     -
-      author:  Hua He, Kevin Gimpel, and Jimmy Lin (EMNLP 2015)
-      title:  Multi-perspective Sentence Similarity Modeling with Convolutional Neural Networks
-      url: https://aclweb.org/anthology/D/D15/D15-1181.pdf
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title:  ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
     - 
       author:  Weiwei Guo and Mona Diab (ACL 2012)
       title:  Modeling Sentences in the Latent Space
@@ -301,10 +305,6 @@
       author: Ritter, Mausam, Etzioni (KDD 2012) 
       title: ★ Open Domain Event Extraction from Twitter
       url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
-    -
-      author: William Wang
-      title: How to Do Research
-      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
     -
       author: Wikipedia
       title:  PageRank 
