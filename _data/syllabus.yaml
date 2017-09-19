@@ -81,7 +81,7 @@
   reading:
 -
   date: September 19, 2016
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
   title: Language Identification and Naïve Bayes [Read2 due]
   highlights:
     - Domain/Genre Difference
@@ -134,33 +134,6 @@
   date: 
   slides: 
   title: 
--
-  date: September 7, 2016
-  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
-  title: Language Identification and Naïve Bayes
-  highlights:
-    - Domain/Genre Difference
-    - Language Identification 
-    - Supervised Learning and Classification
-    - Naïve Bayes Algorithm + feature selection (Information Gain)
-
-  reading:
-    -
-      author: Sunil Ray 
-      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
-      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
-    -
-      author: Lui, Baldwin (IJCNLP 2011) 
-      title: ★ Cross-domain Feature Selection for Language Identification 
-      url: http://www.aclweb.org/anthology/I11-1062.pdf
-    -
-      author: Lui, Baldwin (ACL 2012)
-      title: langid.py&colon; An Off-the-shelf Language Identification Tool
-      url: http://www.aclweb.org/anthology/P12-3005.pdf
-    -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
-      url: http://www.aclweb.org/anthology/I13-1041.pdf
 -
   date: September 14, 2016 
   slides: http://socialmedia-class.org/slides/lecture4_paraphrase_data.pdf
