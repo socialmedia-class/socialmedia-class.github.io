@@ -106,6 +106,10 @@
       author: Sunil Ray 
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+    -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides/Shimodaira_note07.pdf    
 -
   date: September 26, 2016 
   slides: http://aritter.github.io/
