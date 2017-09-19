@@ -121,6 +121,26 @@
       title:  ★ &quot;i have a feeling trump will win..................&quot;&colon; Forecasting Winners and Losers from User Predictions on Twitter 
       url: http://www.aclweb.org/anthology/D/D17/D17-1166.pdf
 -
+  date: October 3, 2016 
+  slides: 
+  title: Paraphrase Data Sources [Read4 due]
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+-
   date: TBA 
   slides: https://web.cse.ohio-state.edu/~lan.105/
   title: AI Seminar Talk by Wuwei Lan 
