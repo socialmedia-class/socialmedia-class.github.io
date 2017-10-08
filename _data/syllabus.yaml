@@ -159,6 +159,24 @@
       title:  ★ A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
       url: https://aclweb.org/anthology/D16-1030.pdf
 -
+  date: Octorber 17, 2016 
+  slides: 
+  title: Paraphrase Identification and Logisitc Regression [Presentation topic due]
+  highlights: 
+    - Linear Regression 
+    - Cost Function 
+    - Gradient Descent 
+  reading:
+    - 
+      author:  Andrew Ng
+      title:  Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides/AndrewNg_notes1.pdf        
+    - 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+
+-
   date: TBA 
   slides: https://web.cse.ohio-state.edu/~lan.105/
   title: AI Seminar Talk by Wuwei Lan 
