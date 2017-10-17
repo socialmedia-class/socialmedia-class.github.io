@@ -217,23 +217,6 @@
       title:  Weakly Supervised User Profile Extraction from Twitter
       url: http://www.aclweb.org/anthology/P14-1016.pdf
 -
-  date: September 28, 2016 
-  slides: http://socialmedia-class.org/slides/lecture5_paraphrase_identification_a.pdf
-  title: Paraphrase Identification and Logisitc Regression
-  highlights: 
-    - Linear Regression 
-    - Cost Function 
-    - Gradient Descent 
-  reading:
-    - 
-      author:  Andrew Ng
-      title:  Lecture Note on Supervised Learning
-      url: http://socialmedia-class.org/slides/AndrewNg_notes1.pdf        
-    - 
-      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
-      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
-      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
--
   date: Octorber 5, 2016 
   slides: http://socialmedia-class.org/slides/lecture6_paraphrase_identification_b.pdf
   title: Paraphrase Identification and Logisitc Regression (cont')
