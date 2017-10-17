@@ -161,7 +161,7 @@
 -
   date: Octorber 17, 2016 
   slides: http://socialmedia-class.org/slides/lecture5_paraphrase_identification_a.pdf
-  title: Paraphrase Identification and Logisitc Regression [choose Presentation Topic]
+  title: Paraphrase Identification and Linear Regression 
   highlights: 
     - Linear Regression 
     - Cost Function 
@@ -169,7 +169,7 @@
   reading:
     - 
       author:  Andrew Ng
-      title:  Lecture Note on Supervised Learning
+      title:  ★ Lecture Note on Supervised Learning
       url: http://socialmedia-class.org/slides/AndrewNg_notes1.pdf        
     - 
       author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
