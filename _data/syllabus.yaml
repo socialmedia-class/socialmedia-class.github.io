@@ -175,18 +175,41 @@
       author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
       title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
       url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+
 -
-  date: Octorber 24, 2016 
-  slides: 
-  title: Paraphrase Identification and Logisitc Regression 
-  highlights: 
-    - Logistic Regression  
-    - Decision Boundary
+  date: October 24, 2017 
+  slides: http://socialmedia-class.org/slides/lecture7_Twitter_NLPpipeline.pdf
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+    - Part-of-speech tagging
+    - Named entity recognition 
   reading:
     -
-      author:  Hua He and Jimmy Lin (NAACL 2016)
-      title:  Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
-      url: http://www.aclweb.org/anthology/N16-1108.pdf
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    -
+      author: Kong et al. (EMNLP 2014)
+      title: A Dependency Parser for Tweets
+      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf
+-
+  date: October 24, 2016 (3:00-4:00pm)
+  slides: https://cse.osu.edu/events/2017/10/distinguished-guest-speaker-dr.-c.-mohan
+  title: Distinghuished Guest Speaker Talk by Dr. C. Mohan 
+  highlights: 
+    - Dreese Labs 480
+    - New Era in Distributed Computing with Blockchains and Databases
+  reading:
 -
   date: October 27, 2017 
   slides: 
@@ -323,43 +346,7 @@
 -
   date: November 2, 2016 
   slides: 
-  title: no class - The instructor will be attending EMNLP in Austin           
--
-  date: November 9, 2016 
-  slides: http://socialmedia-class.org/slides/lecture9_Twitter_NLPpipeline.pdf
-  title: Tokenization, Normalization, POS/NE Tagging for Twitter
-  highlights:
-    - Challenges in processing social media text
-    - Tokenization, Emoticons 
-    - Noisy Text Normalization
-    - Part-of-speech tagging
-    - Named entity recognition 
-    - Sequential tagging methods (HMM and CRF) 
-  reading:
-    -
-      author: Jacob Eisenstein (NAACL 2013)
-      title: What to Do about Bad Language on the Internet? 
-      url: http://www.aclweb.org/anthology/N13-1037.pdf
-    -
-      author: Bo Han and Tim Baldwin (ACL 2011)
-      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
-      url: http://www.aclweb.org/anthology/P11-1038.pdf
-    -
-      author: Dirk Hovy, Anders Johannsen, and Anders Søgaard (WWW 2015) 
-      title: ★ User Review Sites as a Resource for Large-scale Sociolinguistic Studies
-      url: http://www.aclweb.org/anthology/P11-1038.pdf
-    -
-      author: Gimpel et al.  (ACL 2011)
-      title: Part-of-Speech Tagging for Twitter &colon; Annotation, Features, and Experiments
-      url: https://www.aclweb.org/anthology/P/P11/P11-2008.pdf
-    -
-      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
-      title: ★ Named Entity Recognition in Tweets &colon; An Experimental Study
-      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
-    -
-      author: Kong et al. (EMNLP 2014)
-      title: A Dependency Parser for Tweets
-      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf   
+  title: no class - The instructor will be attending EMNLP in Austin            
 -
   date: November 16, 2016 
   slides:  http://socialmedia-class.org/slides/lecture10_vector_semantics.pdf
