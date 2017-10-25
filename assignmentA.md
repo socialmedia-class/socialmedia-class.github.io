@@ -74,7 +74,33 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
   </table>
  
 <hr>
+
+#### Slides from student in-class presentations in Autumn 2017 (a social media platform or a NLP researcher): 
+
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th> Date </th>
+        <th>Speaker</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Octorber 17, 2017</td>
+        <td>Kun Jin & Xiaohu Zhao</td>
+        <td><a href="./slides/students_2017/Presentation.pptx">NLP researcher: Diyi Yang</a></td>
+      </tr>
+        <tr>
+        <td>Octorber 17, 2017</td>
+        <td>Srividhya Chandrasekharan & Anu Yadav</td>
+        <td><a href="./slides/students_2017/In-class presentation_Anu_Srividhya.pdf">NLP researcher: Eshwar Chandrasekharan</a></td>
+      </tr>
+    </tbody>
+  </table>
   
+    
 #### Slides from student in-class presentations in Autumn 2016 (a social media platform or a NLP research group): 
 
 

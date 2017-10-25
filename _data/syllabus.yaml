@@ -196,26 +196,52 @@
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
-      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      title: ★ Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
     -
       author: Kong et al. (EMNLP 2014)
       title: A Dependency Parser for Tweets
       url: http://aclweb.org/anthology/D/D14/D14-1108.pdf
 -
-  date: October 24, 2016 (3:00-4:00pm)
-  slides: https://cse.osu.edu/events/2017/10/distinguished-guest-speaker-dr.-c.-mohan
-  title: Distinghuished Guest Speaker Talk by Dr. C. Mohan 
-  highlights: 
-    - Dreese Labs 480
-    - New Era in Distributed Computing with Blockchains and Databases
-  reading:
--
   date: October 27, 2017 
   slides: 
   title: withdraw deadline
   highlights: 
   reading:
+-
+  date: Octorber 31, 2016 
+  slides: 
+  title: Paraphrase Identification and Logisitc Regression 
+  highlights: 
+    - Logistic Regression  
+    - Decision Boundary
+  reading:
+    -
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
+    - 
+      author:  Ankur P. Parikh, Oscar Täckström, Dipanjan Das and Jakob Uszkoreit (EMNLP 2016)  
+      title: A Decomposable Attention Model for Natural Language Inference
+      url: https://aclweb.org/anthology/D16-1244.pdf   
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
+-
+  date: November 7, 2017 
+  slides: 
+  title: Working Groups (brainstorm research ideas)
+  highlights: 
+    - 2:20-2:50pm 1-minute student presentations  
+    - 2:50-3:30pm group discussions
+    - 3:30-3:40pm break and wrapping up
+    - 3:40-4:10pm 5-minute group presentations
+  reading:
+    -
+      author:  Durrett et al. (EMNLP 2017)
+      title: ★ Identifying Products in Online Cybercrime Marketplaces&colon; A Dataset for Fine-grained Domain Adaptation
+      url: http://aclweb.org/anthology/D17-1274.pdf
 -
   date: November 17, 2016 (3:00-4:00pm)
   slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
@@ -288,7 +314,7 @@
   reading:
     - 
       author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
-      title: ★ Extracting Lexically Divergent Paraphrases from Twitter
+      title: Extracting Lexically Divergent Paraphrases from Twitter
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
     - 
       author:  Yangfeng Ji and Jacob Eisenstein  (EMNLP 2013)
