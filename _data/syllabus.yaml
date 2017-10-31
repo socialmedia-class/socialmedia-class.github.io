@@ -210,7 +210,7 @@
   reading:
 -
   date: Octorber 31, 2016 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture6_paraphrase_identification_b.pdf
   title: Paraphrase Identification and Logisitc Regression [Read6 & Quiz2 due Oct 30]
   highlights: 
     - Logistic Regression  
@@ -287,22 +287,6 @@
       author:  Jiwei Li, Alan Ritter, Eduard Hovy (ACL 2014)
       title:  Weakly Supervised User Profile Extraction from Twitter
       url: http://www.aclweb.org/anthology/P14-1016.pdf
--
-  date: Octorber 5, 2016 
-  slides: http://socialmedia-class.org/slides/lecture6_paraphrase_identification_b.pdf
-  title: Paraphrase Identification and Logisitc Regression (cont')
-  highlights: 
-    - Logistic Regression  
-    - Decision Boundary
-  reading:
-    -
-      author:  Hua He and Jimmy Lin (NAACL 2016)
-      title:  ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
-      url: http://www.aclweb.org/anthology/N16-1108.pdf
-    - 
-      author:  Weiwei Guo and Mona Diab (ACL 2012)
-      title:  Modeling Sentences in the Latent Space
-      url: http://www.aclweb.org/anthology/P12-1091.pdf
 -
   date: Octorber 12, 2016 
   slides: http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf
