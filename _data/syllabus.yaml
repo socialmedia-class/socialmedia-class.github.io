@@ -270,9 +270,17 @@
       title:  Python-Graph (a library for working with graphs in Python)
       url: https://github.com/pmatiello/python-graph
 -
+  date: November 17, 2016 (3:00-4:00pm)
+  slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
+  title: Distinghuished Guest Speaker Talk by Dr. Lyle Ungar 
+  highlights: 
+    - Dreese Labs 480
+    - Measuring Psychological Traits using Social Media
+  reading:
+-
   date: November 21, 2016 
   slides:   
-  title: Vector Semantics [HW1-part1 due on Nov 20]
+  title: Vector Semantics [HW1-part1 due on Nov 20; Read7 due on Nov 21]
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
@@ -285,7 +293,7 @@
       url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
     -
       author: Cherry and Guo (NAACL 2015)
-      title: The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+      title: ★ The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
     -
       author: Levy and Goldberg (NIPS 2014)  
@@ -296,17 +304,9 @@
       title: Softmax Regression Tutorial
       url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
 -
-  date: November 17, 2016 (3:00-4:00pm)
-  slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
-  title: Distinghuished Guest Speaker Talk by Dr. Lyle Ungar 
-  highlights: 
-    - Dreese Labs 480
-    - Measuring Psychological Traits using Social Media
-  reading:
--
   date: November 28, 2016 (12:45-2:05pm)
   slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: Clippers Talk by Wuwei Lan 
+  title: Clippers Talk by Wuwei Lan [Read8 due]
   highlights: 
     - Jennings Hall 140
     - Learning Large-scale Paraphrases Continuously from Twitter
