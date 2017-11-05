@@ -272,7 +272,11 @@
 -
   date: November 21, 2016 
   slides:  
+<<<<<<< HEAD
   title: Vector Semantics 
+=======
+  title: Vector Semantics [Quiz 4 due]
+>>>>>>> 0a3a6c08a2bb2fb8d27999a338f49aab39b56e73
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
