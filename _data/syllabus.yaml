@@ -166,16 +166,15 @@
     - Linear Regression 
     - Cost Function 
     - Gradient Descent 
-  reading:
-    - 
-      author:  Andrew Ng
-      title:  ★ Lecture Note on Supervised Learning
-      url: http://socialmedia-class.org/slides/AndrewNg_notes1.pdf        
+  reading:   
     - 
       author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
       title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
       url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
-
+    - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides/AndrewNg_notes1.pdf     
 -
   date: October 24, 2017 
   slides: http://socialmedia-class.org/slides/lecture7_Twitter_NLPpipeline.pdf
@@ -221,6 +220,10 @@
     - Decision Boundary
   reading:
     -
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
       author:  Hua He and Jimmy Lin (NAACL 2016)
       title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
       url: http://www.aclweb.org/anthology/N16-1108.pdf
@@ -255,7 +258,7 @@
   reading:
     - 
       author: Dan Jurafsky and James H. Martin 
-      title: Speech and Language Processing (upcoming new edition, Chapter 16)
+      title: ★ Speech and Language Processing (upcoming new edition, Chapter 16)
       url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
     -
       author: Cherry and Guo (NAACL 2015)
@@ -263,12 +266,8 @@
       url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
     -
       author: Levy and Goldberg (NIPS 2014)  
-      title: ★ Neural Word Embedding as Implicit Matrix Factorization
+      title: Neural Word Embedding as Implicit Matrix Factorization
       url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
-    -
-      author: Ng et al. 
-      title: Softmax Regression Tutorial
-      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
 -
   date: November 17, 2016 (3:00-4:00pm)
   slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
