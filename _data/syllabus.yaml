@@ -245,42 +245,8 @@
       url: http://aclweb.org/anthology/D17-1274.pdf
 -
   date: November 14, 2016 
-  slides: 
-  title:  Automatic Summarization and the PageRank Algorithm [Quiz4 due]
-  highlights:
-    - SumBasic algorithm
-    - PageRank algorithm
-    - Graph visualization
-    - Event-based summarization system
-  reading:
-    -
-      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
-      title:  A Preliminary Study of Tweet Summarization using Information Extraction
-      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
-    -
-      author: Ritter, Mausam, Etzioni (KDD 2012) 
-      title: ★ Open Domain Event Extraction from Twitter
-      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
-    -
-      author: Wikipedia
-      title:  PageRank 
-      url: https://en.wikipedia.org/wiki/PageRank
-    -
-      author: Matiello et al. 
-      title:  Python-Graph (a library for working with graphs in Python)
-      url: https://github.com/pmatiello/python-graph
--
-  date: November 17, 2016 (3:00-4:00pm)
-  slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
-  title: Distinghuished Guest Speaker Talk by Dr. Lyle Ungar 
-  highlights: 
-    - Dreese Labs 480
-    - Measuring Psychological Traits using Social Media
-  reading:
--
-  date: November 21, 2016 
   slides:   
-  title: Vector Semantics [HW1-part1 due on Nov 20; Read7 due on Nov 21]
+  title: Vector Semantics [Quiz4 & Read7 due]
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
@@ -303,6 +269,14 @@
       author: Ng et al. 
       title: Softmax Regression Tutorial
       url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+-
+  date: November 17, 2016 (3:00-4:00pm)
+  slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
+  title: Distinghuished Guest Speaker Talk by Dr. Lyle Ungar 
+  highlights: 
+    - Dreese Labs 480
+    - Measuring Psychological Traits using Social Media
+  reading:
 -
   date: November 28, 2016 (12:45-2:05pm)
   slides: https://web.cse.ohio-state.edu/~lan.105/
