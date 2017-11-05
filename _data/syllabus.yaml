@@ -191,12 +191,16 @@
       title: What to Do about Bad Language on the Internet? 
       url: http://www.aclweb.org/anthology/N13-1037.pdf
     -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
       author: Bo Han and Tim Baldwin (ACL 2011)
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
     -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
-      title: ★ Named Entity Recognition in Tweets &colon; An Experimental Study
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
     -
       author: Kong et al. (EMNLP 2014)
@@ -221,17 +225,13 @@
       title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
       url: http://www.aclweb.org/anthology/N16-1108.pdf
     - 
-      author:  Ankur P. Parikh, Oscar Täckström, Dipanjan Das and Jakob Uszkoreit (EMNLP 2016)  
-      title: A Decomposable Attention Model for Natural Language Inference
-      url: https://aclweb.org/anthology/D16-1244.pdf   
-    - 
       author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
       title: Extracting Lexically Divergent Paraphrases from Twitter
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
 -
   date: November 7, 2017 
   slides: 
-  title: Brainstorm Research Ideas [Slide due on Nov 6]
+  title: Brainstorm Research Ideas [Slides due on Nov 6]
   highlights: 
     - 2:20-2:50pm 1-minute student presentations  
     - 2:50-3:10pm group discussions (round 1)
@@ -246,7 +246,7 @@
 -
   date: November 14, 2016 
   slides:   
-  title: Vector Semantics [Quiz4 & Read7 due]
+  title: Vector Semantics [Quiz4 & Read7 due - last Quiz]
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
@@ -278,9 +278,15 @@
     - Measuring Psychological Traits using Social Media
   reading:
 -
+  date: November 20, 2017 
+  slides: 
+  title: .[HW2-part1 due]
+  highlights: 
+  reading:
+-
   date: November 28, 2016 (12:45-2:05pm)
   slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: Clippers Talk by Wuwei Lan [Read8 due]
+  title: Clippers Talk by Wuwei Lan [Read8 due - last Read]
   highlights: 
     - Jennings Hall 140
     - Learning Large-scale Paraphrases Continuously from Twitter
@@ -289,10 +295,16 @@
       author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu (EMNLP 2017)
       title:  ★ A Continuously Growing Dataset of Sentential Paraphrases
       url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
-    -
-      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
-      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    - 
+      author:  Ankur P. Parikh, Oscar Täckström, Dipanjan Das and Jakob Uszkoreit (EMNLP 2016)  
+      title: ★ A Decomposable Attention Model for Natural Language Inference
+      url: https://aclweb.org/anthology/D16-1244.pdf   
+-
+  date: December 4, 2017 
+  slides: 
+  title: .[HW2-part2 due]
+  highlights: 
+  reading:
 -
   date: 
   slides: 
