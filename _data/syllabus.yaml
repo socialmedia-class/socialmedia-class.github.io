@@ -245,8 +245,34 @@
       url: http://aclweb.org/anthology/D17-1274.pdf
 -
   date: November 14, 2016 
+  slides: 
+  title:  Automatic Summarization and the PageRank Algorithm (Quiz 4 due)
+  highlights:
+    - SumBasic algorithm
+    - PageRank algorithm
+    - Graph visualization
+    - Event-based summarization system
+  reading:
+    -
+      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
+      title:  A Preliminary Study of Tweet Summarization using Information Extraction
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: Ritter, Mausam, Etzioni (KDD 2012) 
+      title: ★ Open Domain Event Extraction from Twitter
+      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
+    -
+      author: Wikipedia
+      title:  PageRank 
+      url: https://en.wikipedia.org/wiki/PageRank
+    -
+      author: Matiello et al. 
+      title:  Python-Graph (a library for working with graphs in Python)
+      url: https://github.com/pmatiello/python-graph
+-
+  date: November 21, 2016 
   slides:  
-  title: Vector Semantics (Quiz 4 due)
+  title: Vector Semantics 
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
