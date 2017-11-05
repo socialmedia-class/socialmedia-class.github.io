@@ -88,6 +88,16 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
     </thead>
     <tbody>
       <tr>
+        <td>Octorber 31, 2017</td>
+        <td>Pragya Arora & Piyush Ghai</td>
+        <td><a href="./slides/students_2017/Jiwei Li_NLP_Researcher.pdf">NLP researcher: Jiwei Li</a></td>
+      </tr>
+      <tr>
+        <td>Octorber 31, 2017</td>
+        <td>Rory Flukes & Ben Trevor</td>
+        <td>NLP researcher: Jacob Andreas</td>
+      </tr>
+      <tr>
         <td>Octorber 17, 2017</td>
         <td>Kun Jin & Xiaohu Zhao</td>
         <td><a href="./slides/students_2017/Presentation.pptx">NLP researcher: Diyi Yang</a></td>
@@ -113,51 +123,21 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Octorber 5, 2016</td>
-        <td>David Palzer</td>
-        <td><a href="./slides/students/davidpalzer_138983_1104729_NLP.pdf">NLP/CL: Carnegie Mellon</a></td>
+        <tr>
+        <td>December 7, 2016</td>
+        <td>Poorya Zaremoodi & Rafah Asadi</td>
+        <td><a href="./slides/students/OSU_NLP_group.pdf">NLP: Ohio State</a></td>
       </tr>
         <tr>
-        <td>Octorber 12, 2016</td>
-        <td>Wuwei Lan & Wei Sun</td>
-        <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
-      </tr>
-      <tr>
-        <td>Octorber 12, 2016</td>
-        <td>Evan Kozliner & Evan Jaffe</td>
-        <td><a href="./slides/students/Stanford_NLP.pdf">Stanford NLP</a></td>
+        <td>December 7, 2016</td>
+        <td>Gordon Moon & Jie Zhao</td>
+        <td><a href="./slides/students/NLP_UW_gordon_jie.pdf">NLP: University of Washington</a></td>
       </tr>
         <tr>
-        <td>Octorber 19, 2016</td>
-        <td>Sankeerth V S & Pravar Mahajan</td>
-        <td><a href="./slides/students/IIT_Madras.pdf">IIT – Madras: AIDB Lab</a></td>
+        <td>November 30, 2016</td>
+        <td>Zhuoer Wang & Chuhan Feng</td>
+        <td><a href="./slides/students/Instagram.pdf">Instagram</a></td>
       </tr>
-        <tr>
-        <td>Octorber 19, 2016</td>
-        <td>Amad Hussain & Rob LaTour</td>
-        <td><a href="./slides/students/NLP_at_Cambridge.pdf">NLP at Cambridge</a></td>
-      </tr>
-        <tr>
-        <td>Octorber 26, 2016</td>
-        <td>Fang Cao & Venkata Sai Mandadapu</td>
-        <td><a href="./slides/students/NLP-UCB.pdf">NLP: UC Berkeley</a></td>
-      </tr>
-        <tr>
-        <td>Octorber 26, 2016</td>
-        <td>Subash Chebolu & Jacob Hoylman</td>
-        <td><a href="./slides/students/NLP_Georgia_Tech.pdf">NLP: Georgia Tech</a></td>
-      </tr>      
-        <tr>
-        <td>November 9, 2016</td>
-        <td>Nikhita Vedula & Ashish Konda</td>
-        <td><a href="./slides/students/CSE5539Presentation_ashish_nikhita.pdf">Cornell University NLP Group</a></td>
-      </tr>      
-        <tr>
-        <td>November 9, 2016</td>
-        <td>Sourav Chakraborty</td>
-        <td><a href="./slides/students/chakrabs_5539.pdf">NLP Research @ UCSB</a></td>
-      </tr>   
         <tr>
         <td>November 16, 2016</td>
         <td>Dushyanta Dhyani & Karan Grover</td>
@@ -169,19 +149,49 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td><a href="./slides/students/Facebook.pdf">Facebook</a></td>
       </tr>
         <tr>
-        <td>November 30, 2016</td>
-        <td>Zhuoer Wang & Chuhan Feng</td>
-        <td><a href="./slides/students/Instagram.pdf">Instagram</a></td>
+        <td>November 9, 2016</td>
+        <td>Nikhita Vedula & Ashish Konda</td>
+        <td><a href="./slides/students/CSE5539Presentation_ashish_nikhita.pdf">Cornell University NLP Group</a></td>
+      </tr>      
+        <tr>
+        <td>November 9, 2016</td>
+        <td>Sourav Chakraborty</td>
+        <td><a href="./slides/students/chakrabs_5539.pdf">NLP Research @ UCSB</a></td>
+      </tr>   
+        <tr>
+        <td>Octorber 26, 2016</td>
+        <td>Fang Cao & Venkata Sai Mandadapu</td>
+        <td><a href="./slides/students/NLP-UCB.pdf">NLP: UC Berkeley</a></td>
       </tr>
         <tr>
-        <td>December 7, 2016</td>
-        <td>Poorya Zaremoodi & Rafah Asadi</td>
-        <td><a href="./slides/students/OSU_NLP_group.pdf">NLP: Ohio State</a></td>
+        <td>Octorber 26, 2016</td>
+        <td>Subash Chebolu & Jacob Hoylman</td>
+        <td><a href="./slides/students/NLP_Georgia_Tech.pdf">NLP: Georgia Tech</a></td>
+      </tr>  
+        <tr>
+        <td>Octorber 19, 2016</td>
+        <td>Sankeerth V S & Pravar Mahajan</td>
+        <td><a href="./slides/students/IIT_Madras.pdf">IIT – Madras: AIDB Lab</a></td>
       </tr>
         <tr>
-        <td>December 7, 2016</td>
-        <td>Gordon Moon & Jie Zhao</td>
-        <td><a href="./slides/students/NLP_UW_gordon_jie.pdf">NLP: University of Washington</a></td>
+        <td>Octorber 19, 2016</td>
+        <td>Amad Hussain & Rob LaTour</td>
+        <td><a href="./slides/students/NLP_at_Cambridge.pdf">NLP at Cambridge</a></td>
+      </tr>  
+        <tr>
+        <td>Octorber 12, 2016</td>
+        <td>Wuwei Lan & Wei Sun</td>
+        <td><a href="./slides/students/MIT_NLP_Group_WuweiLan_WeiSun.pdf">NLP Research Group: MIT</a></td>
+      </tr>
+      <tr>
+        <td>Octorber 12, 2016</td>
+        <td>Evan Kozliner & Evan Jaffe</td>
+        <td><a href="./slides/students/Stanford_NLP.pdf">Stanford NLP</a></td>
+      </tr>  
+        <tr>
+        <td>Octorber 5, 2016</td>
+        <td>David Palzer</td>
+        <td><a href="./slides/students/davidpalzer_138983_1104729_NLP.pdf">NLP/CL: Carnegie Mellon</a></td>
       </tr>
     </tbody>
   </table>
