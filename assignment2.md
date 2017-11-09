@@ -9,12 +9,12 @@ active_tab: homework
 
 
 
-Logistic Regression <span class="text-muted">: Assignment 2 (35 points)</span> 
+Logistic Regression <span class="text-muted">: Assignment 2 (30 points)</span> 
 =============================================================
 
 
 <div class="alert alert-info">
-  <p>Due date TBA; 20% penalty per day for late submission.</p>
+  <p>Part 1 due November 20 3:00pm EDT; Part 2 due December 4 3:00pm EDT (20% penalty per day for late submission)</p>
 </div>
 
 
@@ -45,7 +45,7 @@ After finished, follow the instruction, pack your code into a zip file named lik
 
 #### Extracurricular
 
-If you are interested in applying logistic regression to some real-world NLP problems, you can try out this task and dataset: [Paraphrase Identification and Semantic Similarity in Twitter](http://alt.qcri.org/semeval2015/task1/). It was an international research competition (so called shared-task) organized by the instructor with Microsoft Research that has attracted 19 top research groups to participate in 2015, including Stanford, Columbia University, MITRE and etc. More details can be found in the [overview paper](https://cocoxu.github.io/publications/semeval_pit_2015_overview.pdf) of the 2015 shared-task. We are planning to organize it again in 2017. Note that, for a large dataset using many features, you often need to implement some regularizations (e.g. L2) to avoid overfitting and use an advanced optimization algorithm (e.g. L-BFGS; you probably should not implement these algorithms unless you are an expert in numerical computing) for minimizing the cost function. 
+If you are interested in applying logistic regression to some real-world NLP problems, you can try out this task and dataset: [Paraphrase Identification and Semantic Similarity in Twitter](http://alt.qcri.org/semeval2015/task1/). It was an international research competition (so called shared-task) organized by the instructor with Microsoft Research that has attracted 19 top research groups to participate in 2015, including Stanford, Columbia University, MITRE and etc. More details can be found in the [overview paper](https://cocoxu.github.io/publications/semeval_pit_2015_overview.pdf) of the 2015 shared-task. Note that, for a large dataset using many features, you often need to implement some regularizations (e.g. L2) to avoid overfitting and use an advanced optimization algorithm (e.g. L-BFGS; you probably should not implement these algorithms unless you are an expert in numerical computing) for minimizing the cost function. 
 
 
 
