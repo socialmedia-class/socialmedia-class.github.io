@@ -258,7 +258,11 @@
   reading:
     - 
       author: Dan Jurafsky and James H. Martin 
-      title: ★ Speech and Language Processing (upcoming new edition, Chapter 16)
+      title: ★ Speech and Language Processing (Chapter 15 Vector Semantics)
+      url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 16 Semantics with Dense Vectors)
       url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
     -
       author: Cherry and Guo (NAACL 2015)
