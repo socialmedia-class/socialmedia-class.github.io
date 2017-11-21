@@ -286,7 +286,7 @@
       url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073791
 -
   date: November 21, 2016 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture9_deeplearning.pdf
   title: Deep Learning for NLP [HW2-part1 due on Nov 20]
   highlights:
     - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
