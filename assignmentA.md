@@ -87,6 +87,21 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
       </tr>
     </thead>
     <tbody>
+    	<tr>
+        <td>November 21, 2017</td>
+        <td>Reid Fu & Shuaichen Chang</td>
+        <td><a href="./slides/students_2017/5539_presentation.pdf">NLP Researcher: John Wieting</a></td>
+      </tr>
+    	<tr>
+        <td>November 14, 2017</td>
+        <td>Mounica Maddela & Jayavardhan Reddy</td>
+        <td><a href="./slides/students_2017/Inclass_ Presentation_Mounica_Jayavardhan.pdf">Yelp</a></td>
+      </tr>
+        <tr>
+        <td>November 14, 2017</td>
+        <td>Qingyang Li & Mengxue Zhang</td>
+        <td>NLP researcher: Chris Callison-Burch</td>
+      </tr>
       <tr>
         <td>Octorber 31, 2017</td>
         <td>Pragya Arora & Piyush Ghai</td>
