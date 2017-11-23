@@ -234,7 +234,7 @@
 -
   date: November 7, 2017 
   slides: 
-  title: Brainstorm Research Ideas [Slides due on Nov 6]
+  title: Brainstorm Research Ideas [Slides due Nov 6]
   highlights: 
     - 2:20-2:50pm 1-minute student presentations  
     - 2:50-3:10pm group discussions (round 1)
@@ -287,7 +287,7 @@
 -
   date: November 21, 2016 
   slides: http://socialmedia-class.org/slides/lecture9_deeplearning.pdf
-  title: Deep Learning for NLP [HW2-part1 due on Nov 20]
+  title: Deep Learning for NLP [HW2-part1 due Nov 20]
   highlights:
     - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
     - Recurrent Neural Network
@@ -300,17 +300,21 @@
       title: ★ Sequence to Sequence Learning with Neural Networks
       url: https://arxiv.org/pdf/1409.3215v3.pdf
     - 
+      author: Ng et al. 
+      title: Deep Learning Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
+    - 
+      author: Graham Neubig  
+      title: Neural Machine Translation and Sequence-to-Sequence Models&colon; A Tutorial
+      url: https://arxiv.org/pdf/1703.01619.pdf
+    - 
       author: Li et al.
       title: Adversarial Learning for Neural Dialogue Generation
       url: http://www.aclweb.org/anthology/D/D17/D17-1229.pdf
-    - 
-      author: Ng et al. 
-      title: Deep Learning Tutorial
-      url: http://ufldl.stanford.edu/tutorial/
 -
-  date: November 28, 2016 (12:45-2:05pm)
+  date: November 28, 2016 (12:45-1:30pm)
   slides: https://web.cse.ohio-state.edu/~lan.105/
-  title: Clippers Talk by Wuwei Lan [Read8 due]
+  title: Clippers Talk by Wuwei Lan 
   highlights: 
     - Jennings Hall 140
     - Learning Large-scale Paraphrases Continuously from Twitter
@@ -324,11 +328,48 @@
       title: ★ A Decomposable Attention Model for Natural Language Inference
       url: https://aclweb.org/anthology/D16-1244.pdf   
 -
-  date: December 4, 2017 
+  date: November 28, 2016 
   slides: 
-  title: .[HW2-part2 due]
-  highlights: 
+  title:  Automatic Summarization for Twitter and the PageRank Algorithm [Read8 due Nov 30 - last Read]
+  highlights:
+    - SumBasic algorithm
+    - PageRank algorithm
+    - Graph visualization
+    - Event-based summarization system
   reading:
+    -
+      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
+      title:  A Preliminary Study of Tweet Summarization using Information Extraction
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: Ritter, Mausam, Etzioni (KDD 2012) 
+      title: ★ Open Domain Event Extraction from Twitter
+      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
+    -
+      author: Wikipedia
+      title:  PageRank 
+      url: https://en.wikipedia.org/wiki/PageRank
+    -
+      author: Matiello et al. 
+      title:  Python-Graph (a library for working with graphs in Python)
+      url: https://github.com/pmatiello/python-graph
+-
+  date: December 5, 2017 
+  slides: 
+  title: Sentiment Analysis, Convolutional Neural Networks and Attention [HW2-part2 due Dec 4]
+  highlights: 
+    - Sentiment Analysis
+    - Attention Model
+    - Convolutional Neural Networks
+  reading:
+    -
+      author: Yi Yang and Jacob Eisenstein (TACL 2017) 
+      title: ★ Overcoming Language Variation in Sentiment Analysis with Social Attention
+      url: http://www.aclweb.org/anthology/Q17-1021.pdf
+    -
+      author:  Yoav Goldberg (2017) 
+      title: Neural Network Methods for Natural Language Processing (Book)
+      url: http://www.morganclaypool.com/doi/pdf/10.2200/S00762ED1V01Y201703HLT037
 -
   date: 
   slides: 
@@ -342,7 +383,7 @@
     - Teaching a Machine to Converse
   reading:
     - 
-      author:  Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao and Dan Jurafsky. (EMNLP 2016)
+      author:  Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao and Dan Jurafsky (EMNLP 2016)
       title:  Deep Reinforcement Learning for Dialogue Generation
       url: https://arxiv.org/pdf/1606.01541.pdf
     -
@@ -383,69 +424,6 @@
       author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
       title: Generating Natural Questions About an Image
       url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
--
-  date: Octorber 19, 2016 
-  slides: http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf
-  title: Twitter Paraphrase and Latent Variable Model (cont')
-  highlights: 
-  reading:
--
-  date: Octorber 26, 2016 
-  slides: http://socialmedia-class.org/slides/lecture8_Twitter_summarization.pdf
-  title:  Automatic Summarization for Twitter and the PageRank Algorithm 
-  highlights:
-    - SumBasic algorithm
-    - PageRank algorithm
-    - Graph visualization
-    - Event-based summarization system
-
-  reading:
-    -
-      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
-      title:  A Preliminary Study of Tweet Summarization using Information Extraction
-      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
-    -
-      author: Ritter, Mausam, Etzioni (KDD 2012) 
-      title: ★ Open Domain Event Extraction from Twitter
-      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
-    -
-      author: Wikipedia
-      title:  PageRank 
-      url: https://en.wikipedia.org/wiki/PageRank
-    -
-      author: Matiello et al. 
-      title:  Python-Graph (a library for working with graphs in Python)
-      url: https://github.com/pmatiello/python-graph
--
-  date: November 30, 2016 
-  slides: http://socialmedia-class.org/slides/lecture11_deepNLP.pdf
-  title: Deep Learning for NLP 
-  highlights:
-    - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
-    - Recurrent Neural Network
-    - Long Short-Term Memory Networks
-    - Neural Machine Translation 
-    - Neural Conversation Generation
-  reading:
-    - 
-      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
-      title: ★ Sequence to Sequence Learning with Neural Networks
-      url: https://arxiv.org/pdf/1409.3215v3.pdf
-    - 
-      author: Li et al.
-      title: A Persona-Based Neural Conversation Model
-      url: http://nlp.stanford.edu/pubs/jiwei2016Persona.pdf
-    - 
-      author: Ng et al. 
-      title: Deep Learning Tutorial
-      url: http://ufldl.stanford.edu/tutorial/
--
-  date: December 7, 2016 
-  slides: 
-  title: Review and Q&A     
-  highlights:
-    - I will go over some course material (lecture slides or homework) where students have questions or where we didn't have enough time to go into details previously. 
-    - I will also have extended office hours that day for 1-on-1 meetings on research project review, Q&A, etc. 
 
   
      
