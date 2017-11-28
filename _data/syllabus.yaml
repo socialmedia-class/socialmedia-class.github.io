@@ -329,7 +329,7 @@
       url: https://aclweb.org/anthology/D16-1244.pdf   
 -
   date: November 28, 2016 
-  slides: 
+  slides:  http://socialmedia-class.org/slides/lecture10_Twitter_summarization.pdf
   title:  Automatic Summarization for Twitter and the PageRank Algorithm [Read8 due Nov 30 - last Read]
   highlights:
     - SumBasic algorithm
