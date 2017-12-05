@@ -88,6 +88,36 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
     </thead>
     <tbody>
     	<tr>
+        <td>December 5, 2017</td>
+        <td>Xingya Zhao</td>
+        <td><a href="./slides/students_2017/cse5539pre_xzhao.pdf">NLP Researcher: Snigdha Chaturvedi</a></td>
+      </tr>
+    	<tr>
+        <td>December 5, 2017</td>
+        <td>Ritesh Sarkhel</td>
+        <td><a href="./slides/students_2017/Presentation.pdf">NLP Researcher: Taylor Berg-Kirkpatrick</a></td>
+      </tr>
+    	<tr>
+        <td>December 5, 2017</td>
+        <td>Haiyang Qi & Wei Da</td>
+        <td><a href="./slides/students_2017/Presentation2.pdf">NLP Researcher: Kai-wei Chang</a></td>
+      </tr>
+    	<tr>
+        <td>November 28, 2017</td>
+        <td>Nabil Wadih & Brian Groenke</td>
+        <td><a href="./slides/students_2017/Facebook_NLP.pdf">Facebook</a></td>
+      </tr>
+    	<tr>
+        <td>November 28, 2017</td>
+        <td>Anant Chowdhary & Chengfei He</td>
+        <td><a href="./slides/students_2017/NLP_presentation.pdf">Dan Jurafsky's research</a></td>
+      </tr>
+    	<tr>
+        <td>November 21, 2017</td>
+        <td>Amanpreet Singh & Anirudh Ganesh</td>
+        <td><a href="./slides/students_2017/Reddit_Presentation.pdf">Reddit</a></td>
+      </tr>
+    	<tr>
         <td>November 21, 2017</td>
         <td>Reid Fu & Shuaichen Chang</td>
         <td><a href="./slides/students_2017/5539_presentation.pdf">NLP Researcher: John Wieting</a></td>
@@ -101,6 +131,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>November 14, 2017</td>
         <td>Qingyang Li & Mengxue Zhang</td>
         <td>NLP researcher: Chris Callison-Burch</td>
+        <td><a href="./slides/students_2017/Social_Media_Presentation.ppt">Yelp</a></td>
       </tr>
       <tr>
         <td>Octorber 31, 2017</td>
@@ -111,6 +142,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <td>Octorber 31, 2017</td>
         <td>Rory Flukes & Ben Trevor</td>
         <td>NLP researcher: Jacob Andreas</td>
+        <td><a href="./slides/students_2017/Social_Media_Presentation.pdf">NLP researcher: Jiwei Li</a></td>
       </tr>
       <tr>
         <td>Octorber 17, 2017</td>
