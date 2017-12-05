@@ -355,7 +355,7 @@
       url: https://github.com/pmatiello/python-graph
 -
   date: December 5, 2017 
-  slides: 
+  slides:  http://socialmedia-class.org/slides/lecture11_CNN_sentiment.pdf
   title: Sentiment Analysis, Convolutional Neural Networks and Attention [HW2-part2 due Dec 4]
   highlights: 
     - Sentiment Analysis
