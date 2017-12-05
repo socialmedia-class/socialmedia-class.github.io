@@ -130,8 +130,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
         <tr>
         <td>November 14, 2017</td>
         <td>Qingyang Li & Mengxue Zhang</td>
-        <td>NLP researcher: Chris Callison-Burch</td>
-        <td><a href="./slides/students_2017/Social_Media_Presentation.ppt">Yelp</a></td>
+        <td><a href="./slides/students_2017/Social_Media_Presentation.ppt">NLP researcher: Chris Callison-Burch</a></td>
       </tr>
       <tr>
         <td>Octorber 31, 2017</td>
@@ -141,8 +140,7 @@ Second, after your presentation in the class, **upload your slides** to [OSU's C
       <tr>
         <td>Octorber 31, 2017</td>
         <td>Rory Flukes & Ben Trevor</td>
-        <td>NLP researcher: Jacob Andreas</td>
-        <td><a href="./slides/students_2017/Social_Media_Presentation.pdf">NLP researcher: Jiwei Li</a></td>
+        <td><a href="./slides/students_2017/Social_Media_Presentation.pdf">NLP researcher: Jacob Andreas</a></td>
       </tr>
       <tr>
         <td>Octorber 17, 2017</td>
