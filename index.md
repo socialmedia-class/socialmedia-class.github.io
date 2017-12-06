@@ -56,9 +56,10 @@ Instructor
 
 
 <br>Previous Offerings
-: &nbsp;&nbsp;&nbsp;&nbsp; Fall 2016, The Ohio State University
-<br> &nbsp;&nbsp;&nbsp;&nbsp; Summer 2016, [The North American Summer School on Logic, Language, and Information (NASSLLI)](http://nasslli2016.rutgers.edu/about_nasslli.html) 
+: 
+- Fall 2016, The Ohio State University (Instructor: Wei Xu)
+- Summer 2016, [NASSLLI]((http://nasslli2016.rutgers.edu/about_nasslli.html)): The North American Summer School on Logic, Language, and Information (Instructor: Wei Xu)
 <br> &nbsp;&nbsp;&nbsp;&nbsp; Teaching evaluation was 5.72 out of 6 at NASSLLI; average across all instructors was 5.23. 
-<br> &nbsp;&nbsp;&nbsp;&nbsp; Summer 2015, University of Pennsylvania
+- Summer 2015, University of Pennsylvania (Instructor: Wei Xu)
 
 
