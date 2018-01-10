@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="assets/css/syntax.css" rel="stylesheet" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="tutorial"><a href="twittertutorial.html">Twitter API Tutorial</a></li>
+            
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework<span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment0.html">0. Become a Twitter User</a></li>
+                <li><a href="assignment1.html">1. Twitter's Language Mix</a></li>
+                <li><a href="assignmentA.html">A. In-class Presentation</a></li>
+                <li><a href="assignment2.html">2. Implement Logistic Regression</a></li>
+                <li><a href="assignment3.html">3. Implement Word2vec (extracurricular)</a></li>
+              </ol>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+          <a href="https://wronghands1.files.wordpress.com/2013/03/vintage-social-networking1.jpg"> 
+          <img src="assets/img/vintage_socialmedia.jpg" class="img-responsive img-rounded" alt=""/>
+          </a> 
+          <span class="text-muted"><i>Vintage Social Media</i></span>
+        </div>
+        <div class="col-sm-10">
+          <p>Subject to change as the Fall 2017 term progresses. ★ marks the required reading.</p>
+
+<table class="table table-striped"> 
+  <tbody>
+    <tr>
+      <th>Lecture</th>
+      <th>Topic</th>
+      <th>Readings</th>
+
+    
+    <tr>
+      <td>August 22, 2017
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture1_Intro.pdf">Introduction</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Introduction of social media and natural language processing research
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Overview of the course
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://www.informatics.indiana.edu/jbollen/I501F13/readings/Science-2011-Golder-1878-81.pdf">★ Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures</a>
+            
+	    
+            by Golder and Macy (Science 2011)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf">Psychological Language on Twitter Predicts County-Level Heart Disease Mortality</a>
+            
+	    
+            by Eichstaedt et al. (Psychological Science 2015)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://developers.google.com/edu/python/">Google's Python class</a>
+            
+	    
+            by Nick Parlante
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.nltk.org/book/">Intro to NLP in Python</a>
+            
+	    
+            by Bird, Klein, Loper
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>August 29, 2017
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture2_Twitter_API.pdf">Twitter and Twitter API Tutorial [Quiz1 due]</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Brief history of Twitter
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Key features of Twitter
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Hands-on instructions on obtaining Twitter data via APIs
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://socialmedia-class.org/twittertutorial.html">★ Twitter API Tutorial</a>
+            
+	    
+            by the instructor Wei Xu
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf">★ What is Twitter, a Social Network or a News Media?</a>
+            
+	    
+            by Kwak, Lee, Park and Moon (WWW 2010)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html">How to Do Research with a Professor</a>
+            
+	    
+            by Jason Eisner
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.cs.ucsb.edu/~william/papers/research.pdf">How to Do Research</a>
+            
+	    
+            by William Wang
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html">How to Read a Technical Paper</a>
+            
+	    
+            by Jason Eisner
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>September 5, 2017
+      <td>
+	
+        no class [HW1 due]
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   instructor travels for conference (EMNLP and W-NUT)
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981">★ The Twitter of Babel - Mapping World Languages through Microblogging Platforms</a>
+            
+	    
+            by Mocanu et al. (PLOS ONE 2013)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>September 12, 2017
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/numpy.pptx">Guest Lecture by Pravar Mahajan [Read1 due]</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Python Numpy Tutorial
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://cs231n.github.io/python-numpy-tutorial/">★ Python Numpy Tutorial</a>
+            
+	    
+            by Justin Johnson
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://github.com/pravarmahajan/numpy_demo">Jupyter Notebook for a Hands-on Numpy Tutorial</a>
+            
+	    
+            by the TA Pravar Mahajan
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>September 15, 2017
+      <td>
+	
+        drop deadline
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>September 19, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf">Language Identification and Naïve Bayes [Read2 due]</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Domain/Genre Difference
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Language Identification
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Supervised Learning and Classification
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Naïve Bayes Algorithm + feature selection (Information Gain)
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/I11-1062.pdf">★ Cross-domain Feature Selection for Language Identification</a>
+            
+	    
+            by Lui, Baldwin (IJCNLP 2011)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/P12-3005.pdf">langid.py&colon; An Off-the-shelf Language Identification Tool</a>
+            
+	    
+            by Lui, Baldwin (ACL 2012)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://noisy-text.github.io/2017/pdf/WNUT08.pdf">★ A Dataset and Classifier for Recognizing Social Media English</a>
+            
+	    
+            by Blodgett, Wei, O'Connor (W-NUT 2017)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/">6 Easy Steps to Learn Naïve Bayes Algorithm</a>
+            
+	    
+            by Sunil Ray
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://socialmedia-class.org/slides/Shimodaira_note07.pdf">Text Classification using Naive Bayes</a>
+            
+	    
+            by Hiroshi Shimodaira
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>September 26, 2016
+      <td>
+	
+        <a href="http://aritter.github.io/">Guest Lecture by Alan Ritter [Read3 due]</a>
+        
+
+	
+
+	
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/D/D17/D17-1166.pdf">★ &quot;i have a feeling trump will win..................&quot;&colon; Forecasting Winners and Losers from User Predictions on Twitter</a>
+            
+	    
+            by Sandesh Swamy, Alan Ritter and Marie-Catherine de Marneffe (EMNLP 2017)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>October 3, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture4_paraphrase_data.pdf">Paraphrase Data Sources [Read4 &amp; Quiz2 due]</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Overview of paraphrase research
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc.
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/I/I05/I05-5001.pdf">Support Vector Machines for Paraphrase Identification and Corpus Construction</a>
+            
+	    
+            by Chris Brockett and Bill Dolan (IWP 2005)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/C/C12/C12-1177.pdf">Paraphrasing for Style</a>
+            
+	    
+            by Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/N13-1092.pdf">★ PPDB&colon; The Paraphrase Database</a>
+            
+	    
+            by Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/E17-1083.pdf">Paraphrasing Revisited with Neural Machine Translation</a>
+            
+	    
+            by Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>Octorber 10, 2017
+      <td>
+	
+        <a href="https://sites.google.com/site/jeniyatabassum/">Guest Lecture by Jeniya Tabassum [Read5 due]</a>
+        
+
+	
+
+	
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://aclweb.org/anthology/D16-1030.pdf">★ A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter</a>
+            
+	    
+            by Jeniya Tabassum, Alan Ritter, Wei Xu (EMNLP 2016)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>Octorber 17, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture5_paraphrase_identification_a.pdf">Paraphrase Identification and Linear Regression</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Linear Regression
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Cost Function
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Gradient Descent
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://socialmedia-class.org/slides/AndrewNg_notes1.pdf">★ Lecture Note on Supervised Learning</a>
+            
+	    
+            by Andrew Ng
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://www.aclweb.org/anthology/S/S15/S15-2001.pdf">SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter</a>
+            
+	    
+            by Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>October 24, 2017
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture7_Twitter_NLPpipeline.pdf">Tokenization, Normalization, POS/NE Tagging for Twitter</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Tokenization, Emoticons
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Noisy Text Normalization
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Part-of-speech tagging
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Named entity recognition
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/N13-1037.pdf">What to Do about Bad Language on the Internet?</a>
+            
+	    
+            by Jacob Eisenstein (NAACL 2013)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/P11-1038.pdf">Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter</a>
+            
+	    
+            by Bo Han and Tim Baldwin (ACL 2011)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://aclweb.org/anthology/D/D11/D11-1141.pdf">★ Named Entity Recognition in Tweets &colon; An Experimental Study</a>
+            
+	    
+            by Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/D/D14/D14-1108.pdf">A Dependency Parser for Tweets</a>
+            
+	    
+            by Kong et al. (EMNLP 2014)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>October 27, 2017
+      <td>
+	
+        withdraw deadline
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>Octorber 31, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture6_paraphrase_identification_b.pdf">Paraphrase Identification and Logisitc Regression [Read6 &amp; Quiz3 due Oct 30]</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Logistic Regression
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Decision Boundary
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/N16-1108.pdf">★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement</a>
+            
+	    
+            by Hua He and Jimmy Lin (NAACL 2016)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://aclweb.org/anthology/D16-1244.pdf">A Decomposable Attention Model for Natural Language Inference</a>
+            
+	    
+            by Ankur P. Parikh, Oscar Täckström, Dipanjan Das and Jakob Uszkoreit (EMNLP 2016)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf">Extracting Lexically Divergent Paraphrases from Twitter</a>
+            
+	    
+            by Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 7, 2017
+      <td>
+	
+        Brainstorm Research Ideas [Slide due Nov 6]
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   2:20-2:50pm 1-minute student presentations
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   2:50-3:10pm group discussions (round 1)
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   3:10-3:30pm group discussions (round 2)
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   3:30-3:40pm break and wrapping up
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   3:40-4:10pm 5-minute group presentations
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/D17-1274.pdf">★ Identifying Products in Online Cybercrime Marketplaces&colon; A Dataset for Fine-grained Domain Adaptation</a>
+            
+	    
+            by Durrett et al. (EMNLP 2017)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 14, 2016
+      <td>
+	
+        Automatic Summarization and the PageRank Algorithm [Quiz4 due]
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   SumBasic algorithm
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   PageRank algorithm
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Graph visualization
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Event-based summarization system
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/W/W13/W13-1103.pdf">A Preliminary Study of Tweet Summarization using Information Extraction</a>
+            
+	    
+            by Xu, Grishman, Meyers, Ritter (LASM 2013)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://turing.cs.washington.edu/papers/kdd12-ritter.pdf">★ Open Domain Event Extraction from Twitter</a>
+            
+	    
+            by Ritter, Mausam, Etzioni (KDD 2012)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a>
+            
+	    
+            by Wikipedia
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://github.com/pmatiello/python-graph">Python-Graph (a library for working with graphs in Python)</a>
+            
+	    
+            by Matiello et al.
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 21, 2016
+      <td>
+	
+        Vector Semantics
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Unsupervised Learning
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Class-based Clustering&colon; Brown Clusters
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Soft Clustering&colon; Singular Value Decomposition (SVD)
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://web.stanford.edu/~jurafsky/slp3/16.pdf">Speech and Language Processing (upcoming new edition, Chapter 16)</a>
+            
+	    
+            by Dan Jurafsky and James H. Martin
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/N/N15/N15-1075.pdf">The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition</a>
+            
+	    
+            by Cherry and Guo (NAACL 2015)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf">★ Neural Word Embedding as Implicit Matrix Factorization</a>
+            
+	    
+            by Levy and Goldberg (NIPS 2014)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/">Softmax Regression Tutorial</a>
+            
+	    
+            by Ng et al.
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 17, 2016 (3:00-4:00pm)
+      <td>
+	
+        <a href="https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar">Distinghuished Guest Speaker Talk by Dr. Lyle Ungar</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Dreese Labs 480
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Measuring Psychological Traits using Social Media
+	   </li></span>
+          
+        
+      <td>
+         
+    
+    <tr>
+      <td>November 28, 2016 (12:45-2:05pm)
+      <td>
+	
+        <a href="https://web.cse.ohio-state.edu/~lan.105/">Clippers Talk by Wuwei Lan</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Jennings Hall 140
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Learning Large-scale Paraphrases Continuously from Twitter
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf">★ A Continuously Growing Dataset of Sentential Paraphrases</a>
+            
+	    
+            by Wuwei Lan, Siyu Qiu, Hua He, Wei Xu (EMNLP 2017)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/I13-1041.pdf">How Noisy Social Media Text, How Diffrnt Social Media Sources?</a>
+            
+	    
+            by Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>
+      <td>
+	
+        
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>September 26, 2016 (Monday)
+      <td>
+	
+        <a href="https://cse.osu.edu/events/2016/09/guest-speaker-jiwei-li">Invited Talk by Jiwei Li (Stanford)</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   4:00 -- 5:00pm, Dreese 480
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Teaching a Machine to Converse
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://arxiv.org/pdf/1606.01541.pdf">Deep Reinforcement Learning for Dialogue Generation</a>
+            
+	    
+            by Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao and Dan Jurafsky. (EMNLP 2016)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/P14-1016.pdf">Weakly Supervised User Profile Extraction from Twitter</a>
+            
+	    
+            by Jiwei Li, Alan Ritter, Eduard Hovy (ACL 2014)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>Octorber 12, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf">Twitter Paraphrase and Latent Variable Model</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Evaluation&colon; Precision, Recall, F-measure
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Multiple Instance Learning
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Conditional Log-linear Model with Latant Variables
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Crowdsourcing
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf">Extracting Lexically Divergent Paraphrases from Twitter</a>
+            
+	    
+            by Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://www.aclweb.org/anthology/D13-1090.pdf">Discriminative Improvements to Distributional Sentence Similarity</a>
+            
+	    
+            by Yangfeng Ji and Jacob Eisenstein  (EMNLP 2013)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/W/W13/W13-2515.pdf">Gathering and Generating Paraphrases from Twitter with Application to Normalization</a>
+            
+	    
+            by Wei Xu, Alan Ritter, Ralph Grishman (BUCC 2013)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>Octorber 18, 2016 (Tuesday)
+      <td>
+	
+        <a href="http://www.m-mitchell.com/">Invited Talk by Margaret Mitchell (Microsoft Research)</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   4:00 -- 5:00pm, Dreese 480
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://aclweb.org/anthology/P/P16/P16-1170.pdf">Generating Natural Questions About an Image</a>
+            
+	    
+            by Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>Octorber 19, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf">Twitter Paraphrase and Latent Variable Model (cont')</a>
+        
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>Octorber 26, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture8_Twitter_summarization.pdf">Automatic Summarization for Twitter and the PageRank Algorithm</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   SumBasic algorithm
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   PageRank algorithm
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Graph visualization
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Event-based summarization system
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/W/W13/W13-1103.pdf">A Preliminary Study of Tweet Summarization using Information Extraction</a>
+            
+	    
+            by Xu, Grishman, Meyers, Ritter (LASM 2013)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://turing.cs.washington.edu/papers/kdd12-ritter.pdf">★ Open Domain Event Extraction from Twitter</a>
+            
+	    
+            by Ritter, Mausam, Etzioni (KDD 2012)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://en.wikipedia.org/wiki/PageRank">PageRank</a>
+            
+	    
+            by Wikipedia
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://github.com/pmatiello/python-graph">Python-Graph (a library for working with graphs in Python)</a>
+            
+	    
+            by Matiello et al.
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 2, 2016
+      <td>
+	
+        no class - The instructor will be attending EMNLP in Austin
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>November 16, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture10_vector_semantics.pdf">Vector Semantics</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Unsupervised Learning
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Class-based Clustering&colon; Brown Clusters
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Soft Clustering&colon; Singular Value Decomposition (SVD)
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://web.stanford.edu/~jurafsky/slp3/16.pdf">Speech and Language Processing (upcoming new edition, Chapter 16)</a>
+            
+	    
+            by Dan Jurafsky and James H. Martin
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://aclweb.org/anthology/N/N15/N15-1075.pdf">The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition</a>
+            
+	    
+            by Cherry and Guo (NAACL 2015)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf">★ Neural Word Embedding as Implicit Matrix Factorization</a>
+            
+	    
+            by Levy and Goldberg (NIPS 2014)
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/">Softmax Regression Tutorial</a>
+            
+	    
+            by Ng et al.
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>November 23, 2016
+      <td>
+	
+        no class - thxgiving!
+
+	
+
+	
+      <td>
+         
+    
+    <tr>
+      <td>November 30, 2016
+      <td>
+	
+        <a href="http://socialmedia-class.org/slides/lecture11_deepNLP.pdf">Deep Learning for NLP</a>
+        
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Recurrent Neural Network
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Long Short-Term Memory Networks
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Neural Machine Translation
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   Neural Conversation Generation
+	   </li></span>
+          
+        
+      <td>
+        
+          <ul class="fa-ul">
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="https://arxiv.org/pdf/1409.3215v3.pdf">★ Sequence to Sequence Learning with Neural Networks</a>
+            
+	    
+            by Ilya Sutskever, Oriol Vinyals, and Quoc Le
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://nlp.stanford.edu/pubs/jiwei2016Persona.pdf">A Persona-Based Neural Conversation Model</a>
+            
+	    
+            by Li et al.
+            
+            </li>
+          
+            <li>
+            <i class="fa-li fa"> </i> 
+            
+            <a href="http://ufldl.stanford.edu/tutorial/">Deep Learning Tutorial</a>
+            
+	    
+            by Ng et al.
+            
+            </li>
+          
+          </ul>
+         
+    
+    <tr>
+      <td>December 7, 2016
+      <td>
+	
+        Review and Q&amp;A
+
+	
+
+	
+	  <ul>
+	   	
+	   <span class="text-muted"><li>
+	   I will go over some course material (lecture slides or homework) where students have questions or where we didn't have enough time to go into details previously.
+	   </li></span>
+          	
+	   <span class="text-muted"><li>
+	   I will also have extended office hours that day for 1-on-1 meetings on research project review, Q&amp;A, etc.
+	   </li></span>
+          
+        
+      <td>
+         
+    
+
+
+</td></ul></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></td></ul></td></td></tr></tr></tbody></table>
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated November 04, 2017. <br/>
+        Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#syllabus").addClass("active");
+      });
+    </script>
+  </body>
+</html>

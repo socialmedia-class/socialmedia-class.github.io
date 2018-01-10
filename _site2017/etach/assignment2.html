@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2 | Logistic Regression</title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="assets/css/syntax.css" rel="stylesheet" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="tutorial"><a href="twittertutorial.html">Twitter API Tutorial</a></li>
+            
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework<span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment0.html">0. Become a Twitter User</a></li>
+                <li><a href="assignment1.html">1. Twitter's Language Mix</a></li>
+                <li><a href="assignmentA.html">A. In-class Presentation</a></li>
+                <li><a href="assignment2.html">2. Implement Logistic Regression</a></li>
+                <li><a href="assignment3.html">3. Implement Word2vec (extracurricular)</a></li>
+              </ol>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+          <a href="https://www.kaggle.com/forums/f/15/kaggle-forum/t/10799/what-makes-a-rock-star-machine-learning-scientist"> 
+          <img src="assets/img/ml_pyramid.jpg" class="img-responsive img-rounded" alt=""/>
+          </a> 
+          <span class="text-muted"><i>Machine Learning Skills Pyramid v1.0 by Steven Geringer</i></span>
+        </div>
+        <div class="col-sm-10">
+          <h1 id="logistic-regression--assignment-2-35-points">Logistic Regression <span class="text-muted">: Assignment 2 (35 points)</span></h1>
+
+<div class="alert alert-info">
+  <p>Due date TBA; 20% penalty per day for late submission.</p>
+</div>
+
+<p>We have been talking about logistic regression, one of the most important and fundamental machine learning (ML) algorithms, in the class. It is time for you to execute what you have learned in the class to really implement the logistic regression model. Instead of covering many algorithms quickly on the high-level and use ML algorithm libraries (e.g. <a href="http://scikit-learn.org/stable/">Scikit-learn</a>), this course aims to explain a few important ML algorithms in-depth. It is meant to prepare you to be a a researcher/scientist — the very top class in the <a href="http://socialmedia-class.org/assets/img/ml_pyramid.jpg">Machine Learning Skills Pyramid</a>, who can not only  apply algorithms but create algorithms!</p>
+
+<p>In this assignment, you will implement the logistic regression and get a good understanding of the key components of logistic regression (many other machine learning algorithms as well):</p>
+
+<ul>
+  <li>hypothesis function</li>
+  <li>cost function</li>
+  <li>decision boundary</li>
+  <li>gradient decent algorithm</li>
+  <li><a href="https://en.wikipedia.org/wiki/Feature_scaling">feature scaling</a></li>
+  <li>and <a href="http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/">gradient checking</a> (optional)</li>
+</ul>
+
+<p>You will also apply your implemented logistic regression model to a small dataset and predict whether a student will be admitted to a university. This small dataset will allow you to visualize the data and debug more easily. You will find this <strong><a href="http://socialmedia-class.org/slides/AndrewNg_ex2.pdf">documentation</a></strong> very helpful, though it is about how to implement logistic regression in Octave.</p>
+
+<h4 id="instructions">Instructions</h4>
+
+<p>You will use <a href="http://jupyter.org/">Jupyter Notebook</a>, an interactive Python programming and data visualization tool, for this homework. You can follow <a href="http://jupyter.readthedocs.io/en/latest/install.html">this guide</a> to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. The starter code is tested for Python 3.4 that you are recommended to use.</p>
+
+<p>You can download the homework assignment zip file from Carmen that contains the starter code, some visualization, and explanatory text. Then, <a href="http://jupyter.readthedocs.io/en/latest/running.html">open the included *.ipynb file</a> in the Jupyter Notebook and follow all the instructions to do your work there.</p>
+
+<p>After finished, follow the instruction, pack your code into a zip file named like ‘hw2_yourdotid.zip’, and submit it in the <a href="https://carmen.osu.edu/">OSU’s Carmen</a> system.</p>
+
+<h4 id="extracurricular">Extracurricular</h4>
+
+<p>If you are interested in applying logistic regression to some real-world NLP problems, you can try out this task and dataset: <a href="http://alt.qcri.org/semeval2015/task1/">Paraphrase Identification and Semantic Similarity in Twitter</a>. It was an international research competition (so called shared-task) organized by the instructor with Microsoft Research that has attracted 19 top research groups to participate in 2015, including Stanford, Columbia University, MITRE and etc. More details can be found in the <a href="https://cocoxu.github.io/publications/semeval_pit_2015_overview.pdf">overview paper</a> of the 2015 shared-task. We are planning to organize it again in 2017. Note that, for a large dataset using many features, you often need to implement some regularizations (e.g. L2) to avoid overfitting and use an advanced optimization algorithm (e.g. L-BFGS; you probably should not implement these algorithms unless you are an expert in numerical computing) for minimizing the cost function.</p>
+
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated November 04, 2017. <br/>
+        Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#homework").addClass("active");
+      });
+    </script>
+  </body>
+</html>
