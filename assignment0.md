@@ -23,7 +23,7 @@ The first assignment includes two parts: 1) becoming a Twitter user and 2) becom
 - follow others
 - look at the trends
 - try search 
-- reply another user (if you don't have anybody in mind, you can try me @cocoweixu)
+- reply another user (if you don't have anybody in mind, you can try me @alan_ritter)
 - find some cashtags
 
 If you have already had a Twitter account and tweeted before, you can discover your #FirstTweet by [this widget](https://discover.twitter.com/first-tweet#cocoweixu) Twitter launched in 2014. It brings back memories. 
@@ -32,7 +32,3 @@ If you have already had a Twitter account and tweeted before, you can discover y
 
 - follow the Step 1 in this [Twitter API tutorial](/twittertutorial.html) to sign up for Twitter dev account
 - and follow the Step 2 and 3 to make your first connection to Twitter API!
-
-
-
-

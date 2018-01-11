@@ -1,6 +1,6 @@
 -
-  date: August 22, 2017
-  slides: http://socialmedia-class.org/slides_AU2017/lecture1_Intro.pdf
+  date: January 11, 2018
+  slides: http://socialmedia-class.org/slides/lecture1_Intro.pdf
   title: Introduction 
   highlights:
     - Introduction of social media and natural language processing research
@@ -23,9 +23,9 @@
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/ 
 -
-  date: 
-  slides: 
-  title: 
+  date: <b>Fall 2017</b>
+  slides:
+  title:
 -
   date: August 22, 2017
   slides: http://socialmedia-class.org/slides_AU2017/lecture1_Intro.pdf
@@ -403,7 +403,7 @@
       title: Neural Network Methods for Natural Language Processing (Book)
       url: http://www.morganclaypool.com/doi/pdf/10.2200/S00762ED1V01Y201703HLT037
 -
-  date: 
+  date: <b>Fall 2016</b>
   slides: 
   title: 
 -
