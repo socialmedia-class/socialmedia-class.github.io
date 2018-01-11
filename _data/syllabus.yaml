@@ -5,6 +5,7 @@
   highlights:
     - Introduction of social media and natural language processing research
     - Overview of the course
+    - <a href="http://socialmedia-class.org/slides/CSE_5539_Spring_2018_Quiz__1.pdf">Quiz 1 (due Jan 18)</a>
   reading:
     -
       author: Golder and Macy (Science 2011)  
@@ -22,6 +23,36 @@
       author: Bird, Klein, Loper
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/ 
+-
+  date: January 18, 2018
+  slides: 
+  title: Twitter and Twitter API Tutorial [Quiz1 due]
+  highlights: 
+    - Brief history of Twitter
+    - Key features of Twitter
+    - Hands-on instructions on obtaining Twitter data via APIs
+
+  reading:
+    -
+      author:  the instructor Wei Xu
+      title: ★ Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
+    - 
+      author: Jason Eisner 
+      title: How to Do Research with a Professor 
+      url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
+    -
+      author: William Wang
+      title: How to Do Research
+      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
+    -
+      author: Jason Eisner
+      title: How to Read a Technical Paper
+      url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
 -
   date: <b>Fall 2017</b>
   slides:

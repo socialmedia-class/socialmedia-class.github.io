@@ -31,7 +31,7 @@ Prerequisites
 : &nbsp;&nbsp;&nbsp;&nbsp; Each lecture has an accompanying set of [academic papers](syllabus.html)
 
 <br> Resources
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/j6n1tzsbovw4b1)** (discussion, announcements and restricted resources)
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/jc9zejht1zm56e)** (discussion, announcements and restricted resources)
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Carmen](https://carmen.osu.edu/)** (homework submission and grades)
 
 <br>Grading (subject to change)
@@ -42,7 +42,7 @@ Prerequisites
 - take-home quizzes (10 points/individual, about 5 quizzes) 
 - paper summaries (20 points/individual, about 10 papers) 
 - in-class presentation (15 points/group of two) 
-- participation in class discussions (10 points/individual)
+- participation in class discussions - including Piazza (10 points/individual)
 - a research project or programming homework #3 (optional, 20 bonus points)
 
  
