@@ -25,7 +25,7 @@
       url: http://www.nltk.org/book/ 
 -
   date: January 18, 2018
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture2_api.pdf
   title: Twitter and Twitter API Tutorial [Quiz1 due]
   highlights: 
     - Brief history of Twitter
@@ -53,6 +53,37 @@
       author: Jason Eisner
       title: How to Read a Technical Paper
       url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+-
+  date: January 24, 2018
+  slides: 
+  title: Language Identification and Naïve Bayes [Read2 due]
+  highlights:
+    - Domain/Genre Difference
+    - Language Identification 
+    - Supervised Learning and Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+
+  reading:
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+    -
+      author: Blodgett, Wei, O'Connor (W-NUT 2017)
+      title: ★ A Dataset and Classifier for Recognizing Social Media English
+      url: http://noisy-text.github.io/2017/pdf/WNUT08.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+    -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
 -
   date: <b>Fall 2017</b>
   slides:
