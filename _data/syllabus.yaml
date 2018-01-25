@@ -54,8 +54,8 @@
       title: How to Read a Technical Paper
       url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
 -
-  date: January 24, 2018
-  slides: 
+  date: January 25, 2018
+  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
   title: Language Identification and Naïve Bayes [Reading 1 due]
   highlights:
     - Domain/Genre Difference
