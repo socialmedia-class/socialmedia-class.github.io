@@ -34,7 +34,7 @@ After your presentation in the class, **upload your slides** to [OSU's Carmen](h
 - Academic Research: Any interesting studies? Any useful datasets?
 - and any other things you think are important
 
-#### For datasets, you should choose a widely-used dataset that many researchers have reported experiments on, you may focus on:
+#### For datasets, you should choose a widely-used dataset that many researchers have reported experiments on (for example SNLI or SQuAD), you may focus on:
 
 - Describe the dataset, what is the task / motivation?
 - Present one-or more (state-of-the-art) methods that have used on this dataset.
@@ -75,87 +75,86 @@ After your presentation in the class, **upload your slides** to [OSU's Carmen](h
 [//]: <>  
 [//]: <> <hr>
 [//]: <> 
-[//]: <> #### Slides from student in-class presentations in Autumn 2017 (a social media platform or a NLP researcher): 
-[//]: <> 
-[//]: <> 
-[//]: <>   <table class="table table-striped">
-[//]: <>     <thead>
-[//]: <>       <tr>
-[//]: <>         <th> Date </th>
-[//]: <>         <th>Speaker</th>
-[//]: <>         <th>Title</th>
-[//]: <>       </tr>
-[//]: <>     </thead>
-[//]: <>     <tbody>
-[//]: <>     	<tr>
-[//]: <>         <td>December 5, 2017</td>
-[//]: <>         <td>Xingya Zhao</td>
-[//]: <>         <td><a href="./slides/students_2017/cse5539pre_xzhao.pdf">NLP Researcher: Snigdha Chaturvedi</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>December 5, 2017</td>
-[//]: <>         <td>Ritesh Sarkhel</td>
-[//]: <>         <td><a href="./slides/students_2017/Presentation.pdf">NLP Researcher: Taylor Berg-Kirkpatrick</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>December 5, 2017</td>
-[//]: <>         <td>Haiyang Qi & Wei Da</td>
-[//]: <>         <td><a href="./slides/students_2017/Presentation2.pdf">NLP Researcher: Kai-wei Chang</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>November 28, 2017</td>
-[//]: <>         <td>Nabil Wadih & Brian Groenke</td>
-[//]: <>         <td><a href="./slides/students_2017/Facebook_NLP.pdf">Facebook</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>November 28, 2017</td>
-[//]: <>         <td>Anant Chowdhary & Chengfei He</td>
-[//]: <>         <td><a href="./slides/students_2017/NLP_presentation.pdf">Dan Jurafsky's research</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>November 21, 2017</td>
-[//]: <>         <td>Amanpreet Singh & Anirudh Ganesh</td>
-[//]: <>         <td><a href="./slides/students_2017/Reddit_Presentation.pdf">Reddit</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>November 21, 2017</td>
-[//]: <>         <td>Reid Fu & Shuaichen Chang</td>
-[//]: <>         <td><a href="./slides/students_2017/5539_presentation.pdf">NLP Researcher: John Wieting</a></td>
-[//]: <>       </tr>
-[//]: <>     	<tr>
-[//]: <>         <td>November 14, 2017</td>
-[//]: <>         <td>Mounica Maddela & Jayavardhan Reddy</td>
-[//]: <>         <td><a href="./slides/students_2017/Inclass_ Presentation_Mounica_Jayavardhan.pdf">Yelp</a></td>
-[//]: <>       </tr>
-[//]: <>         <tr>
-[//]: <>         <td>November 14, 2017</td>
-[//]: <>         <td>Qingyang Li & Mengxue Zhang</td>
-[//]: <>         <td><a href="./slides/students_2017/Social_Media_Presentation.ppt">NLP researcher: Chris Callison-Burch</a></td>
-[//]: <>       </tr>
-[//]: <>       <tr>
-[//]: <>         <td>Octorber 31, 2017</td>
-[//]: <>         <td>Pragya Arora & Piyush Ghai</td>
-[//]: <>         <td><a href="./slides/students_2017/Jiwei Li_NLP_Researcher.pdf">NLP researcher: Jiwei Li</a></td>
-[//]: <>       </tr>
-[//]: <>       <tr>
-[//]: <>         <td>Octorber 31, 2017</td>
-[//]: <>         <td>Rory Flukes & Ben Trevor</td>
-[//]: <>         <td><a href="./slides/students_2017/Social_Media_Presentation.pdf">NLP researcher: Jacob Andreas</a></td>
-[//]: <>       </tr>
-[//]: <>       <tr>
-[//]: <>         <td>Octorber 17, 2017</td>
-[//]: <>         <td>Kun Jin & Xiaohu Zhao</td>
-[//]: <>         <td><a href="./slides/students_2017/Presentation.pptx">NLP researcher: Diyi Yang</a></td>
-[//]: <>       </tr>
-[//]: <>         <tr>
-[//]: <>         <td>Octorber 17, 2017</td>
-[//]: <>         <td>Srividhya Chandrasekharan & Anu Yadav</td>
-[//]: <>         <td><a href="./slides/students_2017/In-class presentation_Anu_Srividhya.pdf">NLP researcher: Eshwar Chandrasekharan</a></td>
-[//]: <>       </tr>
-[//]: <>     </tbody>
-[//]: <>   </table>
-[//]: <>   
-[//]: <>     
+#### Slides from student in-class presentations in Autumn 2017 (a social media platform or a NLP researcher): 
+
+ 
+   <table class="table table-striped">
+     <thead>
+       <tr>
+         <th> Date </th>
+         <th>Speaker</th>
+         <th>Title</th>
+       </tr>
+     </thead>
+     <tbody>
+     	<tr>
+         <td>December 5, 2017</td>
+         <td>Xingya Zhao</td>
+         <td><a href="./slides/students_2017/cse5539pre_xzhao.pdf">NLP Researcher: Snigdha Chaturvedi</a></td>
+       </tr>
+     	<tr>
+         <td>December 5, 2017</td>
+         <td>Ritesh Sarkhel</td>
+         <td><a href="./slides/students_2017/Presentation.pdf">NLP Researcher: Taylor Berg-Kirkpatrick</a></td>
+       </tr>
+     	<tr>
+         <td>December 5, 2017</td>
+         <td>Haiyang Qi & Wei Da</td>
+         <td><a href="./slides/students_2017/Presentation2.pdf">NLP Researcher: Kai-wei Chang</a></td>
+       </tr>
+     	<tr>
+         <td>November 28, 2017</td>
+         <td>Nabil Wadih & Brian Groenke</td>
+         <td><a href="./slides/students_2017/Facebook_NLP.pdf">Facebook</a></td>
+       </tr>
+     	<tr>
+         <td>November 28, 2017</td>
+         <td>Anant Chowdhary & Chengfei He</td>
+         <td><a href="./slides/students_2017/NLP_presentation.pdf">Dan Jurafsky's research</a></td>
+       </tr>
+     	<tr>
+         <td>November 21, 2017</td>
+         <td>Amanpreet Singh & Anirudh Ganesh</td>
+         <td><a href="./slides/students_2017/Reddit_Presentation.pdf">Reddit</a></td>
+       </tr>
+     	<tr>
+         <td>November 21, 2017</td>
+         <td>Reid Fu & Shuaichen Chang</td>
+         <td><a href="./slides/students_2017/5539_presentation.pdf">NLP Researcher: John Wieting</a></td>
+       </tr>
+     	<tr>
+         <td>November 14, 2017</td>
+         <td>Mounica Maddela & Jayavardhan Reddy</td>
+         <td><a href="./slides/students_2017/Inclass_ Presentation_Mounica_Jayavardhan.pdf">Yelp</a></td>
+       </tr>
+         <tr>
+         <td>November 14, 2017</td>
+         <td>Qingyang Li & Mengxue Zhang</td>
+         <td><a href="./slides/students_2017/Social_Media_Presentation.ppt">NLP researcher: Chris Callison-Burch</a></td>
+       </tr>
+       <tr>
+         <td>Octorber 31, 2017</td>
+         <td>Pragya Arora & Piyush Ghai</td>
+         <td><a href="./slides/students_2017/Jiwei Li_NLP_Researcher.pdf">NLP researcher: Jiwei Li</a></td>
+       </tr>
+       <tr>
+         <td>Octorber 31, 2017</td>
+         <td>Rory Flukes & Ben Trevor</td>
+         <td><a href="./slides/students_2017/Social_Media_Presentation.pdf">NLP researcher: Jacob Andreas</a></td>
+       </tr>
+       <tr>
+         <td>Octorber 17, 2017</td>
+         <td>Kun Jin & Xiaohu Zhao</td>
+         <td><a href="./slides/students_2017/Presentation.pptx">NLP researcher: Diyi Yang</a></td>
+       </tr>
+         <tr>
+         <td>Octorber 17, 2017</td>
+         <td>Srividhya Chandrasekharan & Anu Yadav</td>
+         <td><a href="./slides/students_2017/In-class presentation_Anu_Srividhya.pdf">NLP researcher: Eshwar Chandrasekharan</a></td>
+       </tr>
+     </tbody>
+   </table>
+   
 [//]: <> #### Slides from student in-class presentations in Autumn 2016 (a social media platform or a NLP research group): 
 [//]: <> 
 [//]: <> 
