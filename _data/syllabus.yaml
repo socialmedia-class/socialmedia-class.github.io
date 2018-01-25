@@ -56,7 +56,7 @@
 -
   date: January 24, 2018
   slides: 
-  title: Language Identification and Naïve Bayes [Read2 due]
+  title: Language Identification and Naïve Bayes [Reading 1 due]
   highlights:
     - Domain/Genre Difference
     - Language Identification 
@@ -68,6 +68,10 @@
       author: Lui, Baldwin (IJCNLP 2011) 
       title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Mitja T &commat;tm
+      title: Evaluating language identification performance
+      url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
     -
       author: Lui, Baldwin (ACL 2012)
       title: langid.py&colon; An Off-the-shelf Language Identification Tool
