@@ -89,6 +89,36 @@
       title: Text Classification using Naive Bayes
       url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
 -
+  date: February 1, 2018
+  slides: 
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Homework 1 due, Reading 2 due]
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+    - Part-of-speech tagging
+    - Named entity recognition 
+  reading:
+    -
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    -
+      author: Kong et al. (EMNLP 2014)
+      title: A Dependency Parser for Tweets
+      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf
+-
   date: <b>Fall 2017</b>
   slides:
   title:
