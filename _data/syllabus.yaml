@@ -90,7 +90,7 @@
       url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
 -
   date: February 1, 2018
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture4_Twitter_NLPpipeline.pdf
   title: Tokenization, Normalization, POS/NE Tagging for Twitter [Homework 1 due, Reading 2 due]
   highlights:
     - Tokenization, Emoticons 
