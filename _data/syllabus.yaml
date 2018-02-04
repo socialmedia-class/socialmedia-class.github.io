@@ -95,8 +95,6 @@
   highlights:
     - Tokenization, Emoticons 
     - Noisy Text Normalization
-    - Part-of-speech tagging
-    - Named entity recognition 
   reading:
     -
       author: Jacob Eisenstein (NAACL 2013)
@@ -110,14 +108,26 @@
       author: Bo Han and Tim Baldwin (ACL 2011)
       title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
+-
+  date: February 8, 2018
+  slides:
+  title: POS/NE Tagging for Twitter [No Summary Due]
+  highlights:
+    - Part-of-speech tagging
+    - Named entity recognition 
+  reading:
     -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
       title: Named Entity Recognition in Tweets &colon; An Experimental Study
       url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
     -
-      author: Kong et al. (EMNLP 2014)
-      title: A Dependency Parser for Tweets
-      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf
+      author: Timothy Baldwin, Marie-Catherine de Marneffe, Bo Han, Young-Bum Kim, Alan Ritter, Wei Xu (WNUT 2015)
+      title: Shared Tasks of the 2015 Workshop on Noisy User-generated Text &colon; Twitter Lexical Normalization and Named Entity Recognition
+      url: http://noisy-text.github.io/2015/pdf/WNUT19.pdf
+    -
+      author: Nut Limsopatham and Nigel Collier (WNUT 2016)
+      title: Bidirectional LSTM for Named Entity Recognition in Twitter Messages
+      url: http://noisy-text.github.io/2016/pdf/WNUT20.pdf
 -
   date: <b>Fall 2017</b>
   slides:
