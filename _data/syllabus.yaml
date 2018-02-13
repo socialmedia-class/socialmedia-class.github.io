@@ -129,6 +129,30 @@
       title: Bidirectional LSTM for Named Entity Recognition in Twitter Messages
       url: http://noisy-text.github.io/2016/pdf/WNUT20.pdf
 -
+  date: February 15, 2018
+  slides: 
+  title: Paraphrase Data Sources [Read3 due]
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+      title:  Paraphrasing Revisited with Neural Machine Translation
+      url: http://www.aclweb.org/anthology/E17-1083.pdf    
+-
   date: <b>Fall 2017</b>
   slides:
   title:
