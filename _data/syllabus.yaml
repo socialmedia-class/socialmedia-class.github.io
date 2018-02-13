@@ -110,7 +110,7 @@
       url: http://www.aclweb.org/anthology/P11-1038.pdf
 -
   date: February 8, 2018
-  slides:
+  slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
   title: POS/NE Tagging for Twitter [No Summary Due]
   highlights:
     - Part-of-speech tagging
