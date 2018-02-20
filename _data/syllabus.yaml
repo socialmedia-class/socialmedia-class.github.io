@@ -153,6 +153,23 @@
       title:  Paraphrasing Revisited with Neural Machine Translation
       url: http://www.aclweb.org/anthology/E17-1083.pdf    
 -
+  date: February 22, 2018
+  slides: http://socialmedia-class.org/slides_AU2017/lecture5_paraphrase_identification_a.pdf
+  title: Paraphrase Identification and Linear Regression 
+  highlights: 
+    - Linear Regression 
+    - Cost Function 
+    - Gradient Descent 
+  reading:   
+    - 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+    - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
+-
   date: <b>Fall 2017</b>
   slides:
   title:
