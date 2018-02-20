@@ -130,7 +130,7 @@
       url: http://noisy-text.github.io/2016/pdf/WNUT20.pdf
 -
   date: February 15, 2018
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture6_paraphrase_data.pdf
   title: Paraphrase Data Sources [Read3 due]
   highlights: 
     - Overview of paraphrase research 
@@ -154,7 +154,7 @@
       url: http://www.aclweb.org/anthology/E17-1083.pdf    
 -
   date: February 22, 2018
-  slides: http://socialmedia-class.org/slides_AU2017/lecture5_paraphrase_identification_a.pdf
+  slides: 
   title: Paraphrase Identification and Linear Regression 
   highlights: 
     - Linear Regression 
