@@ -19,7 +19,7 @@ Instructor
 Time/Place ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Derby Hall](https://www.osu.edu/map/google.php?buildingIn=025) Room 049 | Thursday 10:40AM -- 12:30PM** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 595 | Monday 4:00PM -- 5:00PM
+<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 595 | Tuesday 4:00PM -- 5:00PM
 
 [//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; [Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University (Instructor: Alan Ritter))
