@@ -154,7 +154,7 @@
       url: http://www.aclweb.org/anthology/E17-1083.pdf    
 -
   date: February 22, 2018
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture7_paraphrase_identification_a.pdf
   title: Paraphrase Identification and Linear Regression [No Summary Due]
   highlights: 
     - Linear Regression 
@@ -169,6 +169,27 @@
       author:  Andrew Ng
       title:  ★ Lecture Note on Supervised Learning
       url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
+-
+  date: March 1, 2018
+  slides: http://socialmedia-class.org/slides/lecture9_paraphrase_identification_b.pdf
+  title: Paraphrase Identification and Logisitc Regression [No Summary Due]
+  highlights: 
+    - Logistic Regression  
+    - Decision Boundary
+  reading:
+    -
+
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
 -
   date: <b>Fall 2017</b>
   slides:
