@@ -192,7 +192,7 @@
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
 -
   date: March 8, 2017 
-  slides: 
+  slides: http://socialmedia-class.org/slides/lecture9_vector_semantics.pdf
   title: Vector Semantics [Read4 due]
   highlights:
     - Unsupervised Learning 
