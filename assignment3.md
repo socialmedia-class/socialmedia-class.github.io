@@ -14,7 +14,7 @@ Word2vec <span class="text-muted">: Assignment 3 (Extracurricular)</span>
 
 
 <div class="alert alert-info">
-  <p>Submit *both* in person (4:15pm) and in Carmen (10am) by Tuesday December 5th, 2017; strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment.</p>
+  <p>Submit on Carmen by Friday April 27, 2018; strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment.</p>
 </div>
 
 
@@ -33,13 +33,4 @@ You will find this **[documentation](http://socialmedia-class.org/slides/Socher_
 
 You will use [Jupyter Notebook](http://jupyter.org/), an interactive Python programming and data visualization tool, for this homework. You can follow [this guide](http://jupyter.readthedocs.io/en/latest/install.html) to install Anaconda, that conveniently includes Python, the Jupyter Notebook and other commonly used packages for scientific computing and data science. The starter code is tested for Python 3.4 that you are recommended to use. 
 
-You can download the homework assignment zip file from Carmen that contains the starter code, some visualization, and explanatory text. Then, [open the included *.ipynb file](http://jupyter.readthedocs.io/en/latest/running.html) in the Jupyter Notebook and follow all the instructions to do your work there.
-
-To earn bonus points for this assignment, you will need to 1) demo your code in person to the instructor and answer some questions about this assignment during the office hours (4:15-5:15pm) on Tuesday December 5th, 2017; AND 2) pack your *.ipynb file into a zip file named like 'hw3_yourdotid.zip' and submit in the [OSU's Carmen](https://carmen.osu.edu/) system. Since this is an extracurricular activity, strictly no late submission or alternative submission methods will be accepted. 
-
-
-
-
-
-
-
+You can download the homework assignment zip file from Piazza that contains the starter code, some visualization, and explanatory text. Then, [open the included *.ipynb file](http://jupyter.readthedocs.io/en/latest/running.html) in the Jupyter Notebook and follow all the instructions to do your work there.
