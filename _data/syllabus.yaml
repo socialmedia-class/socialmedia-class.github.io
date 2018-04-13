@@ -289,9 +289,9 @@
       title: Adversarial Learning for Neural Dialogue Generation
       url: http://www.aclweb.org/anthology/D/D17/D17-1229.pdf
 -
-  date: April 19, 2018 [Read6 due]
+  date: April 19, 2018
   slides:  
-  title: Sentiment Analysis, Convolutional Neural Networks and Attention
+  title: Sentiment Analysis, Convolutional Neural Networks and Attention  [Read6 due]
   highlights: 
     - Sentiment Analysis
     - Attention Model
