@@ -264,7 +264,7 @@
 -
   date: April 12, 2018
   slides: http://socialmedia-class.org/slides/lecture10_deeplearning.pdf
-  title: Deep Learning for NLP [HW2-part1 due Nov 20]
+  title: Deep Learning for NLP
   highlights:
     - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
     - Recurrent Neural Network
@@ -272,6 +272,10 @@
     - Neural Machine Translation 
     - Neural Conversation Generation
   reading:
+    - 
+      author: Christopher Olah
+      title: Understanding LSTM Networks      
+      url: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
     - 
       author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
       title: ★ Sequence to Sequence Learning with Neural Networks
