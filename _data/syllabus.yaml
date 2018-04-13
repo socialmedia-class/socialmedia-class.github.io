@@ -262,6 +262,54 @@
       title: Shakespearizing Modern Language Using Copy-Enriched Sequence-to-Sequence Models (Workshop on Stylistic Variation at EMNLP 2017)
       url: http://aclweb.org/anthology/W17-4902
 -
+  date: April 12, 2018
+  slides: http://socialmedia-class.org/slides/lecture10_deeplearning.pdf
+  title: Deep Learning for NLP [HW2-part1 due Nov 20]
+  highlights:
+    - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
+    - Recurrent Neural Network
+    - Long Short-Term Memory Networks
+    - Neural Machine Translation 
+    - Neural Conversation Generation
+  reading:
+    - 
+      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
+      title: ★ Sequence to Sequence Learning with Neural Networks
+      url: https://arxiv.org/pdf/1409.3215v3.pdf
+    - 
+      author: Ng et al. 
+      title: Deep Learning Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
+    - 
+      author: Graham Neubig  
+      title: Neural Machine Translation and Sequence-to-Sequence Models&colon; A Tutorial
+      url: https://arxiv.org/pdf/1703.01619.pdf
+    - 
+      author: Li et al.
+      title: Adversarial Learning for Neural Dialogue Generation
+      url: http://www.aclweb.org/anthology/D/D17/D17-1229.pdf
+-
+  date: April 19, 2018 [Read6 due]
+  slides:  
+  title: Sentiment Analysis, Convolutional Neural Networks and Attention
+  highlights: 
+    - Sentiment Analysis
+    - Attention Model
+    - Convolutional Neural Networks
+  reading:
+    -
+      author: Yi Yang and Jacob Eisenstein (TACL 2017) 
+      title: ★ Overcoming Language Variation in Sentiment Analysis with Social Attention
+      url: http://www.aclweb.org/anthology/Q17-1021.pdf
+    -
+      author: Yoon Kim (EMNLP 2014) 
+      title: Convolutional Neural Networks for Sentence Classification
+      url: http://www.aclweb.org/anthology/D14-1181.pdf
+    -
+      author:  Yoav Goldberg (2017) 
+      title: Neural Network Methods for Natural Language Processing (Book)
+      url: http://www.morganclaypool.com/doi/pdf/10.2200/S00762ED1V01Y201703HLT037
+-
   date: <b>Fall 2017</b>
   slides:
   title:
