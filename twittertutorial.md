@@ -18,7 +18,7 @@ Twitter API tutorial
 Last updated Dec 2, 2018 (added a script for obtaining all followers of a Twitter user; updated with tweepy package); originally written July 1, 2015. 
 
 
-[[download the Jupyter notebook for this tutorial](https://raw.githubusercontent.com/cocoxu/socialmedia-class.github.io/master/twittertutorial.ipynb.json){:target="_blank"}]
+[[download the Jupyter notebook for this tutorial](twittertutorial.ipynb.json){:target="_blank"}]
 
 
 ### 1. Getting Twitter API keys
