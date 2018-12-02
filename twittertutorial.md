@@ -12,7 +12,7 @@ Twitter API tutorial
 
 **by [Wei Xu](https://cocoxu.github.io/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
 
-**updated by [Jeniya Tabassum](https://sites.google.com/site/jeniyatabassum/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/JeniyaTabassum">Follow @JeniyaTabassum</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
+**updated by [Jeniya Tabssum](https://sites.google.com/site/jeniyatabassum/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/JeniyaTabassum">Follow @JeniyaTabassum</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
 
 
 Last updated Dec 2, 2018 (added a script for obtaining all followers of a Twitter user; updated with tweepy package); originally written July 1, 2015. 
@@ -402,12 +402,11 @@ This tutorial is meant to help you to start. To learn more about Twitter APIs, h
 
 - Check more example Python scripts that demonstrate interactions with the Twitter API
 via the Tweepy Library: 
-    [https://github.com/ideoforms/python-twitter-examples](https://github.com/tweepy/examples){:target="_blank"}
+    [https://github.com/tweepy/examples](https://github.com/tweepy/examples){:target="_blank"}
 
 
 
 Please contact us if you have any suggestions or notice any information that becomes out-of-date.   
-
 
 
 
