@@ -9,6 +9,8 @@ active_tab: highschool
 A Beginner's Guide - Python, NLP, and Twitter API
 =============================================================
 
+**by [Wei Xu](https://cocoxu.github.io/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
+
 
 The following material is created for students with some or no programming experience. The current version consists of three mini-lectures, accompanied with [sample code in Google Colaboratory](https://colab.research.google.com/drive/14WRK_N_Jvhsx4KyOHfFXuG8n3J4CFZcX) for students to run in web browsers with no setup or installing any software. 
 
