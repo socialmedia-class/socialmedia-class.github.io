@@ -10,12 +10,10 @@ active_tab: tutorial
 Twitter API tutorial 
 =============================================================
 
-**by [Wei Xu](https://cocoxu.github.io/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
-
-**updated by [Jeniya Tabassum](https://sites.google.com/site/jeniyatabassum/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/JeniyaTabassum">Follow @JeniyaTabassum</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
+**by [Wei Xu](https://cocoxu.github.io/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/cocoweixu">Follow @cocoweixu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> and **[Jeniya Tabassum](https://sites.google.com/site/jeniyatabassum/)** <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/JeniyaTabassum">Follow @JeniyaTabassum</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> **&nbsp;&nbsp;(Ohio State University)**
 
 
-Last updated Dec 2, 2018 (added a script for obtaining all followers of a Twitter user; updated with tweepy package); originally written July 1, 2015. 
+Last updated March 20, 2018 (added a script for obtaining all followers of a Twitter user; updated with tweepy package). 
 
 
 [[download the Jupyter notebook for this tutorial](twittertutorial.ipynb.json){:target="_blank"}]

@@ -12,14 +12,14 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: [Alan Ritter](http://aritter.github.io)
+: [Wei Xu](http://cocoxu.github.io) and [Alan Ritter](http://aritter.github.io) 
 
 [//]: <> (: [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). )
 
-Time/Place ![new](assets/img/new_1.gif) 
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **[Derby Hall](https://www.osu.edu/map/google.php?buildingIn=025) Room 049 | Thursday 10:40AM -- 12:30PM** 
+Upcoming ![new](assets/img/new_1.gif) 
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019/Spring 2020, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **Class Time/Place TBA** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Dreese 595 | Tuesday 4:00PM -- 5:00PM
+<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Time/Place TBA
 
 [//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; [Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University (Instructor: Alan Ritter))

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <!-- CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/class.css" rel="stylesheet">   
+    <link href="assets/css/syntax.css" rel="stylesheet" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- MathJax -->
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-fixed-top navbar-default" role="banner">
+      <div class="container">
+        <div class="row">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav">
+            <div class="hidden-sm hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+            <div class="visible-sm visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Social Media & Text Analytics</a></li></div>
+          </ul>
+        </div>
+        <nav class="collapse navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li id="syllabus"><a href="syllabus.html">Syllabus</a></li>
+            <li id="tutorial"><a href="twittertutorial.html">Twitter API Tutorial</a></li>
+            
+            <li id="homework">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Homework<span class="caret"></span></a>
+              <ol class="dropdown-menu">
+                <li><a href="assignment0.html">0. Become a Twitter User</a></li>
+                <li><a href="assignment1.html">1. Twitter's Language Mix</a></li>
+                <li><a href="assignmentA.html">A. In-class Presentation</a></li>
+                <li><a href="assignment2.html">2. Implement Logistic Regression</a></li>
+                <li><a href="assignment3.html">3. Implement Word2vec (extracurricular)</a></li>
+              </ol>
+            </li>
+            <li id="highschool"><a href="highschool.html">High School Outreach</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 hidden-sm hidden-xs">
+          <a href="https://imgs.xkcd.com/comics/computers_vs_humans.png"> 
+          <img src="assets/img/computers_vs_humans.jpg" class="img-responsive img-rounded" alt=""/>
+          </a> 
+          <span class="text-muted"><i>Computers vs. Humans</i></span>
+        </div>
+        <div class="col-sm-10">
+          <h1 id="a-beginners-guide---python-nlp-and-twitter-api">A Beginner’s Guide - Python, NLP, and Twitter API</h1>
+
+<p>The following material is created for students with some or no programming experience. The current version consists of three mini-lectures, accompanied with <a href="https://colab.research.google.com/drive/14WRK_N_Jvhsx4KyOHfFXuG8n3J4CFZcX">sample code in Google Colaboratory</a> for students to run in web browsers with no setup or installing any software.</p>
+
+<dl>
+  <dt>Upcoming <img src="assets/img/new_1.gif" alt="new" /></dt>
+  <dd>
+    <ul>
+      <li>March 23rd, 2019. <a href="https://hack.osu.edu/hs/2019/">Ohio High School Hackathon</a> [download <a href="./slides_highschool/45min_python_twitter_nlp.pdf">slides</a>].</li>
+    </ul>
+  </dd>
+</dl>
+
+<p>(Please feel free to use any of these material and let us know!)</p>
+
+<table class="table table-striped">
+
+     <tbody>
+       <tr>
+         <td><b>Part 1</b></td>
+         <td><a href="./slides_highschool/15min_intro_python.pdf"><b>Introduction to Python</b></a>
+         <br />
+         <br />
+         <img src="assets/img/45min_python_twitter_nlp.006.jpeg" width="240" /> &nbsp;
+         <img src="assets/img/45min_python_twitter_nlp.008.jpeg" width="240" /> &nbsp; 
+         <img src="assets/img/45min_python_twitter_nlp.015.jpeg" width="240" />
+         </td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+       </tr>
+       <tr>
+         <td><b>Part 2</b></td>
+         <td><a href="./slides_highschool/15min_intro_nlp.pdf"><b>Introduction to Natural Language Processing (NLP)</b></a>
+         <br />
+         <br />
+         <img src="assets/img/45min_python_twitter_nlp.024.jpeg" width="240" /> &nbsp;
+         <img src="assets/img/45min_python_twitter_nlp.030.jpeg" width="240" /> &nbsp; 
+         <img src="assets/img/45min_python_twitter_nlp.031.jpeg" width="240" />
+         </td>
+       </tr>
+       <tr>
+         <td></td>
+         <td></td>
+       </tr>
+       <tr>
+         <td><b>Part 3</b></td>
+         <td><a href="./slides_highschool/15min_intro_twitter_api.pdf"><b>Introduction to Twitter API</b></a>
+         <br />
+         <br />
+         <img src="assets/img/45min_python_twitter_nlp.034.jpeg" alt="Twitter API Tutorial" width="240" /> &nbsp;
+         <img src="assets/img/45min_python_twitter_nlp.046.jpeg" width="240" /> &nbsp; 
+         <img src="assets/img/45min_python_twitter_nlp.048.jpeg" width="240" />
+         </td>
+       </tr>
+     </tbody>
+   </table>
+
+<hr />
+
+
+        </div>
+      </div>
+
+      <footer class="text-center text-muted">
+        <hr/>
+        Last updated March 20, 2019. <br/>
+        Feel free to reuse any of the contents of this course or this web page. The source code is on <a href="https://github.com/socialmedia-class/">github <i class="fa fa-github-alt"></i></a>. <br/>
+        <br/>
+      </footer>
+    </div>
+
+    <!-- Page content of course! -->
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#highschool").addClass("active");
+      });
+    </script>
+  </body>
+</html>
