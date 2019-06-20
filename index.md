@@ -59,7 +59,7 @@ Prerequisites
 
 <br>Previous Offerings
 : 
-- Spring 2018, The Ohio State University (Instructor:[Alan Ritter](http://aritter.github.io))
+- Spring 2018, The Ohio State University (Instructor: [Alan Ritter](http://aritter.github.io))
 - Autumn 2017, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
 - Autumn 2016, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
 - Summer 2016, [NASSLLI]((http://nasslli2016.rutgers.edu/about_nasslli.html)): The North American Summer School on Logic, Language, and Information (Instructor: [Wei Xu](http://cocoxu.github.io))
