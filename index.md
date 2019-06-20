@@ -1,5 +1,5 @@
 ---
-title: Social Media and Text Analytics - Autumn 2016 - Ohio State University
+title: Social Media and Text Analytics - Autumn 2019 - Ohio State University
 layout: default
 img: nyc_twitter_visualization
 img_link: http://bits.blogs.nytimes.com/2011/07/15/bits-pics-showing-the-location-of-tweets-and-flickr-photos/
@@ -12,14 +12,15 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: [Wei Xu](http://cocoxu.github.io) and [Alan Ritter](http://aritter.github.io) 
+: [**Wei Xu**](http://cocoxu.github.io) 
 
 [//]: <> (: [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). )
 
 Upcoming ![new](assets/img/new_1.gif) 
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019/Spring 2020, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** <br> &nbsp;&nbsp;&nbsp;&nbsp; **Class Time/Place TBA** 
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; [Office Hour] Time/Place TBA
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Thu 11:10am-1:15pm | Knowlton 250 
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hour:** TBA
 
 [//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; [Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University (Instructor: Alan Ritter))
@@ -37,12 +38,12 @@ Prerequisites
 <br>Grading (subject to change)
 : This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments and an optional research project. The class will assign one paper for reading each week. Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10:00am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations (some [examples](https://nlpers.blogspot.com/2016/08/some-papers-i-liked-at-acl-2016.html?m=0)), or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 
 
-- programming homework #1 (15 points/individual)
-- programming homework #2 (30 points/individual) 
-- take-home quizzes (10 points/individual, about 5 quizzes) 
+- programming homework #1 (10 points/individual)
+- programming homework #2 (25 points/individual) 
+- quizzes (10 points/individual, about 5 quizzes) 
 - paper summaries (20 points/individual, about 10 papers) 
 - in-class presentation (15 points/group of two) 
-- participation in class discussions - including Piazza (10 points/individual)
+- participation in class discussions - including Piazza (20 points/individual)
 - a research project or programming homework #3 (optional, 20 bonus points)
 
  
@@ -58,8 +59,9 @@ Prerequisites
 
 <br>Previous Offerings
 : 
-- Fall 2017, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
-- Fall 2016, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
+- Spring 2018, The Ohio State University (Instructor:[Alan Ritter](http://aritter.github.io))
+- Autumn 2017, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
+- Autumn 2016, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
 - Summer 2016, [NASSLLI]((http://nasslli2016.rutgers.edu/about_nasslli.html)): The North American Summer School on Logic, Language, and Information (Instructor: [Wei Xu](http://cocoxu.github.io))
 <br> &nbsp;&nbsp;&nbsp;&nbsp; Teaching evaluation was 5.72 out of 6 at NASSLLI; average across all instructors was 5.23. 
 - Summer 2015, University of Pennsylvania (Instructor: [Wei Xu](http://cocoxu.github.io))
