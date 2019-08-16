@@ -9,11 +9,11 @@ active_tab: homework
 
 
 
-Twitter's Language Mix <span class="text-muted">: Assignment 1 (15 points)</span> 
+Twitter's Language Mix <span class="text-muted">: Assignment 1 (10 points)</span> 
 =============================================================
 
 <div class="alert alert-info">
-  <p>Due Feb 1 (20% penalty per day for late submission)</p>
+  <p>This assignment is due on Friday, August 30, 2019 (before 2:00pm). </p>
 </div>
 
 

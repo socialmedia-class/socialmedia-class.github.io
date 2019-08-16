@@ -8,12 +8,12 @@ active_tab: homework
 ---
 
 
-Logistic Regression <span class="text-muted">: Assignment 2 (30 points)</span> 
+Logistic Regression <span class="text-muted">: Assignment 2 (20 points)</span> 
 =============================================================
 
 
 <div class="alert alert-info">
-  <p>Due: March 22</p>
+  <p>Due date: TBA.</p>
 </div>
 
 

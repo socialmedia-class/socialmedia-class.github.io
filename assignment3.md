@@ -14,7 +14,7 @@ Word2vec <span class="text-muted">: Assignment 3 (Extracurricular)</span>
 
 
 <div class="alert alert-info">
-  <p>Submit on Carmen by Friday April 27, 2018; strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment.</p>
+  <p>Submit on Carmen by Due Date (TBA); strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment.</p>
 </div>
 
 

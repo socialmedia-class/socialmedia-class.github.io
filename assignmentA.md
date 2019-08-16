@@ -12,9 +12,9 @@ active_tab: homework
 Survey a Social Media Platform, NLP Researcher or Dataset <span class="text-muted">: In-class Presentation (20 points)</span> 
 =============================================================
 
-You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP researcher of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences/jounals (e.g. ACL, NAACL, TACL, EMNLP). 
+You will pair together (2 students) and give a 10-minute presentation (plus 2-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a paper from NLP researchers of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences/jounals (e.g. ACL, NAACL, TACL, EMNLP). 
 
-[//]: <> (on a social media platform or a NLP research group of your choice. )
+[//]: <> (on a social media platform or a NLP researcher of your choice.)
 [//]: <> (and pick a social media platform (a list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a NLP research group (a list [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). )
 
 First, please **[sign up](https://docs.google.com/spreadsheets/d/1QoL4ai4x6MCtxFSFnP7ViPG-hIXO8Qq1OXJYZ9lp-Ew/edit?usp=sharing)** to pick a date you want to present, and pick a social media platform or a NLP researcher. 
@@ -23,7 +23,7 @@ After your presentation in the class, **upload your slides** to [OSU's Carmen](h
 
 #### For NLP researchers, you may focus on
 
-- Who: You are encouraged to consider NLP researchers at different stages of their career, ranging from junior phd students and established senior researchers. Summarize his/her career. How and why do they become successful?
+- Who: You are encouraged to consider NLP researchers who are current phd students and post-docs, as well as researchers in industrial labs. Summarize his/her career. How and why do they become successful?
 - What: What research topics they are working on? What are they famous for? What does his/her first NLP paper look like? Present one of his/her important or recent work.  
 
 #### For social media platforms, you may focus on:

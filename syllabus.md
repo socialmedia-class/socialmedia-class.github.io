@@ -6,7 +6,7 @@ caption: Vintage Social Media
 active_tab: syllabus
 ---
 
-Subject to change as the Spring: 2018 term progresses. ★ marks the required reading.
+Subject to change as the 2019 Autumn term progresses. ★ marks the required reading.
 
 <table class="table table-striped"> 
   <tbody>
