@@ -38,13 +38,13 @@ Prerequisites
 <br>Grading (subject to change)
 : This is a research-oriented project-based course (total 100 points). Instead of exams, each student will do two hands-on programming assignments and an optional research project. The class will assign one paper for reading each week. Each student should read the assigned paper and submit a short critique (between 100-200 words) online in [Carmen](https://carmen.osu.edu/) before 10:00am on the day of class. These reviews should not be simple summaries, but discuss positive aspects of the paper and limitations (some [examples](https://nlpers.blogspot.com/2016/08/some-papers-i-liked-at-acl-2016.html?m=0)), or suggestions for how the work could be improved or extended. Students are allowed to skip two reviews throughout the semester. Please email your reviews or homeworks to the instructor if there are any technical issues with online submission. 20% penalty per day for late submission.
 
-- programming homework #1 (10 points/individual)
-- programming homework #2 (20 points/individual) 
-- quizzes (15 points/individual, about 5 quizzes) 
-- paper summaries (20 points/individual, about 10 papers) 
-- in-class presentation (20 points/group of two) 
-- participation in class discussions - including Piazza (15 points/individual)
-- a research project or programming homework #3 (optional, 20 bonus points)
+- programming homework #1 (10% individual)
+- programming homework #2 (20% individual) 
+- quizzes (15% individual, about 5-7 quizzes) 
+- paper summaries (20% individual, about 10 papers) 
+- in-class presentation (20% group of two) 
+- participation in class discussions - including Piazza (15% individual)
+- a research project or programming homework #3 (optional, 20% points)
 
  
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )
