@@ -19,7 +19,7 @@ Instructor
 Upcoming ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Thu 11:10am-1:15pm | Knowlton 250 
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Thu 11:10am-1:15pm | McPherson Lab 2019 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hour:** TBA
 
 [//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
