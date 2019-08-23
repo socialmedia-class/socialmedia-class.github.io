@@ -9,7 +9,7 @@ active_tab: homework
 
 
 
-Survey a Social Media Platform, NLP Researcher or Dataset <span class="text-muted">: In-class Presentation (20 points)</span> 
+Survey a Social Media Platform, NLP Researcher or Dataset <span class="text-muted">: In-class Presentation (20%)</span> 
 =============================================================
 
 You will pair together (2 students) and give a 12-minute presentation (plus 3-minute Q&A) in class about a social media platform (an incomplete list [here](http://www.ovrdrv.com/wp-content/uploads/2016/03/Social-Media-Map-2016.pdf)) or a paper from NLP researchers of your choice (an incomplete list of NLP groups [here](https://www.quora.com/Which-are-the-best-schools-for-studying-natural-language-processing)). You are also encouraged to find other NLP researchers that are not on this list through CS department homepages or top NLP conferences/jounals (e.g. ACL, NAACL, TACL, EMNLP). 

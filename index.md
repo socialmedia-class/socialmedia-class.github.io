@@ -1,5 +1,5 @@
 ---
-title: Social Media and Text Analytics - Autumn 2019 - Ohio State University
+title: Social Media and Text Analytics 
 layout: default
 img: nyc_twitter_visualization
 img_link: http://bits.blogs.nytimes.com/2011/07/15/bits-pics-showing-the-location-of-tweets-and-flickr-photos/
