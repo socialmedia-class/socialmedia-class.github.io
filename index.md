@@ -20,7 +20,7 @@ Upcoming ![new](assets/img/new_1.gif)
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
 <br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Thu 11:10am-1:15pm | McPherson Lab 2019 
-<br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hour:** TBA
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hour:** Tue 4:30pm-5:30pm | Dreese Lab 495
 
 [//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; [Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University (Instructor: Alan Ritter))
@@ -32,7 +32,7 @@ Prerequisites
 : &nbsp;&nbsp;&nbsp;&nbsp; Each lecture has an accompanying set of [academic papers](syllabus.html)
 
 <br> Resources
-: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/jc9zejht1zm56e)** (discussion, announcements and restricted resources)
+: &nbsp;&nbsp;&nbsp;&nbsp; **[Piazza](https://piazza.com/class/jzoiv5zjwnv264)** (discussion, announcements and restricted resources)
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Carmen](https://carmen.osu.edu/)** (homework submission and grades)
 
 <br>Grading (subject to change)
@@ -44,7 +44,7 @@ Prerequisites
 - paper summaries (20% individual, about 10 papers) 
 - in-class presentation (20% group of two) 
 - participation in class discussions - including Piazza (15% individual)
-- a research project or programming homework #3 (optional, 20% points)
+- a research project or programming homework #3 (optional, 20% individual or group)
 
  
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )

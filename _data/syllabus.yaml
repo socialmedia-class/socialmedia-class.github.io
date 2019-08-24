@@ -1,4 +1,119 @@
 -
+  date: August 22, 2019
+  slides: http://socialmedia-class.org/slides_AU19/lecture1_Intro.pdf
+  title: Introduction 
+  highlights:
+    - Introduction of social media and natural language processing research
+    - Overview of the course
+  reading:
+    -
+      author: Golder and Macy (Science 2011)  
+      title: ★ Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
+      url: https://www.informatics.indiana.edu/jbollen/I501F13/readings/Science-2011-Golder-1878-81.pdf
+    - 
+      author: Eichstaedt et al. (Psychological Science 2015)
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality 
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
+    - 
+      author: Nick Parlante
+      title:  Google's Python class 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/ 
+-
+  date: August 28, 2019 (Wednesday)
+  slides: https://u.osu.edu/lair/
+  title: AI Seminar by Mounica Maddela 
+  highlights: 
+    - 4:00 -- 5:00pm, Dreese 480
+  reading:
+    - 
+      author:  Mounica Maddela, Wei Xu, Daniel Preoţiuc-Pietro (ACL 2019)
+      title:  Multi-task Pairwise Neural Ranking for Hashtag Segmentation
+      url: https://www.aclweb.org/anthology/P19-1242
+-
+  date: August 29, 2019
+  slides: 
+  title: Twitter and Twitter API Tutorial 
+  highlights: 
+    - Brief history of Twitter
+    - Key features of Twitter
+    - Hands-on instructions on obtaining Twitter data via APIs
+  reading:
+    -
+      author:  Wei Xu
+      title: ★ Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
+    - 
+      author: Jason Eisner 
+      title: How to Do Research with a Professor 
+      url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
+    -
+      author: Jason Eisner
+      title: How to Read a Technical Paper
+      url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+-
+  date: September 5, 2019
+  slides: 
+  title: Language Identification and Naïve Bayes [Reading 1 due]
+  highlights:
+    - Language Identification 
+    - Supervised Learning 
+    - Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+  reading:
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Mitja T &commat;tm
+      title: Evaluating language identification performance
+      url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+    -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+-
+  date: September 12, 2019
+  slides: 
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Quiz 1 due]
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+  reading:
+    -
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+
+-
+  date: <b>Spring 2018</b>
+  slides:
+  title:
+-
   date: January 11, 2018
   slides: http://socialmedia-class.org/slides/lecture1_Intro.pdf
   title: Introduction 

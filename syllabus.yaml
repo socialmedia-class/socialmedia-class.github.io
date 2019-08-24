@@ -1,0 +1,755 @@
+-
+  date: January 11, 2018
+  slides: http://socialmedia-class.org/slides/lecture1_Intro.pdf
+  title: Introduction 
+  highlights:
+    - Introduction of social media and natural language processing research
+    - Overview of the course
+    - <a href="http://socialmedia-class.org/slides/CSE_5539_Spring_2018_Quiz__1.pdf">Quiz 1 (due Jan 18 - hand in paper copy at the beginning of class)</a>
+  reading:
+    -
+      author: Golder and Macy (Science 2011)  
+      title: ★ Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
+      url: https://www.informatics.indiana.edu/jbollen/I501F13/readings/Science-2011-Golder-1878-81.pdf
+    - 
+      author: Eichstaedt et al. (Psychological Science 2015)
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality 
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
+    - 
+      author: Nick Parlante
+      title:  Google's Python class 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/ 
+-
+  date: January 18, 2018
+  slides: http://socialmedia-class.org/slides/lecture2_api.pdf
+  title: Twitter and Twitter API Tutorial [Quiz1 due]
+  highlights: 
+    - Brief history of Twitter
+    - Key features of Twitter
+    - Hands-on instructions on obtaining Twitter data via APIs
+
+  reading:
+    -
+      author:  Wei Xu
+      title: ★ Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
+    - 
+      author: Jason Eisner 
+      title: How to Do Research with a Professor 
+      url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
+    -
+      author: William Wang
+      title: How to Do Research
+      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
+    -
+      author: Jason Eisner
+      title: How to Read a Technical Paper
+      url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+-
+  date: January 25, 2018
+  slides: http://socialmedia-class.org/slides/lecture3_TwitterNLP_langid.pdf
+  title: Language Identification and Naïve Bayes [Reading 1 due]
+  highlights:
+    - Domain/Genre Difference
+    - Language Identification 
+    - Supervised Learning and Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+
+  reading:
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Mitja T &commat;tm
+      title: Evaluating language identification performance
+      url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+    -
+      author: Blodgett, Wei, O'Connor (W-NUT 2017)
+      title: ★ A Dataset and Classifier for Recognizing Social Media English
+      url: http://noisy-text.github.io/2017/pdf/WNUT08.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+    -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+-
+  date: February 1, 2018
+  slides: http://socialmedia-class.org/slides/lecture4_Twitter_NLPpipeline.pdf
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Homework 1 due, Reading 2 due]
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+  reading:
+    -
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+-
+  date: February 8, 2018
+  slides: http://socialmedia-class.org/slides/lecture5_TwitterNLP_tagging.pdf
+  title: POS/NE Tagging for Twitter [No Summary Due]
+  highlights:
+    - Part-of-speech tagging
+    - Named entity recognition 
+  reading:
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    -
+      author: Timothy Baldwin, Marie-Catherine de Marneffe, Bo Han, Young-Bum Kim, Alan Ritter, Wei Xu (WNUT 2015)
+      title: Shared Tasks of the 2015 Workshop on Noisy User-generated Text &colon; Twitter Lexical Normalization and Named Entity Recognition
+      url: http://noisy-text.github.io/2015/pdf/WNUT19.pdf
+    -
+      author: Nut Limsopatham and Nigel Collier (WNUT 2016)
+      title: Bidirectional LSTM for Named Entity Recognition in Twitter Messages
+      url: http://noisy-text.github.io/2016/pdf/WNUT20.pdf
+-
+  date: February 15, 2018
+  slides: http://socialmedia-class.org/slides/lecture6_paraphrase_data.pdf
+  title: Paraphrase Data Sources [Read3 due]
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+      title:  Paraphrasing Revisited with Neural Machine Translation
+      url: http://www.aclweb.org/anthology/E17-1083.pdf    
+-
+  date: February 22, 2018
+  slides: http://socialmedia-class.org/slides/lecture7_paraphrase_identification_a.pdf
+  title: Paraphrase Identification and Linear Regression [No Summary Due]
+  highlights: 
+    - Linear Regression 
+    - Cost Function 
+    - Gradient Descent 
+  reading:   
+    - 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+    - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
+-
+  date: March 1, 2018
+  slides: http://socialmedia-class.org/slides/lecture8_paraphrase_identification_b.pdf
+  title: Paraphrase Identification and Logisitc Regression [No Summary Due]
+  highlights: 
+    - Logistic Regression  
+    - Decision Boundary
+  reading:
+    -
+
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
+-
+  date: March 8, 2017 
+  slides: http://socialmedia-class.org/slides/lecture9_vector_semantics.pdf
+  title: Vector Semantics [Read4 due]
+  highlights:
+    - Unsupervised Learning 
+    - Class-based Clustering&colon; Brown Clusters
+    - Soft Clustering&colon; Singular Value Decomposition (SVD)
+    - Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
+  reading:
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 15 Vector Semantics)
+      url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 16 Semantics with Dense Vectors)
+      url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
+    -
+      author: Cherry and Guo (NAACL 2015)
+      title: ★ The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+      url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
+    -
+      author: Levy and Goldberg (NIPS 2014)  
+      title: Neural Word Embedding as Implicit Matrix Factorization
+      url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
+-
+  date: March 29, 2018
+  slides: https://www.dropbox.com/s/2mmplmoq1lpthq4/EMNLP17_talk.pdf?dl=1
+  title: Predicting Things from Text
+  highlights: 
+  reading:
+    -
+      author:   Sandesh Swamy, Alan Ritter and Marie-Catherine de Marneffe (EMNLP 2017)
+      title:  ★ &quot;i have a feeling trump will win..................&quot;&colon; Forecasting Winners and Losers from User Predictions on Twitter 
+      url: http://www.aclweb.org/anthology/D/D17/D17-1166.pdf
+    -
+      author: Vlad Niculae, Srijan Kumar, Jordan Boyd-Graber, Cristian Danescu-Niculescu-Mizil (ACL 2015)
+      title: Linguistic Harbingers of Betrayal&colon A Case Study on an Online Strategy Game
+      url: http://www.aclweb.org/anthology/P15-1159
+    -
+      author: Vikas Ganjigunte Ashok, Song Feng, Yejin Choi  (EMNLP 2013)
+      title: Success with Style&colon; Using Writing Style to Predict the Success of Novels
+      url: http://www.aclweb.org/anthology/D13-1181
+    -
+      author: Brendan O’Connor, Ramnath Balasubramanyan, Bryan R. Routledge, Noah A. Smith (ICWSM 2010)
+      title: From Tweets to Polls&colon; Linking Text Sentiment to Public Opinion Time Series
+      url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/viewFile/1536/1842
+    -
+-
+  date: April 5, 2018
+  slides: https://cocoxu.github.io/
+  title: Discovering User Attribute Stylistic Differences via Paraphrasing (Guest Lecture by Wei Xu) [Read5 due]
+  highlights: 
+  reading:
+    -
+      author:   Daniel Preoţiuc-Pietro, Wei Xu, Lyle Ungar  (AAAI 2016)
+      title:  ★ Discovering User Attribute Stylistic Differences via Paraphrasing
+      url: https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12421/12057
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf
+    - 
+      author: Xing Niu, Marine Carpuat (Workshop on Stylistic Variation at EMNLP 2017)
+      title: Discovering Stylistic Variations in Distributional Vector Space Models via Lexical Paraphrases
+      url: http://www.aclweb.org/anthology/W17-4903
+    -
+      author: Harsh Jhamtani, Varun Gangal, Eduard Hovy, Eric Nyberg
+      title: Shakespearizing Modern Language Using Copy-Enriched Sequence-to-Sequence Models (Workshop on Stylistic Variation at EMNLP 2017)
+      url: http://aclweb.org/anthology/W17-4902
+-
+  date: April 12, 2018
+  slides: http://socialmedia-class.org/slides/lecture10_deeplearning.pdf
+  title: Deep Learning for NLP
+  highlights:
+    - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
+    - Recurrent Neural Network
+    - Long Short-Term Memory Networks
+    - Neural Machine Translation 
+    - Neural Conversation Generation
+  reading:
+    - 
+      author: Christopher Olah
+      title: Understanding LSTM Networks      
+      url: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+    - 
+      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
+      title: ★ Sequence to Sequence Learning with Neural Networks
+      url: https://arxiv.org/pdf/1409.3215v3.pdf
+    - 
+      author: Ng et al. 
+      title: Deep Learning Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
+    - 
+      author: Graham Neubig  
+      title: Neural Machine Translation and Sequence-to-Sequence Models&colon; A Tutorial
+      url: https://arxiv.org/pdf/1703.01619.pdf
+    - 
+      author: Li et al.
+      title: Adversarial Learning for Neural Dialogue Generation
+      url: http://www.aclweb.org/anthology/D/D17/D17-1229.pdf
+-
+  date: April 19, 2018
+  slides:  
+  title: Sentiment Analysis, Convolutional Neural Networks and Attention  [Read6 due]
+  highlights: 
+    - Sentiment Analysis
+    - Attention Model
+    - Convolutional Neural Networks
+  reading:
+    -
+      author: Yi Yang and Jacob Eisenstein (TACL 2017) 
+      title: ★ Overcoming Language Variation in Sentiment Analysis with Social Attention
+      url: http://www.aclweb.org/anthology/Q17-1021.pdf
+    -
+      author: Yoon Kim (EMNLP 2014) 
+      title: Convolutional Neural Networks for Sentence Classification
+      url: http://www.aclweb.org/anthology/D14-1181.pdf
+    -
+      author:  Yoav Goldberg (2017) 
+      title: Neural Network Methods for Natural Language Processing (Book)
+      url: http://www.morganclaypool.com/doi/pdf/10.2200/S00762ED1V01Y201703HLT037
+-
+  date: <b>Fall 2017</b>
+  slides:
+  title:
+-
+  date: August 22, 2017
+  slides: http://socialmedia-class.org/slides_AU2017/lecture1_Intro.pdf
+  title: Introduction 
+  highlights:
+    - Introduction of social media and natural language processing research
+    - Overview of the course
+  reading:
+    -
+      author: Golder and Macy (Science 2011)  
+      title: ★ Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
+      url: https://www.informatics.indiana.edu/jbollen/I501F13/readings/Science-2011-Golder-1878-81.pdf
+    - 
+      author: Eichstaedt et al. (Psychological Science 2015)
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality 
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
+    - 
+      author: Nick Parlante
+      title:  Google's Python class 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/ 
+-
+  date: August 29, 2017
+  slides: http://socialmedia-class.org/slides_AU2017/lecture2_Twitter_API.pdf
+  title: Twitter and Twitter API Tutorial [Quiz1 due]
+  highlights: 
+    - Brief history of Twitter
+    - Key features of Twitter
+    - Hands-on instructions on obtaining Twitter data via APIs
+
+  reading:
+    -
+      author:  the instructor Wei Xu
+      title: ★ Twitter API Tutorial
+      url: http://socialmedia-class.org/twittertutorial.html
+    -
+      author: Kwak, Lee, Park and Moon (WWW 2010)  
+      title: ★ What is Twitter, a Social Network or a News Media? 
+      url: http://www.eecs.wsu.edu/~assefaw/CptS580-06/papers/2010-www-twitter.pdf
+    - 
+      author: Jason Eisner 
+      title: How to Do Research with a Professor 
+      url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
+    -
+      author: William Wang
+      title: How to Do Research
+      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
+    -
+      author: Jason Eisner
+      title: How to Read a Technical Paper
+      url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+-
+  date: September 5, 2017 
+  slides: 
+  title: no class [HW1 due]
+  highlights: 
+    - instructor travels for conference (EMNLP and W-NUT)
+  reading:
+    -
+      author: Mocanu et al. (PLOS ONE 2013)  
+      title: ★ The Twitter of Babel - Mapping World Languages through Microblogging Platforms
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061981
+-
+  date: September 12, 2017 
+  slides: http://socialmedia-class.org/slides_AU2017/numpy.pptx
+  title: Guest Lecture by Pravar Mahajan [Read1 due]
+  highlights: Python Numpy Tutorial
+  reading: 
+    -
+      author:  Justin Johnson
+      title:  ★ Python Numpy Tutorial
+      url: http://cs231n.github.io/python-numpy-tutorial/  
+    -
+      author:  the TA Pravar Mahajan
+      title:  Jupyter Notebook for a Hands-on Numpy Tutorial 
+      url: https://github.com/pravarmahajan/numpy_demo
+-
+  date: September 15, 2017 
+  slides: 
+  title: drop deadline
+  highlights: 
+  reading:
+-
+  date: September 19, 2016
+  slides: http://socialmedia-class.org/slides_AU2017/lecture3_TwitterNLP_langid.pdf
+  title: Language Identification and Naïve Bayes [Read2 due]
+  highlights:
+    - Domain/Genre Difference
+    - Language Identification 
+    - Supervised Learning and Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+
+  reading:
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+    -
+      author: Blodgett, Wei, O'Connor (W-NUT 2017)
+      title: ★ A Dataset and Classifier for Recognizing Social Media English
+      url: http://noisy-text.github.io/2017/pdf/WNUT08.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
+    -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+-
+  date: September 26, 2016 
+  slides: http://aritter.github.io/
+  title: Guest Lecture by Alan Ritter [Read3 due]
+  highlights: 
+  reading:
+    -
+      author:   Sandesh Swamy, Alan Ritter and Marie-Catherine de Marneffe (EMNLP 2017)
+      title:  ★ &quot;i have a feeling trump will win..................&quot;&colon; Forecasting Winners and Losers from User Predictions on Twitter 
+      url: http://www.aclweb.org/anthology/D/D17/D17-1166.pdf
+-
+  date: October 3, 2016 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture4_paraphrase_data.pdf
+  title: Paraphrase Data Sources [Read4 & Quiz2 due]
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+      title:  Paraphrasing Revisited with Neural Machine Translation
+      url: http://www.aclweb.org/anthology/E17-1083.pdf    
+-
+  date: Octorber 10, 2017 
+  slides: https://sites.google.com/site/jeniyatabassum/
+  title: Guest Lecture by Jeniya Tabassum [Read5 due]
+  highlights: 
+  reading:
+    -
+      author:   Jeniya Tabassum, Alan Ritter, Wei Xu (EMNLP 2016)
+      title:  ★ A Minimally Supervised Method for Recognizing and Normalizing Time Expressions in Twitter
+      url: https://aclweb.org/anthology/D16-1030.pdf
+-
+  date: Octorber 17, 2016 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture5_paraphrase_identification_a.pdf
+  title: Paraphrase Identification and Linear Regression 
+  highlights: 
+    - Linear Regression 
+    - Cost Function 
+    - Gradient Descent 
+  reading:   
+    - 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
+    - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
+-
+  date: October 24, 2017 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture7_Twitter_NLPpipeline.pdf
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+    - Part-of-speech tagging
+    - Named entity recognition 
+  reading:
+    -
+      author: Jacob Eisenstein (NAACL 2013)
+      title: What to Do about Bad Language on the Internet? 
+      url: http://www.aclweb.org/anthology/N13-1037.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011) 
+      title: Named Entity Recognition in Tweets &colon; An Experimental Study
+      url: https://aclweb.org/anthology/D/D11/D11-1141.pdf 
+    -
+      author: Kong et al. (EMNLP 2014)
+      title: A Dependency Parser for Tweets
+      url: http://aclweb.org/anthology/D/D14/D14-1108.pdf
+-
+  date: October 27, 2017 
+  slides: 
+  title: withdraw deadline
+  highlights: 
+  reading:
+-
+  date: Octorber 31, 2016 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture6_paraphrase_identification_b.pdf
+  title: Paraphrase Identification and Logisitc Regression [Read6 & Quiz3 due Oct 30]
+  highlights: 
+    - Logistic Regression  
+    - Decision Boundary
+  reading:
+    -
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title: ★ Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
+-
+  date: November 7, 2017 
+  slides: 
+  title: Brainstorm Research Ideas [Slides due Nov 6]
+  highlights: 
+    - 2:20-2:50pm 1-minute student presentations  
+    - 2:50-3:10pm group discussions (round 1)
+    - 3:10-3:30pm group discussions (round 2)
+    - 3:30-3:40pm break and wrapping up
+    - 3:40-4:10pm 5-minute group presentations
+  reading:
+    -
+      author:  Durrett et al. (EMNLP 2017)
+      title: ★ Identifying Products in Online Cybercrime Marketplaces&colon; A Dataset for Fine-grained Domain Adaptation
+      url: http://aclweb.org/anthology/D17-1274.pdf
+-
+  date: November 14, 2017 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture8_vector_semantics.pdf
+  title: Vector Semantics [Quiz4 & Read7 due - last Quiz]
+  highlights:
+    - Unsupervised Learning 
+    - Class-based Clustering&colon; Brown Clusters
+    - Soft Clustering&colon; Singular Value Decomposition (SVD)
+    - Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
+  reading:
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 15 Vector Semantics)
+      url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 16 Semantics with Dense Vectors)
+      url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
+    -
+      author: Cherry and Guo (NAACL 2015)
+      title: ★ The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+      url: http://aclweb.org/anthology/N/N15/N15-1075.pdf
+    -
+      author: Levy and Goldberg (NIPS 2014)  
+      title: Neural Word Embedding as Implicit Matrix Factorization
+      url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
+-
+  date: November 17, 2017 (3:00-4:00pm)
+  slides: https://cse.osu.edu/events/2017/11/distinghuished-guest-speaker-dr.-lyle-ungar
+  title: Distinghuished Guest Speaker Talk by Dr. Lyle Ungar 
+  highlights: 
+    - Dreese Labs 480
+    - Measuring Psychological Traits using Social Media
+  reading:
+    - 
+      author: Schwartz et al. (PloS ONE 2013)  
+      title: ★ Personality, gender, and age in the language of social media&colon; The open-vocabulary approach
+      url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073791
+-
+  date: November 21, 2017 
+  slides: http://socialmedia-class.org/slides_AU2017/lecture9_deeplearning.pdf
+  title: Deep Learning for NLP [HW2-part1 due Nov 20]
+  highlights:
+    - Neural Network Basicsg&colon; Neuron, Activation Function, Non-linearity, Learning
+    - Recurrent Neural Network
+    - Long Short-Term Memory Networks
+    - Neural Machine Translation 
+    - Neural Conversation Generation
+  reading:
+    - 
+      author: Ilya Sutskever, Oriol Vinyals, and Quoc Le  
+      title: ★ Sequence to Sequence Learning with Neural Networks
+      url: https://arxiv.org/pdf/1409.3215v3.pdf
+    - 
+      author: Ng et al. 
+      title: Deep Learning Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/MultiLayerNeuralNetworks/
+    - 
+      author: Graham Neubig  
+      title: Neural Machine Translation and Sequence-to-Sequence Models&colon; A Tutorial
+      url: https://arxiv.org/pdf/1703.01619.pdf
+    - 
+      author: Li et al.
+      title: Adversarial Learning for Neural Dialogue Generation
+      url: http://www.aclweb.org/anthology/D/D17/D17-1229.pdf
+-
+  date: November 28, 2017 (12:45-1:30pm)
+  slides: https://web.cse.ohio-state.edu/~lan.105/
+  title: Clippers Talk by Wuwei Lan 
+  highlights: 
+    - Jennings Hall 140
+    - Learning Large-scale Paraphrases Continuously from Twitter
+  reading:
+    -
+      author:   Wuwei Lan, Siyu Qiu, Hua He, Wei Xu (EMNLP 2017)
+      title:  ★ A Continuously Growing Dataset of Sentential Paraphrases
+      url: https://cocoxu.github.io/publications/Wuwei_EMNLP_2017_preprint.pdf
+    - 
+      author:  Ankur P. Parikh, Oscar Täckström, Dipanjan Das and Jakob Uszkoreit (EMNLP 2016)  
+      title: ★ A Decomposable Attention Model for Natural Language Inference
+      url: https://aclweb.org/anthology/D16-1244.pdf   
+-
+  date: November 28, 2017 
+  slides:  http://socialmedia-class.org/slides_AU2017/lecture10_Twitter_summarization.pdf
+  title:  Automatic Summarization for Twitter and the PageRank Algorithm [Read8 due Nov 30 - last Read]
+  highlights:
+    - SumBasic algorithm
+    - PageRank algorithm
+    - Graph visualization
+    - Event-based summarization system
+  reading:
+    -
+      author: Xu, Grishman, Meyers, Ritter (LASM 2013)
+      title:  A Preliminary Study of Tweet Summarization using Information Extraction
+      url: http://aclweb.org/anthology/W/W13/W13-1103.pdf
+    -
+      author: Ritter, Mausam, Etzioni (KDD 2012) 
+      title: ★ Open Domain Event Extraction from Twitter
+      url: http://turing.cs.washington.edu/papers/kdd12-ritter.pdf
+    -
+      author: Wikipedia
+      title:  PageRank 
+      url: https://en.wikipedia.org/wiki/PageRank
+    -
+      author: Matiello et al. 
+      title:  Python-Graph (a library for working with graphs in Python)
+      url: https://github.com/pmatiello/python-graph
+-
+  date: December 5, 2017 
+  slides:  http://socialmedia-class.org/slides_AU2017/lecture11_CNN_sentiment.pdf
+  title: Sentiment Analysis, Convolutional Neural Networks and Attention [HW2-part2 due Dec 4]
+  highlights: 
+    - Sentiment Analysis
+    - Attention Model
+    - Convolutional Neural Networks
+  reading:
+    -
+      author: Yi Yang and Jacob Eisenstein (TACL 2017) 
+      title: ★ Overcoming Language Variation in Sentiment Analysis with Social Attention
+      url: http://www.aclweb.org/anthology/Q17-1021.pdf
+    -
+      author: Yoon Kim (EMNLP 2014) 
+      title: Convolutional Neural Networks for Sentence Classification
+      url: http://www.aclweb.org/anthology/D14-1181.pdf
+    -
+      author:  Yoav Goldberg (2017) 
+      title: Neural Network Methods for Natural Language Processing (Book)
+      url: http://www.morganclaypool.com/doi/pdf/10.2200/S00762ED1V01Y201703HLT037
+-
+  date: <b>Fall 2016</b>
+  slides: 
+  title: 
+-
+  date: September 26, 2016 (Monday)
+  slides: https://cse.osu.edu/events/2016/09/guest-speaker-jiwei-li
+  title: Invited Talk by Jiwei Li (Stanford)
+  highlights: 
+    - 4:00 -- 5:00pm, Dreese 480
+    - Teaching a Machine to Converse
+  reading:
+    - 
+      author:  Jiwei Li, Will Monroe, Alan Ritter, Michel Galley, Jianfeng Gao and Dan Jurafsky (EMNLP 2016)
+      title:  Deep Reinforcement Learning for Dialogue Generation
+      url: https://arxiv.org/pdf/1606.01541.pdf
+    -
+      author:  Jiwei Li, Alan Ritter, Eduard Hovy (ACL 2014)
+      title:  Weakly Supervised User Profile Extraction from Twitter
+      url: http://www.aclweb.org/anthology/P14-1016.pdf
+-
+  date: Octorber 12, 2016 
+  slides: http://socialmedia-class.org/slides/lecture7_Twitter_paraphrase.pdf
+  title: Twitter Paraphrase and Latent Variable Model
+  highlights: 
+    - Evaluation&colon; Precision, Recall, F-measure
+    - Multiple Instance Learning
+    - Conditional Log-linear Model with Latant Variables 
+    - Crowdsourcing  
+  reading:
+    - 
+      author:  Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, Yangfeng Ji (TACL 2014)  
+      title: Extracting Lexically Divergent Paraphrases from Twitter
+      url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf   
+    - 
+      author:  Yangfeng Ji and Jacob Eisenstein  (EMNLP 2013)
+      title:  Discriminative Improvements to Distributional Sentence Similarity
+      url: http://www.aclweb.org/anthology/D13-1090.pdf
+    - 
+      author:  Wei Xu, Alan Ritter, Ralph Grishman (BUCC 2013)
+      title:  Gathering and Generating Paraphrases from Twitter with Application to Normalization
+      url: http://aclweb.org/anthology/W/W13/W13-2515.pdf  
+-
+  date: Octorber 18, 2016 (Tuesday)
+  slides: http://www.m-mitchell.com/
+  title: Invited Talk by Margaret Mitchell (Microsoft Research)
+  highlights: 
+    - 4:00 -- 5:00pm, Dreese 480
+    - From Naming Concrete Objects to Sharing Abstract Thought&colon;  Vision-to-Language Begins to Grow Up 
+  reading:
+    - 
+      author: Mostafazadeh, N., Misra, I., Devlin, J., Zitnick, C. L., Mitchell, M., He, X., Vanderwende, L. (ACL 2016)
+      title: Generating Natural Questions About an Image
+      url: https://aclweb.org/anthology/P/P16/P16-1170.pdf
+
+  
+     
+  
+  
+
