@@ -1,6 +1,6 @@
 -
   date: August 22, 2019
-  slides: http://socialmedia-class.org/slides_AU19/lecture1_Intro.pdf
+  slides: http://socialmedia-class.org/slides_AU2019/lecture1_Intro.pdf
   title: Introduction 
   highlights:
     - Introduction of social media and natural language processing research
@@ -35,7 +35,7 @@
       url: https://www.aclweb.org/anthology/P19-1242
 -
   date: August 29, 2019
-  slides: 
+  slides: http://socialmedia-class.org/slides_AU2019/lecture2_api.pdf
   title: Twitter and Twitter API Tutorial 
   highlights: 
     - Brief history of Twitter
