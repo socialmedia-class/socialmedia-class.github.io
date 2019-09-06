@@ -60,7 +60,7 @@
       url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
 -
   date: September 5, 2019
-  slides: 
+  slides:  http://socialmedia-class.org/slides_AU2019/lecture3_TwitterNLP_langid.pdf
   title: Language Identification and Naïve Bayes [Reading 1 due]
   highlights:
     - Language Identification 
@@ -73,6 +73,10 @@
       title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
     -
+      author: Hiroshi Shimodaira 
+      title: Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+    -
       author: Mitja T &commat;tm
       title: Evaluating language identification performance
       url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
@@ -84,31 +88,56 @@
       author: Sunil Ray 
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
-    -
-      author: Hiroshi Shimodaira 
-      title: Text Classification using Naive Bayes
-      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
 -
   date: September 12, 2019
   slides: 
-  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Quiz 1 due]
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Reading 2 due]
   highlights:
     - Tokenization, Emoticons 
     - Noisy Text Normalization
+    - Named Entity Recognition 
+    - Weakly Supervised Learning
   reading:
     -
-      author: Jacob Eisenstein (NAACL 2013)
-      title: What to Do about Bad Language on the Internet? 
-      url: http://www.aclweb.org/anthology/N13-1037.pdf
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      title: ★ Named Entity Recognition in Tweets&colon; An Experimental Study by Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      url: https://www.aclweb.org/anthology/D11-1141.pdf
     -
       author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
-      title: ★ How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
       url: http://www.aclweb.org/anthology/I13-1041.pdf
     -
       author: Bo Han and Tim Baldwin (ACL 2011)
-      title: Lexical Normalisation of Short Text Messages &colon; Makn Sens a &#35;twitter
+      title: Lexical Normalisation of Short Text Messages&colon; Makn Sens a &#35;twitter
       url: http://www.aclweb.org/anthology/P11-1038.pdf
-
+    -
+      author: Benjamin Strauss, Bethany Toma, Alan Ritter, Marie-Catherine de Marneffe, Wei Xu (WNUT 2016)
+      title: Results of the WNUT16 Named Entity Recognition Shared Task
+      url: http://noisy-text.github.io/2016/pdf/WNUT19.pdf
+-
+  date: September 19, 2019
+  slides: 
+  title: Paraphrase Data Sources [Quiz 1 due; Reading 3 due]
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Chris Brockett and Bill Dolan (IWP 2005)
+      title:  Support Vector Machines for Paraphrase Identification and Corpus Construction
+      url: http://aclweb.org/anthology/I/I05/I05-5001.pdf 
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+      title:  Paraphrasing Revisited with Neural Machine Translation
+      url: http://www.aclweb.org/anthology/E17-1083.pdf          
 -
   date: <b>Spring 2018</b>
   slides:
@@ -177,7 +206,6 @@
     - Language Identification 
     - Supervised Learning and Classification
     - Naïve Bayes Algorithm + feature selection (Information Gain)
-
   reading:
     -
       author: Lui, Baldwin (IJCNLP 2011) 
