@@ -149,8 +149,7 @@
   reading:   
     - 
       author:  Wuwei Lan and Wei Xu (COLING 2018)
-      title:  Neural Network Models for Paraphrase Identification, Semantic Textual
-Similarity, Natural Language Inference, and Question Answering
+      title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
       url: https://aclweb.org/anthology/C18-1328.pdf 
     - 
       author:  Andrew Ng
