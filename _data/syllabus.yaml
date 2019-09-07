@@ -148,13 +148,21 @@
     - Gradient Descent 
   reading:   
     - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf    
+    - 
       author:  Wuwei Lan and Wei Xu (COLING 2018)
       title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
       url: https://aclweb.org/anthology/C18-1328.pdf 
     - 
-      author:  Andrew Ng
-      title:  ★ Lecture Note on Supervised Learning
-      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf             
+      author:  Mor Harchol-Balter
+      title:  Applying to Ph.D. Programs in Computer Science
+      url: https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf 
+    - 
+      author:  Andrej Karpathy
+      title:  A Survival Guide to a PhD
+      url: http://karpathy.github.io/2016/09/07/phd/          
 -
   date: <b>Spring 2018</b>
   slides:
