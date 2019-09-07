@@ -44,7 +44,7 @@ Prerequisites
 - paper summaries (20% individual, about 10 papers) 
 - in-class presentation (20% group of two) 
 - participation in class discussions - including Piazza (15% individual)
-- a research project or programming homework #3 (optional, 20% individual or group)
+- a research project or programming homework #3 (optional, 20% bonus, individual or group)
 
  
 [//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; This is a project-based course (total 100 points). Instead of exams, you will do three hands-on programming assignments. Everyone can have 3 free late days without penalty. After you have used your free late days, you will lose 20% per day that your assignment is submitted late. )
