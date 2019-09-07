@@ -100,7 +100,7 @@
   reading:
     -
       author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
-      title: ★ Named Entity Recognition in Tweets&colon; An Experimental Study by Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      title: ★ Named Entity Recognition in Tweets&colon; An Experimental Study
       url: https://www.aclweb.org/anthology/D11-1141.pdf
     -
       author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
@@ -137,7 +137,25 @@
     - 
       author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
       title:  Paraphrasing Revisited with Neural Machine Translation
-      url: http://www.aclweb.org/anthology/E17-1083.pdf          
+      url: http://www.aclweb.org/anthology/E17-1083.pdf  
+-
+  date: September 26, 2019
+  slides: 
+  title: Paraphrase Identification and Linear Regression 
+  highlights: 
+    - Linear Regression 
+    - Cost Function 
+    - Gradient Descent 
+  reading:   
+    - 
+      author:  Wuwei Lan and Wei Xu (COLING 2018)
+      title:  Neural Network Models for Paraphrase Identification, Semantic Textual
+Similarity, Natural Language Inference, and Question Answering
+      url: https://aclweb.org/anthology/C18-1328.pdf 
+    - 
+      author:  Andrew Ng
+      title:  ★ Lecture Note on Supervised Learning
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf             
 -
   date: <b>Spring 2018</b>
   slides:
