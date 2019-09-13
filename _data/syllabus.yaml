@@ -69,13 +69,13 @@
     - Naïve Bayes Algorithm + feature selection (Information Gain)
   reading:
     -
+      author: Hiroshi Shimodaira 
+      title: ★ Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+    -
       author: Lui, Baldwin (IJCNLP 2011) 
       title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
-    -
-      author: Hiroshi Shimodaira 
-      title: Text Classification using Naive Bayes
-      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
     -
       author: Mitja T &commat;tm
       title: Evaluating language identification performance
@@ -90,7 +90,7 @@
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
 -
   date: September 12, 2019
-  slides: 
+  slides: http://socialmedia-class.org/slides_AU2019/lecture4_Twitter_NLPpipeline.pdf
   title: Tokenization, Normalization, POS/NE Tagging for Twitter [Reading 2 due]
   highlights:
     - Tokenization, Emoticons 
@@ -117,7 +117,33 @@
 -
   date: September 19, 2019
   slides: 
-  title: Paraphrase Data Sources [Quiz 1 due; Reading 3 due]
+  title: Vector Semantics [Quiz 1 due; Reading 3 due]
+  highlights:
+    - Unsupervised Learning 
+    - Class-based Clustering&colon; Brown Clusters
+    - Soft Clustering&colon; Singular Value Decomposition (SVD)
+    - Neural Word Embeddings&colon; Word2vec (CBOW and Skip-gram)
+  reading:
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 15 Vector Semantics)
+      url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
+    - 
+      author: Dan Jurafsky and James H. Martin 
+      title: ★ Speech and Language Processing (Chapter 16 Semantics with Dense Vectors)
+      url: https://web.stanford.edu/~jurafsky/slp3/16.pdf
+    -
+      author: Blodgett, Green, O'Connor (EMNLP 2016)
+      title: ★ Demographic Dialectal Variation in Social Media&colon; A Case Study of African-American English
+      url: https://aclweb.org/anthology/D16-1120.pdf
+    -
+      author: Levy and Goldberg (NIPS 2014)  
+      title: Neural Word Embedding as Implicit Matrix Factorization
+      url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
+-
+  date: 
+  slides: 
+  title: Paraphrase Data Sources 
   highlights: 
     - Overview of paraphrase research 
     - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
@@ -139,7 +165,7 @@
       title:  Paraphrasing Revisited with Neural Machine Translation
       url: http://www.aclweb.org/anthology/E17-1083.pdf  
 -
-  date: September 26, 2019
+  date: 
   slides: 
   title: Paraphrase Identification and Linear Regression 
   highlights: 
@@ -359,7 +385,7 @@
       title: Extracting Lexically Divergent Paraphrases from Twitter
       url: https://cocoxu.github.io/publications/tacl2014-extracting-paraphrases-from-twitter.pdf         
 -
-  date: March 8, 2017 
+  date: March 8, 2018 
   slides: http://socialmedia-class.org/slides/lecture9_vector_semantics.pdf
   title: Vector Semantics [Read4 due]
   highlights:
