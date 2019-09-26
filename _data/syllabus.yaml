@@ -160,10 +160,21 @@
       author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
       title:  Paraphrasing Revisited with Neural Machine Translation
       url: http://www.aclweb.org/anthology/E17-1083.pdf  
+  date: Octorber 3, 2019
+  slides:  
+  title:  Recent Research Highlights [Reading 5 due]
+  highlights: 
+    -  
     - 
-      author:  Jordan Boyd-Graber, Yuening Hu, David Mimno
-      title:  ★ Applications of Topic Models (Chapter 1)
-      url: https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf      
+  reading:
+    - 
+      author:  Mounica Maddela, Wei Xu (EMNLP 2018)
+      title:  ★ A Neural Readability Ranking Model and A Word-Complexity Lexicon for Lexical Simplification
+      url: https://www.aclweb.org/anthology/D18-1410.pdf    
+    -
+      author:  Demszky et al. (NAACL 2019)  
+      title:  ★ Analyzing Polarization in Social Media&colon; Method and Application to Tweets on 21 Mass Shootings
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
 -
   date: 
   slides: 
@@ -188,7 +199,11 @@
     - 
       author:  Andrej Karpathy
       title:  A Survival Guide to a PhD
-      url: http://karpathy.github.io/2016/09/07/phd/          
+      url: http://karpathy.github.io/2016/09/07/phd/  
+    - 
+      author:  Jordan Boyd-Graber, Yuening Hu, David Mimno
+      title:  ★ Applications of Topic Models (Chapter 1)
+      url: https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf              
 -
   date: <b>Spring 2018</b>
   slides:
