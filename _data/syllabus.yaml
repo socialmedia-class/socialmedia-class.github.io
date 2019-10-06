@@ -128,6 +128,10 @@
       author: Dan Jurafsky and James H. Martin 
       title: ★ Speech and Language Processing (Chapter 6 Vector Semantics and Embeddings)
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+    - 
+      author: Francois Chaubard, Rohit Mundra, Richard Socher
+      title: ★ Lecture Note on Word2Vec
+      url: https://cs224d.stanford.edu/lecture_notes/notes1.pdf
     -
       author: Blodgett, Green, O'Connor (EMNLP 2016)
       title: ★ Demographic Dialectal Variation in Social Media&colon; A Case Study of African-American English
@@ -197,9 +201,9 @@
       title:  ★ Analyzing Polarization in Social Media&colon; Method and Application to Tweets on 21 Mass Shootings
       url: https://www.aclweb.org/anthology/N19-1304.pdf
 -
-  date: 
+  date: Octorber 10, 2019
   slides: 
-  title: Paraphrase Identification and Linear Regression 
+  title: Paraphrase Identification and Linear Regression [Reading 6 due]
   highlights: 
     - Linear Regression 
     - Cost Function 
@@ -208,11 +212,11 @@
     - 
       author:  Andrew Ng
       title:  ★ Lecture Note on Supervised Learning
-      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf    
+      url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
     - 
-      author:  Wuwei Lan and Wei Xu (COLING 2018)
-      title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
-      url: https://aclweb.org/anthology/C18-1328.pdf 
+      author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
+      title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
+      url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
     - 
       author:  Mor Harchol-Balter
       title:  Applying to Ph.D. Programs in Computer Science
@@ -221,10 +225,26 @@
       author:  Andrej Karpathy
       title:  A Survival Guide to a PhD
       url: http://karpathy.github.io/2016/09/07/phd/  
+-
+  date: 
+  slides: 
+  title: Paraphrase Identification and Logisitc Regression 
+  highlights: 
+    - Logistic Regression  
+    - Decision Boundary
+  reading:
+    -
+      author: Ng et al. 
+      title: Softmax Regression Tutorial
+      url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
+      author:  Hua He and Jimmy Lin (NAACL 2016)
+      title: Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
+      url: http://www.aclweb.org/anthology/N16-1108.pdf
     - 
-      author:  Jordan Boyd-Graber, Yuening Hu, David Mimno
-      title:  ★ Applications of Topic Models (Chapter 1)
-      url: https://mimno.infosci.cornell.edu/papers/2017_fntir_tm_applications.pdf              
+      author:  Wuwei Lan and Wei Xu (COLING 2018)
+      title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
+      url: https://aclweb.org/anthology/C18-1328.pdf     
 -
   date: <b>Spring 2018</b>
   slides:
