@@ -145,29 +145,9 @@
       title: Neural Word Embedding as Implicit Matrix Factorization
       url: https://levyomer.files.wordpress.com/2014/09/neural-word-embeddings-as-implicit-matrix-factorization.pdf
 -
-  date: September 26, 2019
-  slides: http://socialmedia-class.org/slides_AU2019/lecture6_paraphrase_data.pdf
-  title: Paraphrase Data Sources [Quiz 2 & Reading 4 due]
-  highlights: 
-    - Overview of paraphrase research 
-    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
-  reading:
-    - 
-      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
-      title:  Paraphrasing for Style
-      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
-    -
-      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
-      title:  ★ PPDB&colon; The Paraphrase Database
-      url: http://www.aclweb.org/anthology/N13-1092.pdf
-    - 
-      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
-      title:  Paraphrasing Revisited with Neural Machine Translation
-      url: http://www.aclweb.org/anthology/E17-1083.pdf  
--
-  date: September 26, 2019 (adds-on)
+  date: September 26, 2019 
   slides:  http://socialmedia-class.org/slides_AU2017/lecture10_Twitter_summarization.pdf
-  title:  Automatic Summarization 
+  title:  Automatic Summarization [Quiz 2 & Reading 4 due]
   highlights:
     - PageRank algorithm
     - Event-based summarization 
@@ -200,10 +180,38 @@
       author:  Demszky et al. (NAACL 2019)  
       title:  ★ Analyzing Polarization in Social Media&colon; Method and Application to Tweets on 21 Mass Shootings
       url: https://www.aclweb.org/anthology/N19-1304.pdf
+    - 
+      author:  Mor Harchol-Balter
+      title:  Applying to Ph.D. Programs in Computer Science
+      url: https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf 
+    - 
+      author:  Andrej Karpathy
+      title:  A Survival Guide to a PhD
+      url: http://karpathy.github.io/2016/09/07/phd/  
 -
   date: Octorber 10, 2019
+  slides: http://socialmedia-class.org/slides_AU2019/lecture6_paraphrase_data.pdf
+  title: Paraphrase Data Sources [Reading 6 due] 
+  highlights: 
+    - Overview of paraphrase research 
+    - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
+  reading:
+    - 
+      author:  Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman, Colin Cherry (COLING 2012)
+      title:  Paraphrasing for Style
+      url: http://aclweb.org/anthology/C/C12/C12-1177.pdf    
+    -
+      author:  Juri Ganitkevitch, Benjamin Van Durme, Chris Callison-Burch (NAACL 2014)  
+      title:  ★ PPDB&colon; The Paraphrase Database
+      url: http://www.aclweb.org/anthology/N13-1092.pdf
+    - 
+      author:  Jonathan Mallinson, Rico Sennrich, Mirella Lapata (EACL 2017)
+      title:  Paraphrasing Revisited with Neural Machine Translation
+      url: http://www.aclweb.org/anthology/E17-1083.pdf  
+-
+  date: Octorber 17, 2019
   slides: 
-  title: Paraphrase Identification and Linear Regression [Reading 6 due]
+  title: Paraphrase Identification and Linear Regression [Reading 7 due]
   highlights: 
     - Linear Regression 
     - Cost Function 
@@ -213,18 +221,14 @@
       author:  Andrew Ng
       title:  ★ Lecture Note on Supervised Learning
       url: http://socialmedia-class.org/slides_AU2017/AndrewNg_notes1.pdf     
+    -
+      author:  Yuan Zhang, Jason Baldridge, Luheng He (NAACL 2019)
+      title: ★ PAWS&colon; Paraphrase Adversaries from Word Scrambling
+      url: https://www.aclweb.org/anthology/N19-1131.pdf
     - 
       author:  Wei Xu, Chris Callison-Burch, William B. Dolan (SemEval 2015)
       title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
       url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
-    - 
-      author:  Mor Harchol-Balter
-      title:  Applying to Ph.D. Programs in Computer Science
-      url: https://www.cs.cmu.edu/~harchol/gradschooltalk.pdf 
-    - 
-      author:  Andrej Karpathy
-      title:  A Survival Guide to a PhD
-      url: http://karpathy.github.io/2016/09/07/phd/  
 -
   date: 
   slides: 
@@ -235,12 +239,8 @@
   reading:
     -
       author: Ng et al. 
-      title: Softmax Regression Tutorial
+      title: ★ Softmax Regression Tutorial
       url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
-    -
-      author:  Hua He and Jimmy Lin (NAACL 2016)
-      title: Pairwise Word Interaction Modeling with Deep Neural Networks for Semantic Similarity Measurement
-      url: http://www.aclweb.org/anthology/N16-1108.pdf
     - 
       author:  Wuwei Lan and Wei Xu (COLING 2018)
       title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
