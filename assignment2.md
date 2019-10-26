@@ -13,7 +13,7 @@ Logistic Regression <span class="text-muted">: Assignment 2 (20 points)</span>
 
 
 <div class="alert alert-info">
-  <p>Due date: TBA.</p>
+  <p>Submit on Carmen by Nov 18 11:59pm. </p>
 </div>
 
 

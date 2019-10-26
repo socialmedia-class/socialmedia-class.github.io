@@ -189,7 +189,7 @@
       title:  A Survival Guide to a PhD
       url: http://karpathy.github.io/2016/09/07/phd/  
 -
-  date: Octorber 10, 2019
+  date: Octorber 17, 2019
   slides: http://socialmedia-class.org/slides_AU2019/lecture6_paraphrase_data.pdf
   title: Paraphrase Data Sources [Reading 6 due] 
   highlights: 
@@ -209,8 +209,8 @@
       title:  Paraphrasing Revisited with Neural Machine Translation
       url: http://www.aclweb.org/anthology/E17-1083.pdf  
 -
-  date: Octorber 17, 2019
-  slides: 
+  date: Octorber 24, 2019
+  slides: http://socialmedia-class.org/slides_AU2019/lecture7_paraphrase_identification_a.pdf
   title: Paraphrase Identification and Linear Regression [Reading 7 due]
   highlights: 
     - Linear Regression 
@@ -230,9 +230,9 @@
       title:  SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
       url: https://www.aclweb.org/anthology/S/S15/S15-2001.pdf 
 -
-  date: 
-  slides: 
-  title: Paraphrase Identification and Logisitc Regression 
+  date: Octorber 31, 2019
+  slides: http://socialmedia-class.org/slides_AU2019/lecture8_paraphrase_identification_b.pdf
+  title: Paraphrase Identification and Logisitc Regression [Reading 8 due]
   highlights: 
     - Logistic Regression  
     - Decision Boundary
@@ -241,10 +241,18 @@
       author: Ng et al. 
       title: ★ Softmax Regression Tutorial
       url: http://ufldl.stanford.edu/tutorial/supervised/SoftmaxRegression/
+    -
+      author: Jacob Eisenstein
+      title: ★ Introduction to Natural Language Processing
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
     - 
       author:  Wuwei Lan and Wei Xu (COLING 2018)
       title:  Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering
       url: https://aclweb.org/anthology/C18-1328.pdf     
+    - 
+      author:  Wuwei Lan, Siyu Qiu, Hua He, Wei Xu (EMNLP 2017)
+      title:  A Continuously Growing Dataset of Sentential Paraphrases
+      url: https://www.aclweb.org/anthology/D17-1126.pdf
 -
   date: <b>Spring 2018</b>
   slides:
