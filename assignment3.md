@@ -14,7 +14,7 @@ Word2vec <span class="text-muted">: Assignment 3 (Extracurricular)</span>
 
 
 <div class="alert alert-info">
-  <p>Submit on Carmen by Due Date (TBA); strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment.</p>
+  <p>This homework is optional. Submit on Carmen by December 9th (11:59pm); strictly no late submission or alternative submission methods will be accepted for this extracurricular assignment. You may choose to do this homework in a group of two students or all by yourself.</p>
 </div>
 
 
