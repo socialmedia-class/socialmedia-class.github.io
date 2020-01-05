@@ -12,18 +12,15 @@ Social media provides a massive amount of valuable information and shows us how 
 
 
 Instructor
-: [**Wei Xu**](http://cocoxu.github.io) 
+: [**Alan Ritter**](http://aritter.github.io/)
 
-[//]: <> (: [Wei Xu](http://cocoxu.github.io) is an assistant professor in the Department of Computer Science and Engineering at the Ohio State University. Her research interests lie at the intersection of machine learning, natural language processing, and social media. She holds a PhD in Computer Science from New York University. Prior to joining OSU, she was a postdoc at the University of Pennsylvania. She is organizing the ACL/COLING [Workshop on Noisy User-generated Text](http://noisy-text.github.io/), serving as a workshop co-chair for [ACL 2017](http://acl2017.org/), an area chair for [EMNLP 2016](http://www.emnlp2016.net/) and the publicity chair for [NAACL 2016](http://naacl.org/naacl-hlt-2016/). )
+[//]: <> (: [Alan Ritter](http://aritter.github.io/) is an assistant professor in Computer Science and Engineering at Ohio State University. His research interests include natural language processing, information extraction, and machine learning. He completed his Ph.D. at the University of Washington and was a postdoctoral fellow in the Machine Learning Department at Carnegie Mellon.  His research aims to solve challenging technical problems that can help machines learn to read vast quantities of text with minimal supervision.  In a recent project, covered by WIRED, his group built a system that reads millions of tweets for mentions of new software vulnerabilities.  He is the recipient of an NSF CAREER award and an Amazon Research Award.
 
 Current ![new](assets/img/new_1.gif) 
 : &nbsp;&nbsp;&nbsp;&nbsp; **[Autumn 2019, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University** 
 <br> &nbsp;&nbsp;&nbsp;&nbsp; dual-listed undergraduate and graduate course
-<br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Thu 11:10am-1:15pm | McPherson Lab 2019 
-<br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hour:** Tue 4:30pm-5:30pm | Dreese Lab 495
-
-[//]: <> (<br>Future Offering ![new](assets/img/new_1.gif) )
-[//]: <> (: &nbsp;&nbsp;&nbsp;&nbsp; [Spring 2018, CSE 5539-0010](https://cse.osu.edu/department/courses/course-schedule) The Ohio State University (Instructor: Alan Ritter))
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Time/Place:** Fri 11:30am-1:35pm | Jennings Hall 140
+<br> &nbsp;&nbsp;&nbsp;&nbsp; **Office Hours:**Fri 4:00pm-5:00pm | Dreese Lab 595
 
 Prerequisites
 : In order to succeed in this course, you should know basic probability and statistics, such as the chain rule of probability and Bayes' rule; some basic calculus and linear algebra will also help, such as knowing what is gradient. On the programming side, all projects will be in Python. You should understand basic computer science concepts (like recursion), basic data structures (trees, graphs), and basic algorithms (search, sorting, etc).  
@@ -60,7 +57,8 @@ Prerequisites
 
 
 <br>Previous Offerings
-: 
+:
+- Fall 2019, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
 - Spring 2018, The Ohio State University (Instructor: [Alan Ritter](http://aritter.github.io))
 - Autumn 2017, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))
 - Autumn 2016, The Ohio State University (Instructor: [Wei Xu](http://cocoxu.github.io))

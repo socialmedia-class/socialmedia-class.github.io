@@ -1,4 +1,32 @@
 -
+  date: January 10, 2020
+  slides: http://socialmedia-class.org/slides_AU2020/lecture1_Intro.pdf
+  title: Introduction 
+  highlights:
+    - Introduction of social media and natural language processing research
+    - Overview of the course
+  reading:
+    -
+      author: Golder and Macy (Science 2011)  
+      title: ★ Diurnal and Seasonal Mood Vary with Work, Sleep, and Daylength Across Diverse Cultures
+      url: https://www.informatics.indiana.edu/jbollen/I501F13/readings/Science-2011-Golder-1878-81.pdf
+    - 
+      author: Eichstaedt et al. (Psychological Science 2015)
+      title:  Psychological Language on Twitter Predicts County-Level Heart Disease Mortality 
+      url: http://wwbp.org/papers/PsychSci2015_HeartDisease.pdf
+    - 
+      author: Nick Parlante
+      title:  Google's Python class 
+      url: https://developers.google.com/edu/python/
+    - 
+      author: Bird, Klein, Loper
+      title: Intro to NLP in Python
+      url: http://www.nltk.org/book/ 
+-
+  date: <b>Spring 2019</b>
+  slides:
+  title:
+-
   date: August 22, 2019
   slides: http://socialmedia-class.org/slides_AU2019/lecture1_Intro.pdf
   title: Introduction 
