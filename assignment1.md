@@ -13,7 +13,7 @@ Twitter's Language Mix <span class="text-muted">: Assignment 1 (10%)</span>
 =============================================================
 
 <div class="alert alert-info">
-  <p>This assignment is due on Friday, August 30, 2019 (before 2:00pm). </p>
+  <p>This assignment is due on Friday, January 28, 2019. </p>
 </div>
 
 
