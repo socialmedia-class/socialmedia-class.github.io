@@ -23,8 +23,8 @@
       title: Intro to NLP in Python
       url: http://www.nltk.org/book/ 
 -
-  date: August 29, 2019
-  slides: http://socialmedia-class.org/slides_AU2019/lecture2_api.pdf
+  date: January 17, 2020
+  slides: http://socialmedia-class.org/slides_AU2020/lecture2_api.pdf
   title: Twitter and Twitter API Tutorial [Reading 1 due]
   highlights: 
     - Brief history of Twitter
@@ -47,6 +47,36 @@
       author: Jason Eisner
       title: How to Read a Technical Paper
       url: http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html
+-
+  date: January 24, 2019
+  slides:  http://socialmedia-class.org/slides_AU2020/lecture3_TwitterNLP_langid.pdf
+  title: Language Identification and Naïve Bayes [Reading 2 due]
+  highlights:
+    - Language Identification 
+    - Supervised Learning 
+    - Classification
+    - Naïve Bayes Algorithm + feature selection (Information Gain)
+  reading:
+    -
+      author: Hiroshi Shimodaira 
+      title: ★ Text Classification using Naive Bayes
+      url: http://socialmedia-class.org/slides_AU2017/Shimodaira_note07.pdf    
+    -
+      author: Lui, Baldwin (IJCNLP 2011) 
+      title: ★ Cross-domain Feature Selection for Language Identification 
+      url: http://www.aclweb.org/anthology/I11-1062.pdf
+    -
+      author: Mitja T &commat;tm
+      title: Evaluating language identification performance
+      url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
+    -
+      author: Lui, Baldwin (ACL 2012)
+      title: langid.py&colon; An Off-the-shelf Language Identification Tool
+      url: http://www.aclweb.org/anthology/P12-3005.pdf
+    -
+      author: Sunil Ray 
+      title: 6 Easy Steps to Learn Naïve Bayes Algorithm
+      url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
 -
   date: <b>Spring 2019</b>
   slides:
