@@ -66,6 +66,10 @@
       title: ★ Cross-domain Feature Selection for Language Identification 
       url: http://www.aclweb.org/anthology/I11-1062.pdf
     -
+      author: Blodgett, et. al. (WNUT 2017)
+      title: A Dataset and Classifier for Recognizing Social Media English
+      url: http://noisy-text.github.io/2017/pdf/WNUT08.pdf
+    -
       author: Mitja T &commat;tm
       title: Evaluating language identification performance
       url: https://blog.twitter.com/engineering/en_us/a/2015/evaluating-language-identification-performance.html
@@ -431,10 +435,6 @@
       author: Jason Eisner 
       title: How to Do Research with a Professor 
       url: https://www.cs.jhu.edu/~jason/advice/how-to-work-with-a-professor.html    
-    -
-      author: William Wang
-      title: How to Do Research
-      url: http://www.cs.ucsb.edu/~william/papers/research.pdf
     -
       author: Jason Eisner
       title: How to Read a Technical Paper
