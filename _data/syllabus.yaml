@@ -82,6 +82,33 @@
       title: 6 Easy Steps to Learn Naïve Bayes Algorithm
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
 -
+  date: January 31, 2019
+  slides: http://socialmedia-class.org/slides_AU2019/lecture4_Twitter_NLPpipeline.pdf
+  title: Tokenization, Normalization, POS/NE Tagging for Twitter [Reading 3 due]
+  highlights:
+    - Tokenization, Emoticons 
+    - Noisy Text Normalization
+    - Named Entity Recognition 
+    - Weakly Supervised Learning
+  reading:
+    -
+      author: Ritter, Clark, Mausam, Etzioni (EMNLP 2011)
+      title: ★ Named Entity Recognition in Tweets&colon; An Experimental Study
+      url: https://www.aclweb.org/anthology/D11-1141.pdf
+    -
+      author: Baldwin, Cook, Lui, MacKinlay, Wang (IJCNLP 2013) 
+      title: How Noisy Social Media Text, How Diffrnt Social Media Sources? 
+      url: http://www.aclweb.org/anthology/I13-1041.pdf
+    -
+      author: Bo Han and Tim Baldwin (ACL 2011)
+      title: Lexical Normalisation of Short Text Messages&colon; Makn Sens a &#35;twitter
+      url: http://www.aclweb.org/anthology/P11-1038.pdf
+    -
+      author: Benjamin Strauss, Bethany Toma, Alan Ritter, Marie-Catherine de Marneffe, Wei Xu (WNUT 2016)
+      title: Results of the WNUT16 Named Entity Recognition Shared Task
+      url: http://noisy-text.github.io/2016/pdf/WNUT19.pdf
+-
+  date: September 19, 2019
   date: <b>Spring 2019</b>
   slides:
   title:
