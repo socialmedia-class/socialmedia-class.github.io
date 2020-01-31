@@ -83,7 +83,7 @@
       url: https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/         
 -
   date: January 31, 2019
-  slides: http://socialmedia-class.org/slides_AU2019/lecture4_Twitter_NLPpipeline.pdf
+  slides: http://socialmedia-class.org/slides_AU2020/lecture4_Twitter_NLPpipeline.pdf
   title: Tokenization, Normalization, POS/NE Tagging for Twitter [Reading 3 due]
   highlights:
     - Tokenization, Emoticons 
