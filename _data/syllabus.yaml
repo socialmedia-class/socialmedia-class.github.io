@@ -110,7 +110,7 @@
 -
   date: February 14, 2020
   slides: http://socialmedia-class.org/slides_AU2020/lecture5_vector_semantics.pdf
-  title: Vector Semantics [Quiz 1 due; Reading 3 due]
+  title: Vector Semantics [Reading 4 due]
   highlights:
     - Unsupervised Learning 
     - Class-based Clustering&colon; Brown Clusters
@@ -140,7 +140,7 @@
 -
   date: February 21, 2020
   slides: http://socialmedia-class.org/slides_AU2020/lecture6_paraphrase_data.pdf
-  title: Paraphrase Data Sources [Reading 6 due] 
+  title: Paraphrase Data Sources [Reading 5 due] 
   highlights: 
     - Overview of paraphrase research 
     - WordNet, DIRT, MRPC (Microsoft Research Paraphrase Corpus), PPDB (Paraphrase Database), etc. 
