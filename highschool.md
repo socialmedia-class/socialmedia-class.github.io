@@ -16,6 +16,7 @@ The following material is created for students with some or no programming exper
 
 Upcoming ![new](assets/img/new_1.gif) 
 : 
+- (tentative) April 4th, 2020. [ACM-W Code I/O for students ages 10-15 at Ohio State University](https://acmwosu.github.io/codeio.html)
 - March 23rd, 2019. [Ohio High School Hackathon](https://hack.osu.edu/hs/2019/) [download [slides](./slides_highschool/45min_python_twitter_nlp.pdf)]. 
 
 (Please feel free to use any of these material and let us know!)
