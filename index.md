@@ -7,7 +7,7 @@ caption: A visualization showing the location of Twitter messages (blue) and Fli
 active_tab: main_page 
 ---
 
-**3/23 Check the announcements on [Piazza](https://piazza.com/class/k51hzd1mesz5k3) for latest information on how the course is proceeding virtually**
+<code>3/23: Check the announcements on [Piazza](https://piazza.com/class/k51hzd1mesz5k3) for the latest information on how the course is proceeding virtually</code>
 
 Social media provides a massive amount of valuable information and shows us how language is actually used by lots of people. This course will give an overview of prominent research findings on language use in social media. The course will also cover several machine learning algorithms and the core natural language processing techniques for obtaining and processing Twitter data.
 
